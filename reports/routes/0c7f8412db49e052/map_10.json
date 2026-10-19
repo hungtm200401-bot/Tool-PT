@@ -1,0 +1,97 @@
+{
+  "version": 4,
+  "map_id": 10,
+  "bounds": [
+    1920,
+    2720,
+    1536,
+    896
+  ],
+  "strategy": "corners_first",
+  "anchor": [
+    167.5625,
+    197.9375
+  ],
+  "cell_size": 96,
+  "ring_spacing_pixels": 96,
+  "inspection_radius": 0,
+  "inspection_calibrated": false,
+  "observed_fraction": 0.9962281726655506,
+  "targets": [
+    {
+      "id": "r0:447:761",
+      "row": 4,
+      "col": 7,
+      "batch": 0,
+      "ring": 0,
+      "angle": 0.0,
+      "purpose": "mốc gốc",
+      "options": [
+        [
+          167.562,
+          197.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:454:761",
+      "row": 4,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.5707963267948966,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          167.562,
+          198.375
+        ],
+        [
+          167.562,
+          197.875
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:445:738",
+      "row": 4,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.228330992265778,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          166.125,
+          197.812
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 1,
+      "attempts": 0,
+      "total_attempts": 0
+    }
+  ],
+  "trace": [],
+  "active_id": null,
+  "active_path": [],
+  "obstacles": [],
+  "assets": {
+    "atlas": "map_10_e0587bf5552dcd63.png",
+    "known": "map_10_e0587bf5552dcd63_known.png",
+    "digest": "e0587bf5552dcd63a59233ec7dd730926fca47381267e085c7d1205e9c6aa1d4"
+  },
+  "visited_runs": [],
+  "inspected_runs": []
+}

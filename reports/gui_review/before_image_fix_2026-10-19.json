@@ -1,0 +1,545 @@
+{
+  "passed": true,
+  "auto_next_map": false,
+  "samples": [
+    {
+      "elapsed": 1.51,
+      "phase": "idle",
+      "map_id": 2,
+      "position": [
+        201.8125,
+        199.162109375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 2.7,
+      "phase": "verifying",
+      "map_id": 2,
+      "position": [
+        201.8125,
+        199.162109375
+      ],
+      "doing": "stand",
+      "position_age": 3.0
+    },
+    {
+      "elapsed": 3.7,
+      "phase": "verifying",
+      "map_id": 2,
+      "position": [
+        201.8125,
+        199.162109375
+      ],
+      "doing": "stand",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 4.73,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        201.8125,
+        199.162109375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 5.75,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        201.8125,
+        199.162109375
+      ],
+      "doing": "stand",
+      "position_age": 3.0
+    },
+    {
+      "elapsed": 6.75,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        201.8125,
+        199.162109375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 7.76,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        201.8125,
+        199.162109375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 8.78,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        201.8125,
+        199.162109375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 9.83,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        200.77734375,
+        198.646484375
+      ],
+      "doing": "run",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 10.83,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        200.77734375,
+        198.646484375
+      ],
+      "doing": "run",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 11.83,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        198.92578125,
+        197.591796875
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 12.89,
+      "phase": "paused",
+      "map_id": 2,
+      "position": [
+        198.92578125,
+        197.591796875
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 13.89,
+      "phase": "paused",
+      "map_id": 2,
+      "position": [
+        198.92578125,
+        197.591796875
+      ],
+      "doing": "stand",
+      "position_age": 3.0
+    },
+    {
+      "elapsed": 14.94,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        198.92578125,
+        197.591796875
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 15.95,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        198.92578125,
+        197.591796875
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 16.95,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        198.92578125,
+        197.591796875
+      ],
+      "doing": "stand",
+      "position_age": 3.0
+    },
+    {
+      "elapsed": 17.97,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        198.92578125,
+        197.591796875
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 18.97,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        198.92578125,
+        197.591796875
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 20.0,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        198.92578125,
+        197.591796875
+      ],
+      "doing": "stand",
+      "position_age": 3.0
+    },
+    {
+      "elapsed": 21.0,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        196.12109375,
+        197.287109375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 22.01,
+      "phase": "verifying",
+      "map_id": 2,
+      "position": [
+        196.12109375,
+        197.287109375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 23.03,
+      "phase": "verifying",
+      "map_id": 2,
+      "position": [
+        196.12109375,
+        197.287109375
+      ],
+      "doing": "stand",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 24.03,
+      "phase": "verifying",
+      "map_id": 2,
+      "position": [
+        196.12109375,
+        197.287109375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 25.08,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        196.12109375,
+        197.287109375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 26.09,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        196.12109375,
+        197.287109375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 27.09,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        196.12109375,
+        197.287109375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 28.11,
+      "phase": "pinning",
+      "map_id": 2,
+      "position": [
+        196.12109375,
+        197.287109375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 29.12,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        196.6171875,
+        197.53515625
+      ],
+      "doing": "run",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 30.12,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        196.6171875,
+        197.53515625
+      ],
+      "doing": "run",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 31.14,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        196.6171875,
+        197.53515625
+      ],
+      "doing": "run",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 32.16,
+      "phase": "walking",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 33.2,
+      "phase": "stopping",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 34.2,
+      "phase": "stopped",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 35.28,
+      "phase": "verifying",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 36.28,
+      "phase": "planned",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 3.0
+    },
+    {
+      "elapsed": 37.34,
+      "phase": "stopped",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 38.34,
+      "phase": "stopped",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 39.34,
+      "phase": "stopped",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 40.34,
+      "phase": "stopped",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 41.34,
+      "phase": "stopped",
+      "map_id": 2,
+      "position": [
+        199.125,
+        198.767578125
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    }
+  ],
+  "checks": {
+    "pause_acknowledged": true,
+    "pause_held_position": true,
+    "resume_same_target": true,
+    "resume_accepted": true,
+    "requested_arrivals": true,
+    "first_stop_verified": true,
+    "saved_progress_reloaded": true,
+    "final_stop_verified": true,
+    "no_movement_after_stop": true,
+    "same_map": true
+  },
+  "pause_displacement": 0.0,
+  "legs": [
+    {
+      "id": "4ca2e4af2cd44b12850a6d5bb354309d",
+      "mission_id": "24aea132093e4702861c3213fd8f85dd",
+      "map_id": 2,
+      "target_id": "r1:178:225",
+      "ring": 1,
+      "purpose": "quét vòng",
+      "from": [
+        201.8125,
+        199.162109375
+      ],
+      "to": [
+        196.25,
+        197.25
+      ],
+      "tolerance": 1.0,
+      "state": "repin"
+    },
+    {
+      "id": "04d0516f97c74ae3ba099769e57a36d8",
+      "mission_id": "24aea132093e4702861c3213fd8f85dd",
+      "map_id": 2,
+      "target_id": "r1:178:225",
+      "ring": 1,
+      "purpose": "quét vòng",
+      "from": [
+        198.92578125,
+        197.591796875
+      ],
+      "to": [
+        196.25,
+        197.25
+      ],
+      "tolerance": 1.0,
+      "state": "arrived"
+    },
+    {
+      "id": "061c21611a9a41db9c73659d75127724",
+      "mission_id": "24aea132093e4702861c3213fd8f85dd",
+      "map_id": 2,
+      "target_id": "r1:342:293",
+      "ring": 1,
+      "purpose": "quét vòng",
+      "from": [
+        196.12109375,
+        197.287109375
+      ],
+      "to": [
+        199.25,
+        198.75
+      ],
+      "tolerance": 1.0,
+      "state": "arrived"
+    }
+  ],
+  "saved_done_count": 4,
+  "reloaded_done_count": 4,
+  "elapsed_seconds": 41.59,
+  "final_phase": "stopped",
+  "metrics": {
+    "telemetry": {
+      "count": 57,
+      "window": 57,
+      "p50_ms": 281.0,
+      "p95_ms": 594.0
+    },
+    "route_planning": {
+      "count": 4,
+      "window": 4,
+      "p50_ms": 0.0,
+      "p95_ms": 16.0
+    },
+    "input": {
+      "count": 14,
+      "window": 14,
+      "p50_ms": 156.0,
+      "p95_ms": 547.0
+    },
+    "screencap": {
+      "count": 3,
+      "window": 3,
+      "p50_ms": 1125.0,
+      "p95_ms": 1125.0
+    }
+  }
+}

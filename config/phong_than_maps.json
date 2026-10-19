@@ -1,0 +1,454 @@
+{
+  "total_maps": 32,
+  "engine_source": "Cocos2dx KUiWorldmap hit slots (Realtime verified)",
+  "maps": [
+    {
+      "id": 47,
+      "name": "Khổn Tiên Cung",
+      "type": "TIÊN CUNG",
+      "cocos_xy": [
+        537,
+        170
+      ],
+      "screen_xy": [
+        753,
+        239
+      ],
+      "slot": 16
+    },
+    {
+      "id": 1,
+      "name": "Phong Thần Đài",
+      "type": "CHIẾN TRƯỜNG / THÁNH ĐỊA",
+      "cocos_xy": [
+        993,
+        235
+      ],
+      "screen_xy": [
+        1393,
+        330
+      ],
+      "slot": 18
+    },
+    {
+      "id": 52,
+      "name": "Diêu Trì",
+      "type": "TIÊN CẢNH",
+      "cocos_xy": [
+        830,
+        250
+      ],
+      "screen_xy": [
+        1164,
+        352
+      ],
+      "slot": 20
+    },
+    {
+      "id": 54,
+      "name": "Bồng Lai",
+      "type": "TIÊN ĐẢO",
+      "cocos_xy": [
+        929,
+        316
+      ],
+      "screen_xy": [
+        1303,
+        443
+      ],
+      "slot": 23
+    },
+    {
+      "id": 55,
+      "name": "Đông Doanh Đảo",
+      "type": "HẢI ĐẢO",
+      "cocos_xy": [
+        1045,
+        326
+      ],
+      "screen_xy": [
+        1465,
+        458
+      ],
+      "slot": 26
+    },
+    {
+      "id": 56,
+      "name": "Phương Trượng",
+      "type": "HẢI ĐẢO",
+      "cocos_xy": [
+        1098,
+        368
+      ],
+      "screen_xy": [
+        1539,
+        517
+      ],
+      "slot": 46
+    },
+    {
+      "id": 65,
+      "name": "Thủy Vực",
+      "type": "VÙNG NƯỚC",
+      "cocos_xy": [
+        878,
+        395
+      ],
+      "screen_xy": [
+        1209,
+        492
+      ],
+      "slot": 47
+    },
+    {
+      "id": 6,
+      "name": "Bắc Hải",
+      "type": "BĂNG NGUYÊN",
+      "cocos_xy": [
+        506,
+        366
+      ],
+      "screen_xy": [
+        708,
+        514
+      ],
+      "slot": 19
+    },
+    {
+      "id": 2,
+      "name": "Sùng Thành Doanh",
+      "type": "TÂN THỦ THÔN",
+      "cocos_xy": [
+        617,
+        379
+      ],
+      "screen_xy": [
+        866,
+        532
+      ],
+      "slot": 17
+    },
+    {
+      "id": 7,
+      "name": "Yến Sơn",
+      "type": "DÃ NGOẠI",
+      "cocos_xy": [
+        722,
+        378
+      ],
+      "screen_xy": [
+        1012,
+        531
+      ],
+      "slot": 21
+    },
+    {
+      "id": 37,
+      "name": "Trần Đường Quan",
+      "type": "CỬA ẢI BIỂN",
+      "cocos_xy": [
+        862,
+        351
+      ],
+      "screen_xy": [
+        1231,
+        555
+      ],
+      "slot": 44
+    },
+    {
+      "id": 5,
+      "name": "Ngoại Sùng Thành",
+      "type": "DÃ NGOẠI",
+      "cocos_xy": [
+        634,
+        418
+      ],
+      "screen_xy": [
+        889,
+        587
+      ],
+      "slot": 37
+    },
+    {
+      "id": 13,
+      "name": "Hiên Viên Động",
+      "type": "HANG ĐỘNG",
+      "cocos_xy": [
+        1112,
+        500
+      ],
+      "screen_xy": [
+        1551,
+        599
+      ],
+      "slot": 27
+    },
+    {
+      "id": 22,
+      "name": "Sa Mạc",
+      "type": "HOANG MẠC",
+      "cocos_xy": [
+        434,
+        435
+      ],
+      "screen_xy": [
+        608,
+        611
+      ],
+      "slot": 35
+    },
+    {
+      "id": 20,
+      "name": "Tây Kỳ",
+      "type": "ĐẠI THÀNH THỊ",
+      "cocos_xy": [
+        488,
+        463
+      ],
+      "screen_xy": [
+        684,
+        649
+      ],
+      "slot": 28
+    },
+    {
+      "id": 14,
+      "name": "Đồng Quan",
+      "type": "CỬA ẢI",
+      "cocos_xy": [
+        587,
+        459
+      ],
+      "screen_xy": [
+        822,
+        644
+      ],
+      "slot": 40
+    },
+    {
+      "id": 16,
+      "name": "Tam Sơn Quan",
+      "type": "CỬA ẢI",
+      "cocos_xy": [
+        731,
+        441
+      ],
+      "screen_xy": [
+        1025,
+        620
+      ],
+      "slot": 39
+    },
+    {
+      "id": 15,
+      "name": "Mạnh Tân",
+      "type": "BẾN NƯỚC",
+      "cocos_xy": [
+        846,
+        448
+      ],
+      "screen_xy": [
+        1186,
+        629
+      ],
+      "slot": 31
+    },
+    {
+      "id": 21,
+      "name": "Triều Ca",
+      "type": "ĐẠI THÀNH THỊ",
+      "cocos_xy": [
+        959,
+        433
+      ],
+      "screen_xy": [
+        1345,
+        608
+      ],
+      "slot": 33
+    },
+    {
+      "id": 18,
+      "name": "Mục Dã",
+      "type": "CHIẾN TRƯỜNG CỔ",
+      "cocos_xy": [
+        1029,
+        455
+      ],
+      "screen_xy": [
+        1443,
+        638
+      ],
+      "slot": 30
+    },
+    {
+      "id": 11,
+      "name": "Du Hồn Quan",
+      "type": "CỬA ẢI",
+      "cocos_xy": [
+        929,
+        473
+      ],
+      "screen_xy": [
+        1303,
+        665
+      ],
+      "slot": 25
+    },
+    {
+      "id": 9,
+      "name": "Tây Côn Lôn",
+      "type": "TIÊN SƠN",
+      "cocos_xy": [
+        540,
+        497
+      ],
+      "screen_xy": [
+        756,
+        698
+      ],
+      "slot": 32
+    },
+    {
+      "id": 17,
+      "name": "Kỳ Sơn",
+      "type": "DÃ NGOẠI",
+      "cocos_xy": [
+        457,
+        510
+      ],
+      "screen_xy": [
+        639,
+        716
+      ],
+      "slot": 29
+    },
+    {
+      "id": 8,
+      "name": "Chân núi Côn Lôn",
+      "type": "TIÊN SƠN",
+      "cocos_xy": [
+        640,
+        511
+      ],
+      "screen_xy": [
+        898,
+        717
+      ],
+      "slot": 38
+    },
+    {
+      "id": 19,
+      "name": "Tuyệt Long Lĩnh",
+      "type": "HIỂM ĐỊA",
+      "cocos_xy": [
+        736,
+        511
+      ],
+      "screen_xy": [
+        1031,
+        718
+      ],
+      "slot": 24
+    },
+    {
+      "id": 4,
+      "name": "Xi Vưu Mộ",
+      "type": "TÂN THỦ THÔN / CỔ MỘ",
+      "cocos_xy": [
+        1032,
+        500
+      ],
+      "screen_xy": [
+        1447,
+        702
+      ],
+      "slot": 41
+    },
+    {
+      "id": 27,
+      "name": "Cự Lộc",
+      "type": "CHIẾN TRƯỜNG CỔ",
+      "cocos_xy": [
+        1106,
+        427
+      ],
+      "screen_xy": [
+        1560,
+        703
+      ],
+      "slot": 36
+    },
+    {
+      "id": 32,
+      "name": "Ngọc Tuyền",
+      "type": "DÃ NGOẠI",
+      "cocos_xy": [
+        391,
+        526
+      ],
+      "screen_xy": [
+        547,
+        738
+      ],
+      "slot": 45
+    },
+    {
+      "id": 3,
+      "name": "Ngọc Hư Cung",
+      "type": "TÂN THỦ THÔN / TIÊN CUNG",
+      "cocos_xy": [
+        565,
+        552
+      ],
+      "screen_xy": [
+        791,
+        775
+      ],
+      "slot": 22
+    },
+    {
+      "id": 12,
+      "name": "Miêu Cương",
+      "type": "VÙNG ĐẦM LẦY",
+      "cocos_xy": [
+        1048,
+        563
+      ],
+      "screen_xy": [
+        1469,
+        790
+      ],
+      "slot": 34
+    },
+    {
+      "id": 10,
+      "name": "Thủ Dương Sơn",
+      "type": "DÃ NGOẠI",
+      "cocos_xy": [
+        467,
+        588
+      ],
+      "screen_xy": [
+        654,
+        826
+      ],
+      "slot": 42
+    },
+    {
+      "id": 42,
+      "name": "Bích Du Cung",
+      "type": "TIÊN CUNG",
+      "cocos_xy": [
+        857,
+        588
+      ],
+      "screen_xy": [
+        1202,
+        825
+      ],
+      "slot": 43
+    }
+  ]
+}

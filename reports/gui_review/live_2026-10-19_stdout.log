@@ -1,0 +1,40 @@
+GUI phase: idle
+[LDController] Đã kết nối LDPlayer — emulator-5554.
+[TraversalEngine] Bắt đầu khảo sát theo vòng mở rộng từ mốc gốc.
+[TraversalEngine] Đã kết nối LDPlayer — emulator-5554.
+GUI phase: connecting
+GUI phase: verifying
+[TraversalEngine] Đã nhớ tuyến của Sùng Thành Doanh; tiếp tục các ô chưa đi.
+[TraversalEngine] Đã lập tuyến vòng mở rộng: 103 mốc. Các ô chưa tới đích luôn được giữ lại để đi tiếp hoặc thử lại.
+GUI phase: planned
+[TraversalEngine] Vòng 1 · quét vòng — đoạn 1/2 → (196.2, 197.2).
+GUI phase: pinning
+GUI phase: walking
+[TraversalEngine] Đang hủy di chuyển và kiểm tra đứng yên để tạm dừng.
+[TraversalEngine] Đã xác minh nhân vật dừng; giữ nguyên chặng để tiếp tục.
+GUI phase: paused
+[TraversalEngine] Tiếp tục chặng đang khảo sát.
+[TraversalEngine] Vòng 1 · quét vòng — đoạn 1/2 → (196.2, 197.2).
+GUI phase: pinning
+GUI phase: walking
+GUI phase: verifying
+[TraversalEngine] [Tiến độ map] Vòng 1/6 · Đã xong 4/103 mốc (3.9%)
+GUI phase: pinning
+[TraversalEngine] Vòng 1 · quét vòng — đoạn 1/5 → (199.2, 198.8).
+GUI phase: walking
+[TraversalEngine] Vòng 1 · quét vòng — đoạn 2/5 → (198.2, 201.8).
+GUI phase: pinning
+[TraversalEngine] Đang dừng và lưu tiến độ hành trình.
+GUI phase: stopping
+GUI phase: stopped
+[TraversalEngine] Bắt đầu khảo sát theo vòng mở rộng từ mốc gốc.
+[TraversalEngine] Đã kết nối LDPlayer — emulator-5554.
+GUI phase: connecting
+GUI phase: verifying
+[TraversalEngine] Đã nhớ tuyến của Sùng Thành Doanh; tiếp tục các ô chưa đi.
+[TraversalEngine] Đã lập tuyến vòng mở rộng: 103 mốc. Các ô chưa tới đích luôn được giữ lại để đi tiếp hoặc thử lại.
+GUI phase: planned
+[TraversalEngine] Đang dừng và lưu tiến độ hành trình.
+[TraversalEngine] Vòng 1 · quét vòng — đoạn 1/4 → (198.2, 201.8).
+GUI phase: stopped
+[TraversalEngine] Đang dừng và lưu tiến độ hành trình.

@@ -1,0 +1,17 @@
+GUI phase: idle
+[LDController] Đã kết nối LDPlayer — emulator-5554.
+[TraversalEngine] Bắt đầu khảo sát theo vòng mở rộng từ mốc gốc.
+[TraversalEngine] Đã kết nối LDPlayer — emulator-5554.
+GUI phase: connecting
+GUI phase: verifying
+GUI phase: surveying
+[TraversalEngine] Tự mở và kéo xem các vùng map Bắc Hải trước khi lập tuyến.
+[TraversalEngine] Tự quan sát map: vùng 1/6.
+[TraversalEngine] Tự quan sát map: vùng 2/6.
+[TraversalEngine] Tự quan sát map: vùng 3/6.
+[TraversalEngine] Tự quan sát map: vùng 4/6.
+[TraversalEngine] Tự quan sát map: vùng 5/6.
+[TraversalEngine] Dừng hành trình: Chưa đọc được bề mặt bản đồ lân cận.
+GUI phase: error
+[TraversalEngine] Đang dừng và lưu tiến độ hành trình.
+[TraversalEngine] Đang dừng và lưu tiến độ hành trình.

@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "mission_id": "dd49905e5c4f4da794147c95c8ee221c",
+  "current_map_id": 6,
+  "visited_maps": [],
+  "map_results": {
+    "47": {
+      "state": "pending",
+      "name": "Khổn Tiên Cung"
+    },
+    "1": {
+      "name": "Phong Thần Đài",
+      "state": "partial",
+      "reason": "Còn 53 mốc chưa tới; cần giữ map hiện tại và tiếp tục sau.",
+      "done": 27,
+      "total": 80,
+      "travelled_fraction": 0.1265821616182132,
+      "inspected_fraction": 0.30579687399023237,
+      "inspection_calibrated": false,
+      "unknown_pixels": 697
+    },
+    "52": {
+      "state": "pending",
+      "name": "Diêu Trì"
+    },
+    "54": {
+      "state": "pending",
+      "name": "Bồng Lai"
+    },
+    "55": {
+      "state": "pending",
+      "name": "Đông Doanh Đảo"
+    },
+    "56": {
+      "state": "pending",
+      "name": "Phương Trượng"
+    },
+    "65": {
+      "state": "pending",
+      "name": "Thủy Vực"
+    },
+    "6": {
+      "name": "Bắc Hải",
+      "state": "partial",
+      "reason": "Còn 136 mốc chưa tới; cần giữ map hiện tại và tiếp tục sau.",
+      "done": 7,
+      "total": 143,
+      "travelled_fraction": 0.0005777918968417596,
+      "inspected_fraction": 0.020414602997268813,
+      "inspection_calibrated": false,
+      "unknown_pixels": 0
+    },
+    "2": {
+      "state": "pending",
+      "name": "Sùng Thành Doanh"
+    },
+    "7": {
+      "state": "pending",
+      "name": "Yến Sơn"
+    },
+    "37": {
+      "state": "pending",
+      "name": "Trần Đường Quan"
+    },
+    "5": {
+      "state": "pending",
+      "name": "Ngoại Sùng Thành"
+    },
+    "13": {
+      "state": "pending",
+      "name": "Hiên Viên Động"
+    },
+    "22": {
+      "state": "pending",
+      "name": "Sa Mạc"
+    },
+    "20": {
+      "state": "pending",
+      "name": "Tây Kỳ"
+    },
+    "14": {
+      "state": "pending",
+      "name": "Đồng Quan"
+    },
+    "16": {
+      "state": "pending",
+      "name": "Tam Sơn Quan"
+    },
+    "15": {
+      "state": "pending",
+      "name": "Mạnh Tân"
+    },
+    "21": {
+      "state": "pending",
+      "name": "Triều Ca"
+    },
+    "18": {
+      "state": "pending",
+      "name": "Mục Dã"
+    },
+    "11": {
+      "state": "pending",
+      "name": "Du Hồn Quan"
+    },
+    "9": {
+      "state": "pending",
+      "name": "Tây Côn Lôn"
+    },
+    "17": {
+      "state": "pending",
+      "name": "Kỳ Sơn"
+    },
+    "8": {
+      "state": "pending",
+      "name": "Chân núi Côn Lôn"
+    },
+    "19": {
+      "state": "pending",
+      "name": "Tuyệt Long Lĩnh"
+    },
+    "4": {
+      "state": "pending",
+      "name": "Xi Vưu Mộ"
+    },
+    "27": {
+      "state": "pending",
+      "name": "Cự Lộc"
+    },
+    "32": {
+      "state": "pending",
+      "name": "Ngọc Tuyền"
+    },
+    "3": {
+      "state": "pending",
+      "name": "Ngọc Hư Cung"
+    },
+    "12": {
+      "state": "pending",
+      "name": "Miêu Cương"
+    },
+    "10": {
+      "state": "pending",
+      "name": "Thủ Dương Sơn"
+    },
+    "42": {
+      "state": "pending",
+      "name": "Bích Du Cung"
+    }
+  },
+  "phase": "stopped",
+  "leg": {
+    "id": "36d9375a62e84095b0a3d272a6601ee9",
+    "mission_id": "dd49905e5c4f4da794147c95c8ee221c",
+    "map_id": 6,
+    "target_id": "r1:104:41",
+    "ring": 1,
+    "purpose": "quét góc & viền mép",
+    "from": [
+      205.51953125,
+      174.748046875
+    ],
+    "to": [
+      190.562,
+      174.5
+    ],
+    "tolerance": 1.0,
+    "state": "stalled"
+  },
+  "player_identity": null,
+  "revisits": [],
+  "pending_map_return": null
+}

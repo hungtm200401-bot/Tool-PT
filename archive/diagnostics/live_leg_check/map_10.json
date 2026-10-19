@@ -1,0 +1,2791 @@
+{
+  "version": 1,
+  "map_id": 10,
+  "bounds": [
+    1920,
+    2720,
+    1536,
+    896
+  ],
+  "cell_size": 96,
+  "batch_rows": 3,
+  "observed_fraction": 0.9975767589750744,
+  "targets": [
+    {
+      "id": "0:0",
+      "row": 0,
+      "col": 0,
+      "batch": 0,
+      "options": [
+        [
+          123.688,
+          173.812
+        ],
+        [
+          122.625,
+          173.188
+        ],
+        [
+          125.438,
+          174.688
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:1",
+      "row": 0,
+      "col": 1,
+      "batch": 0,
+      "options": [
+        [
+          127.625,
+          172.062
+        ],
+        [
+          129.312,
+          172.625
+        ],
+        [
+          128.875,
+          174.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:2",
+      "row": 0,
+      "col": 2,
+      "batch": 0,
+      "options": [
+        [
+          137.938,
+          172.625
+        ],
+        [
+          137.938,
+          174.062
+        ],
+        [
+          136.562,
+          171.688
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:3",
+      "row": 0,
+      "col": 3,
+      "batch": 0,
+      "options": [
+        [
+          139.625,
+          172.875
+        ],
+        [
+          138.438,
+          173.0
+        ],
+        [
+          138.0,
+          174.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:4",
+      "row": 0,
+      "col": 4,
+      "batch": 0,
+      "options": [
+        [
+          147.375,
+          171.188
+        ],
+        [
+          148.625,
+          171.125
+        ],
+        [
+          148.688,
+          175.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:5",
+      "row": 0,
+      "col": 5,
+      "batch": 0,
+      "options": [
+        [
+          151.688,
+          175.938
+        ],
+        [
+          150.5,
+          175.875
+        ],
+        [
+          152.875,
+          175.875
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:6",
+      "row": 0,
+      "col": 6,
+      "batch": 0,
+      "options": [
+        [
+          161.625,
+          175.875
+        ],
+        [
+          161.125,
+          174.75
+        ],
+        [
+          160.438,
+          175.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:7",
+      "row": 0,
+      "col": 7,
+      "batch": 0,
+      "options": [
+        [
+          162.0,
+          175.688
+        ],
+        [
+          162.938,
+          174.938
+        ],
+        [
+          164.062,
+          173.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:10",
+      "row": 0,
+      "col": 10,
+      "batch": 0,
+      "options": [
+        [
+          181.938,
+          172.625
+        ],
+        [
+          183.875,
+          173.188
+        ],
+        [
+          180.312,
+          174.875
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:11",
+      "row": 0,
+      "col": 11,
+      "batch": 0,
+      "options": [
+        [
+          186.688,
+          174.188
+        ],
+        [
+          187.875,
+          174.062
+        ],
+        [
+          189.125,
+          174.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:12",
+      "row": 0,
+      "col": 12,
+      "batch": 0,
+      "options": [
+        [
+          194.0,
+          174.5
+        ],
+        [
+          192.812,
+          174.625
+        ],
+        [
+          195.188,
+          174.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:13",
+      "row": 0,
+      "col": 13,
+      "batch": 0,
+      "options": [
+        [
+          200.0,
+          175.125
+        ],
+        [
+          202.375,
+          172.438
+        ],
+        [
+          201.188,
+          174.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "0:14",
+      "row": 0,
+      "col": 14,
+      "batch": 0,
+      "options": [
+        [
+          205.688,
+          175.688
+        ],
+        [
+          206.875,
+          171.0
+        ],
+        [
+          209.812,
+          174.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:15",
+      "row": 1,
+      "col": 15,
+      "batch": 0,
+      "options": [
+        [
+          214.0,
+          179.5
+        ],
+        [
+          212.812,
+          180.062
+        ],
+        [
+          214.625,
+          178.438
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:14",
+      "row": 1,
+      "col": 14,
+      "batch": 0,
+      "options": [
+        [
+          205.25,
+          181.938
+        ],
+        [
+          206.312,
+          179.625
+        ],
+        [
+          209.938,
+          178.875
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:13",
+      "row": 1,
+      "col": 13,
+      "batch": 0,
+      "options": [
+        [
+          200.312,
+          177.062
+        ],
+        [
+          199.25,
+          177.625
+        ],
+        [
+          203.875,
+          176.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:12",
+      "row": 1,
+      "col": 12,
+      "batch": 0,
+      "options": [
+        [
+          193.375,
+          176.562
+        ],
+        [
+          195.25,
+          176.875
+        ],
+        [
+          192.0,
+          177.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:11",
+      "row": 1,
+      "col": 11,
+      "batch": 0,
+      "options": [
+        [
+          186.0,
+          181.875
+        ],
+        [
+          186.062,
+          180.688
+        ],
+        [
+          189.5,
+          179.25
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:10",
+      "row": 1,
+      "col": 10,
+      "batch": 0,
+      "options": [
+        [
+          185.312,
+          181.938
+        ],
+        [
+          185.062,
+          180.75
+        ],
+        [
+          184.125,
+          181.875
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:9",
+      "row": 1,
+      "col": 9,
+      "batch": 0,
+      "options": [
+        [
+          176.812,
+          181.938
+        ],
+        [
+          179.938,
+          177.375
+        ],
+        [
+          177.688,
+          177.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:8",
+      "row": 1,
+      "col": 8,
+      "batch": 0,
+      "options": [
+        [
+          168.938,
+          181.938
+        ],
+        [
+          171.312,
+          181.938
+        ],
+        [
+          170.125,
+          181.875
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:7",
+      "row": 1,
+      "col": 7,
+      "batch": 0,
+      "options": [
+        [
+          163.25,
+          181.938
+        ],
+        [
+          163.5,
+          180.188
+        ],
+        [
+          162.688,
+          179.312
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:6",
+      "row": 1,
+      "col": 6,
+      "batch": 0,
+      "options": [
+        [
+          161.938,
+          181.938
+        ],
+        [
+          161.938,
+          178.625
+        ],
+        [
+          161.25,
+          177.625
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:5",
+      "row": 1,
+      "col": 5,
+      "batch": 0,
+      "options": [
+        [
+          152.062,
+          181.0
+        ],
+        [
+          151.0,
+          180.375
+        ],
+        [
+          150.0,
+          179.688
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:4",
+      "row": 1,
+      "col": 4,
+      "batch": 0,
+      "options": [
+        [
+          149.938,
+          179.75
+        ],
+        [
+          148.438,
+          179.625
+        ],
+        [
+          147.188,
+          179.375
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:3",
+      "row": 1,
+      "col": 3,
+      "batch": 0,
+      "options": [
+        [
+          143.938,
+          178.938
+        ],
+        [
+          142.25,
+          180.312
+        ],
+        [
+          140.25,
+          177.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:2",
+      "row": 1,
+      "col": 2,
+      "batch": 0,
+      "options": [
+        [
+          135.875,
+          176.75
+        ],
+        [
+          132.5,
+          179.188
+        ],
+        [
+          135.25,
+          178.625
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:1",
+      "row": 1,
+      "col": 1,
+      "batch": 0,
+      "options": [
+        [
+          130.188,
+          177.188
+        ],
+        [
+          131.625,
+          178.438
+        ],
+        [
+          127.125,
+          176.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "1:0",
+      "row": 1,
+      "col": 0,
+      "batch": 0,
+      "options": [
+        [
+          121.5,
+          178.312
+        ],
+        [
+          122.625,
+          180.562
+        ],
+        [
+          121.25,
+          181.062
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:2",
+      "row": 2,
+      "col": 2,
+      "batch": 0,
+      "options": [
+        [
+          137.375,
+          187.438
+        ],
+        [
+          134.125,
+          185.0
+        ],
+        [
+          136.25,
+          186.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:3",
+      "row": 2,
+      "col": 3,
+      "batch": 0,
+      "options": [
+        [
+          142.312,
+          187.938
+        ],
+        [
+          142.312,
+          186.688
+        ],
+        [
+          138.5,
+          187.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:4",
+      "row": 2,
+      "col": 4,
+      "batch": 0,
+      "options": [
+        [
+          149.938,
+          187.938
+        ],
+        [
+          144.0,
+          187.938
+        ],
+        [
+          144.0,
+          185.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:5",
+      "row": 2,
+      "col": 5,
+      "batch": 0,
+      "options": [
+        [
+          151.438,
+          187.375
+        ],
+        [
+          152.688,
+          182.688
+        ],
+        [
+          151.812,
+          186.062
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:6",
+      "row": 2,
+      "col": 6,
+      "batch": 0,
+      "options": [
+        [
+          161.625,
+          183.375
+        ],
+        [
+          160.438,
+          183.438
+        ],
+        [
+          161.938,
+          182.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:7",
+      "row": 2,
+      "col": 7,
+      "batch": 0,
+      "options": [
+        [
+          163.25,
+          182.188
+        ],
+        [
+          164.125,
+          183.0
+        ],
+        [
+          162.188,
+          183.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:8",
+      "row": 2,
+      "col": 8,
+      "batch": 0,
+      "options": [
+        [
+          170.5,
+          184.625
+        ],
+        [
+          169.375,
+          184.125
+        ],
+        [
+          171.688,
+          184.75
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:9",
+      "row": 2,
+      "col": 9,
+      "batch": 0,
+      "options": [
+        [
+          174.5,
+          186.0
+        ],
+        [
+          175.938,
+          185.125
+        ],
+        [
+          174.562,
+          187.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:10",
+      "row": 2,
+      "col": 10,
+      "batch": 0,
+      "options": [
+        [
+          182.375,
+          187.938
+        ],
+        [
+          184.625,
+          184.688
+        ],
+        [
+          182.812,
+          186.812
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:11",
+      "row": 2,
+      "col": 11,
+      "batch": 0,
+      "options": [
+        [
+          189.938,
+          185.375
+        ],
+        [
+          186.0,
+          182.0
+        ],
+        [
+          186.0,
+          185.25
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:12",
+      "row": 2,
+      "col": 12,
+      "batch": 0,
+      "options": [
+        [
+          192.0,
+          185.375
+        ],
+        [
+          196.0,
+          187.688
+        ],
+        [
+          193.562,
+          185.062
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "2:14",
+      "row": 2,
+      "col": 14,
+      "batch": 0,
+      "options": [
+        [
+          205.375,
+          182.125
+        ],
+        [
+          205.812,
+          186.625
+        ],
+        [
+          206.375,
+          182.812
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:15",
+      "row": 3,
+      "col": 15,
+      "batch": 1,
+      "options": [
+        [
+          211.188,
+          192.25
+        ],
+        [
+          212.438,
+          192.312
+        ],
+        [
+          210.312,
+          193.062
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:14",
+      "row": 3,
+      "col": 14,
+      "batch": 1,
+      "options": [
+        [
+          207.938,
+          189.938
+        ],
+        [
+          204.562,
+          189.688
+        ],
+        [
+          207.375,
+          191.25
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:12",
+      "row": 3,
+      "col": 12,
+      "batch": 1,
+      "options": [
+        [
+          192.0,
+          190.0
+        ],
+        [
+          194.75,
+          189.188
+        ],
+        [
+          193.188,
+          189.875
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:11",
+      "row": 3,
+      "col": 11,
+      "batch": 1,
+      "options": [
+        [
+          190.188,
+          189.812
+        ],
+        [
+          187.312,
+          189.125
+        ],
+        [
+          186.062,
+          189.688
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:10",
+      "row": 3,
+      "col": 10,
+      "batch": 1,
+      "options": [
+        [
+          182.25,
+          188.188
+        ],
+        [
+          183.125,
+          189.062
+        ],
+        [
+          181.062,
+          188.5
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:9",
+      "row": 3,
+      "col": 9,
+      "batch": 1,
+      "options": [
+        [
+          174.0,
+          192.188
+        ],
+        [
+          174.5,
+          188.0
+        ],
+        [
+          174.25,
+          189.812
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:8",
+      "row": 3,
+      "col": 8,
+      "batch": 1,
+      "options": [
+        [
+          169.375,
+          192.625
+        ],
+        [
+          170.562,
+          192.875
+        ],
+        [
+          168.375,
+          191.438
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:7",
+      "row": 3,
+      "col": 7,
+      "batch": 1,
+      "options": [
+        [
+          167.938,
+          191.188
+        ],
+        [
+          167.938,
+          192.438
+        ],
+        [
+          166.812,
+          191.625
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:6",
+      "row": 3,
+      "col": 6,
+      "batch": 1,
+      "options": [
+        [
+          160.875,
+          188.0
+        ],
+        [
+          160.0,
+          190.312
+        ],
+        [
+          159.312,
+          193.75
+        ]
+      ],
+      "state": "retry",
+      "attempts": 0,
+      "total_attempts": 0,
+      "destination": [
+        160.0,
+        190.312
+      ]
+    },
+    {
+      "id": "3:5",
+      "row": 3,
+      "col": 5,
+      "batch": 1,
+      "options": [
+        [
+          151.438,
+          188.0
+        ],
+        [
+          150.062,
+          188.438
+        ],
+        [
+          152.312,
+          188.812
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:4",
+      "row": 3,
+      "col": 4,
+      "batch": 1,
+      "options": [
+        [
+          145.688,
+          190.312
+        ],
+        [
+          146.875,
+          190.125
+        ],
+        [
+          144.562,
+          189.75
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:3",
+      "row": 3,
+      "col": 3,
+      "batch": 1,
+      "options": [
+        [
+          142.312,
+          188.438
+        ],
+        [
+          143.375,
+          189.0
+        ],
+        [
+          141.125,
+          188.688
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:2",
+      "row": 3,
+      "col": 2,
+      "batch": 1,
+      "options": [
+        [
+          137.562,
+          188.0
+        ],
+        [
+          136.438,
+          188.562
+        ],
+        [
+          134.812,
+          191.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "3:1",
+      "row": 3,
+      "col": 1,
+      "batch": 1,
+      "options": [
+        [
+          131.938,
+          189.5
+        ],
+        [
+          129.438,
+          190.875
+        ],
+        [
+          130.562,
+          191.562
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:0",
+      "row": 4,
+      "col": 0,
+      "batch": 1,
+      "options": [
+        [
+          123.188,
+          199.125
+        ],
+        [
+          125.188,
+          198.062
+        ],
+        [
+          125.75,
+          199.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:1",
+      "row": 4,
+      "col": 1,
+      "batch": 1,
+      "options": [
+        [
+          131.938,
+          199.938
+        ],
+        [
+          127.062,
+          199.938
+        ],
+        [
+          127.0,
+          198.562
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:2",
+      "row": 4,
+      "col": 2,
+      "batch": 1,
+      "options": [
+        [
+          137.438,
+          196.562
+        ],
+        [
+          135.625,
+          196.875
+        ],
+        [
+          132.625,
+          199.25
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:3",
+      "row": 4,
+      "col": 3,
+      "batch": 1,
+      "options": [
+        [
+          140.75,
+          196.562
+        ],
+        [
+          139.562,
+          196.938
+        ],
+        [
+          138.375,
+          196.875
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:4",
+      "row": 4,
+      "col": 4,
+      "batch": 1,
+      "options": [
+        [
+          149.688,
+          194.25
+        ],
+        [
+          149.125,
+          195.375
+        ],
+        [
+          148.5,
+          194.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:5",
+      "row": 4,
+      "col": 5,
+      "batch": 1,
+      "options": [
+        [
+          155.938,
+          196.75
+        ],
+        [
+          155.062,
+          195.938
+        ],
+        [
+          154.812,
+          197.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:6",
+      "row": 4,
+      "col": 6,
+      "batch": 1,
+      "options": [
+        [
+          156.562,
+          197.062
+        ],
+        [
+          157.75,
+          196.688
+        ],
+        [
+          156.0,
+          196.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:7",
+      "row": 4,
+      "col": 7,
+      "batch": 1,
+      "options": [
+        [
+          167.938,
+          194.0
+        ],
+        [
+          167.875,
+          195.188
+        ],
+        [
+          163.75,
+          197.625
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:8",
+      "row": 4,
+      "col": 8,
+      "batch": 1,
+      "options": [
+        [
+          170.25,
+          194.0
+        ],
+        [
+          171.438,
+          194.062
+        ],
+        [
+          169.0,
+          194.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:9",
+      "row": 4,
+      "col": 9,
+      "batch": 1,
+      "options": [
+        [
+          177.125,
+          194.0
+        ],
+        [
+          178.875,
+          194.75
+        ],
+        [
+          177.688,
+          198.5
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:10",
+      "row": 4,
+      "col": 10,
+      "batch": 1,
+      "options": [
+        [
+          180.062,
+          194.5
+        ],
+        [
+          182.938,
+          195.688
+        ],
+        [
+          181.062,
+          196.812
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:11",
+      "row": 4,
+      "col": 11,
+      "batch": 1,
+      "options": [
+        [
+          191.562,
+          197.25
+        ],
+        [
+          191.062,
+          199.125
+        ],
+        [
+          188.812,
+          197.438
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:12",
+      "row": 4,
+      "col": 12,
+      "batch": 1,
+      "options": [
+        [
+          194.562,
+          197.75
+        ],
+        [
+          196.062,
+          199.062
+        ],
+        [
+          197.875,
+          198.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:13",
+      "row": 4,
+      "col": 13,
+      "batch": 1,
+      "options": [
+        [
+          203.938,
+          199.938
+        ],
+        [
+          198.0,
+          198.312
+        ],
+        [
+          201.812,
+          199.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:14",
+      "row": 4,
+      "col": 14,
+      "batch": 1,
+      "options": [
+        [
+          204.312,
+          199.938
+        ],
+        [
+          205.188,
+          198.875
+        ],
+        [
+          208.312,
+          199.625
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "4:15",
+      "row": 4,
+      "col": 15,
+      "batch": 1,
+      "options": [
+        [
+          210.0,
+          199.062
+        ],
+        [
+          212.438,
+          199.938
+        ],
+        [
+          211.375,
+          198.75
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:15",
+      "row": 5,
+      "col": 15,
+      "batch": 1,
+      "options": [
+        [
+          211.75,
+          203.0
+        ],
+        [
+          212.188,
+          204.125
+        ],
+        [
+          210.0,
+          203.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:14",
+      "row": 5,
+      "col": 14,
+      "batch": 1,
+      "options": [
+        [
+          205.125,
+          202.75
+        ],
+        [
+          207.75,
+          202.562
+        ],
+        [
+          206.5,
+          202.625
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:13",
+      "row": 5,
+      "col": 13,
+      "batch": 1,
+      "options": [
+        [
+          198.188,
+          205.562
+        ],
+        [
+          199.188,
+          203.312
+        ],
+        [
+          200.375,
+          202.812
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:12",
+      "row": 5,
+      "col": 12,
+      "batch": 1,
+      "options": [
+        [
+          197.938,
+          205.312
+        ],
+        [
+          197.938,
+          204.062
+        ],
+        [
+          196.75,
+          205.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:11",
+      "row": 5,
+      "col": 11,
+      "batch": 1,
+      "options": [
+        [
+          187.688,
+          200.938
+        ],
+        [
+          187.125,
+          203.312
+        ],
+        [
+          188.875,
+          203.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:10",
+      "row": 5,
+      "col": 10,
+      "batch": 1,
+      "options": [
+        [
+          180.062,
+          204.625
+        ],
+        [
+          181.0,
+          201.75
+        ],
+        [
+          181.062,
+          205.312
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:9",
+      "row": 5,
+      "col": 9,
+      "batch": 1,
+      "options": [
+        [
+          175.25,
+          203.312
+        ],
+        [
+          176.438,
+          203.188
+        ],
+        [
+          178.0,
+          203.375
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:8",
+      "row": 5,
+      "col": 8,
+      "batch": 1,
+      "options": [
+        [
+          169.375,
+          200.812
+        ],
+        [
+          171.312,
+          200.438
+        ],
+        [
+          173.75,
+          205.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:7",
+      "row": 5,
+      "col": 7,
+      "batch": 1,
+      "options": [
+        [
+          163.438,
+          203.125
+        ],
+        [
+          166.125,
+          205.438
+        ],
+        [
+          163.938,
+          201.062
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:6",
+      "row": 5,
+      "col": 6,
+      "batch": 1,
+      "options": [
+        [
+          159.875,
+          201.062
+        ],
+        [
+          157.75,
+          201.875
+        ],
+        [
+          160.562,
+          203.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:5",
+      "row": 5,
+      "col": 5,
+      "batch": 1,
+      "options": [
+        [
+          150.0,
+          204.25
+        ],
+        [
+          150.0,
+          203.0
+        ],
+        [
+          150.0,
+          205.562
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:4",
+      "row": 5,
+      "col": 4,
+      "batch": 1,
+      "options": [
+        [
+          149.688,
+          204.25
+        ],
+        [
+          149.062,
+          205.312
+        ],
+        [
+          149.812,
+          203.062
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:3",
+      "row": 5,
+      "col": 3,
+      "batch": 1,
+      "options": [
+        [
+          139.125,
+          201.625
+        ],
+        [
+          139.438,
+          200.438
+        ],
+        [
+          141.25,
+          203.75
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:2",
+      "row": 5,
+      "col": 2,
+      "batch": 1,
+      "options": [
+        [
+          132.0,
+          201.812
+        ],
+        [
+          134.25,
+          203.875
+        ],
+        [
+          135.125,
+          202.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:1",
+      "row": 5,
+      "col": 1,
+      "batch": 1,
+      "options": [
+        [
+          128.188,
+          203.375
+        ],
+        [
+          127.125,
+          202.75
+        ],
+        [
+          126.5,
+          201.5
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "5:0",
+      "row": 5,
+      "col": 0,
+      "batch": 1,
+      "options": [
+        [
+          125.938,
+          201.562
+        ],
+        [
+          124.75,
+          201.75
+        ],
+        [
+          125.938,
+          202.812
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:1",
+      "row": 6,
+      "col": 1,
+      "batch": 2,
+      "options": [
+        [
+          129.438,
+          207.938
+        ],
+        [
+          129.75,
+          206.0
+        ],
+        [
+          130.938,
+          207.688
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:2",
+      "row": 6,
+      "col": 2,
+      "batch": 2,
+      "options": [
+        [
+          136.312,
+          207.562
+        ],
+        [
+          137.5,
+          208.25
+        ],
+        [
+          134.688,
+          206.812
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:4",
+      "row": 6,
+      "col": 4,
+      "batch": 2,
+      "options": [
+        [
+          147.75,
+          206.125
+        ],
+        [
+          148.938,
+          206.0
+        ],
+        [
+          148.0,
+          209.062
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:5",
+      "row": 6,
+      "col": 5,
+      "batch": 2,
+      "options": [
+        [
+          153.188,
+          206.938
+        ],
+        [
+          151.812,
+          207.438
+        ],
+        [
+          150.625,
+          207.875
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:7",
+      "row": 6,
+      "col": 7,
+      "batch": 2,
+      "options": [
+        [
+          167.188,
+          206.0
+        ],
+        [
+          163.875,
+          206.0
+        ],
+        [
+          165.25,
+          206.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:8",
+      "row": 6,
+      "col": 8,
+      "batch": 2,
+      "options": [
+        [
+          173.938,
+          206.625
+        ],
+        [
+          172.062,
+          209.75
+        ],
+        [
+          169.938,
+          207.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:9",
+      "row": 6,
+      "col": 9,
+      "batch": 2,
+      "options": [
+        [
+          174.0,
+          206.75
+        ],
+        [
+          176.562,
+          208.75
+        ],
+        [
+          176.438,
+          210.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:10",
+      "row": 6,
+      "col": 10,
+      "batch": 2,
+      "options": [
+        [
+          183.25,
+          206.812
+        ],
+        [
+          182.125,
+          206.312
+        ],
+        [
+          183.312,
+          209.312
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:11",
+      "row": 6,
+      "col": 11,
+      "batch": 2,
+      "options": [
+        [
+          191.625,
+          206.938
+        ],
+        [
+          189.938,
+          206.625
+        ],
+        [
+          188.75,
+          208.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:12",
+      "row": 6,
+      "col": 12,
+      "batch": 2,
+      "options": [
+        [
+          197.938,
+          206.0
+        ],
+        [
+          197.188,
+          206.938
+        ],
+        [
+          192.0,
+          207.312
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:13",
+      "row": 6,
+      "col": 13,
+      "batch": 2,
+      "options": [
+        [
+          198.312,
+          206.0
+        ],
+        [
+          200.5,
+          208.312
+        ],
+        [
+          199.062,
+          207.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "6:14",
+      "row": 6,
+      "col": 14,
+      "batch": 2,
+      "options": [
+        [
+          204.625,
+          207.438
+        ],
+        [
+          206.562,
+          207.5
+        ],
+        [
+          204.0,
+          209.5
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:13",
+      "row": 7,
+      "col": 13,
+      "batch": 2,
+      "options": [
+        [
+          202.188,
+          212.75
+        ],
+        [
+          203.75,
+          212.312
+        ],
+        [
+          201.0,
+          212.375
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:12",
+      "row": 7,
+      "col": 12,
+      "batch": 2,
+      "options": [
+        [
+          194.5,
+          216.688
+        ],
+        [
+          193.125,
+          216.875
+        ],
+        [
+          193.25,
+          213.312
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:11",
+      "row": 7,
+      "col": 11,
+      "batch": 2,
+      "options": [
+        [
+          186.438,
+          216.188
+        ],
+        [
+          187.625,
+          216.312
+        ],
+        [
+          188.25,
+          213.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:10",
+      "row": 7,
+      "col": 10,
+      "batch": 2,
+      "options": [
+        [
+          184.188,
+          217.938
+        ],
+        [
+          185.188,
+          217.25
+        ],
+        [
+          182.938,
+          217.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:9",
+      "row": 7,
+      "col": 9,
+      "batch": 2,
+      "options": [
+        [
+          178.938,
+          214.5
+        ],
+        [
+          174.875,
+          213.938
+        ],
+        [
+          176.688,
+          213.25
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:8",
+      "row": 7,
+      "col": 8,
+      "batch": 2,
+      "options": [
+        [
+          173.188,
+          213.188
+        ],
+        [
+          171.438,
+          212.25
+        ],
+        [
+          170.25,
+          212.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:7",
+      "row": 7,
+      "col": 7,
+      "batch": 2,
+      "options": [
+        [
+          162.5,
+          216.375
+        ],
+        [
+          163.188,
+          217.5
+        ],
+        [
+          163.312,
+          212.312
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:6",
+      "row": 7,
+      "col": 6,
+      "batch": 2,
+      "options": [
+        [
+          158.188,
+          214.625
+        ],
+        [
+          161.312,
+          217.438
+        ],
+        [
+          156.875,
+          214.438
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:5",
+      "row": 7,
+      "col": 5,
+      "batch": 2,
+      "options": [
+        [
+          155.062,
+          215.375
+        ],
+        [
+          152.938,
+          215.625
+        ],
+        [
+          154.125,
+          216.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:4",
+      "row": 7,
+      "col": 4,
+      "batch": 2,
+      "options": [
+        [
+          147.062,
+          215.688
+        ],
+        [
+          144.438,
+          217.25
+        ],
+        [
+          145.875,
+          215.625
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:3",
+      "row": 7,
+      "col": 3,
+      "batch": 2,
+      "options": [
+        [
+          139.75,
+          215.25
+        ],
+        [
+          143.625,
+          217.188
+        ],
+        [
+          142.062,
+          217.188
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:2",
+      "row": 7,
+      "col": 2,
+      "batch": 2,
+      "options": [
+        [
+          133.812,
+          217.812
+        ],
+        [
+          135.062,
+          217.812
+        ],
+        [
+          132.938,
+          216.938
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "7:1",
+      "row": 7,
+      "col": 1,
+      "batch": 2,
+      "options": [
+        [
+          129.562,
+          215.312
+        ],
+        [
+          130.75,
+          215.688
+        ],
+        [
+          129.438,
+          213.875
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "8:2",
+      "row": 8,
+      "col": 2,
+      "batch": 2,
+      "options": [
+        [
+          133.562,
+          220.375
+        ],
+        [
+          133.812,
+          218.0
+        ],
+        [
+          136.0,
+          219.625
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "8:3",
+      "row": 8,
+      "col": 3,
+      "batch": 2,
+      "options": [
+        [
+          143.5,
+          222.062
+        ],
+        [
+          141.0,
+          221.0
+        ],
+        [
+          142.312,
+          221.562
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "8:4",
+      "row": 8,
+      "col": 4,
+      "batch": 2,
+      "options": [
+        [
+          145.375,
+          221.75
+        ],
+        [
+          146.5,
+          219.188
+        ],
+        [
+          145.938,
+          220.25
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "8:7",
+      "row": 8,
+      "col": 7,
+      "batch": 2,
+      "options": [
+        [
+          162.812,
+          220.5
+        ],
+        [
+          164.0,
+          219.688
+        ],
+        [
+          163.688,
+          221.688
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "8:9",
+      "row": 8,
+      "col": 9,
+      "batch": 2,
+      "options": [
+        [
+          179.5,
+          218.25
+        ],
+        [
+          178.438,
+          220.188
+        ],
+        [
+          179.5,
+          220.75
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "8:10",
+      "row": 8,
+      "col": 10,
+      "batch": 2,
+      "options": [
+        [
+          183.625,
+          218.562
+        ],
+        [
+          182.438,
+          218.625
+        ],
+        [
+          184.688,
+          218.0
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "8:11",
+      "row": 8,
+      "col": 11,
+      "batch": 2,
+      "options": [
+        [
+          186.0,
+          218.062
+        ],
+        [
+          187.625,
+          220.938
+        ],
+        [
+          190.188,
+          219.812
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "9:2",
+      "row": 9,
+      "col": 2,
+      "batch": 3,
+      "options": [
+        [
+          137.75,
+          224.562
+        ],
+        [
+          135.438,
+          224.125
+        ]
+      ],
+      "state": "pending",
+      "attempts": 0,
+      "total_attempts": 0
+    }
+  ],
+  "trace": [
+    null,
+    [
+      163.922,
+      192.035
+    ],
+    [
+      162.227,
+      191.188
+    ],
+    [
+      161.949,
+      191.178
+    ]
+  ],
+  "active_id": null
+}

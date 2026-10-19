@@ -1,0 +1,3513 @@
+{
+  "version": 4,
+  "map_id": 6,
+  "bounds": [
+    3008,
+    2688,
+    897,
+    672
+  ],
+  "strategy": "corners_first",
+  "anchor": [
+    204.8125,
+    171.5625
+  ],
+  "cell_size": 96,
+  "ring_spacing_pixels": 96,
+  "inspection_radius": 0,
+  "inspection_calibrated": false,
+  "observed_fraction": 1.0,
+  "targets": [
+    {
+      "id": "r1:5:5",
+      "row": 0,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.3360727698048986,
+      "purpose": "khám phá góc tây bắc",
+      "options": [
+        [
+          188.312,
+          168.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:5:891",
+      "row": 0,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.199777976308602,
+      "purpose": "khám phá góc đông bắc",
+      "options": [
+        [
+          243.688,
+          168.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 100,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:665:890",
+      "row": 6,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.7748208524249625,
+      "purpose": "khám phá góc đông nam",
+      "options": [
+        [
+          243.625,
+          209.562
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 200,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:666:5",
+      "row": 6,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.9798423918522128,
+      "purpose": "khám phá góc tây nam",
+      "options": [
+        [
+          188.312,
+          209.625
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 300,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:9:281",
+      "row": 0,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 4.957367643511554,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          205.562,
+          168.562
+        ],
+        [
+          206.062,
+          168.562
+        ],
+        [
+          205.562,
+          169.062
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 500,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:8:207",
+      "row": 0,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.8104048115259257,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          200.938,
+          168.5
+        ],
+        [
+          201.438,
+          168.5
+        ],
+        [
+          200.438,
+          168.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 501,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:8:138",
+      "row": 0,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.499526503972016,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          196.625,
+          168.5
+        ],
+        [
+          197.125,
+          168.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 502,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:8:69",
+      "row": 0,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.3818599263707316,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          192.312,
+          168.5
+        ],
+        [
+          192.812,
+          168.5
+        ],
+        [
+          192.312,
+          169.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 503,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:8:7",
+      "row": 0,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.3264796679186617,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          188.438,
+          168.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 504,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:56:36",
+      "row": 0,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.145884472731804,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          190.25,
+          171.5
+        ],
+        [
+          190.75,
+          171.5
+        ],
+        [
+          190.25,
+          171.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 505,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:102:17",
+      "row": 1,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.964883797519757,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          189.062,
+          174.375
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 506,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:104:41",
+      "row": 1,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.9382999422193667,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          190.562,
+          174.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 507,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:132:22",
+      "row": 1,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.8467963539011323,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          189.375,
+          176.25
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 508,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:149:44",
+      "row": 1,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.7534470056821276,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          190.75,
+          177.312
+        ],
+        [
+          190.75,
+          177.812
+        ],
+        [
+          190.75,
+          176.812
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 509,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:188:23",
+      "row": 1,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.652268505807801,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          189.438,
+          179.75
+        ],
+        [
+          189.938,
+          179.75
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 510,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:199:37",
+      "row": 2,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.592346144246261,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          190.312,
+          180.438
+        ],
+        [
+          190.812,
+          180.438
+        ],
+        [
+          190.312,
+          180.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 511,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:222:33",
+      "row": 2,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.5314356791818553,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          190.062,
+          181.875
+        ],
+        [
+          190.562,
+          181.875
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 512,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:267:35",
+      "row": 2,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.410195990568313,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          190.188,
+          184.688
+        ],
+        [
+          190.688,
+          184.688
+        ],
+        [
+          190.188,
+          185.188
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 513,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:259:9",
+      "row": 2,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.4810822497393126,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          188.562,
+          184.188
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 514,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:313:8",
+      "row": 3,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.3658653685725133,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          188.5,
+          187.562
+        ],
+        [
+          189.0,
+          187.562
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 515,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:383:7",
+      "row": 3,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.2477777432382204,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          188.438,
+          191.938
+        ],
+        [
+          188.438,
+          192.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 516,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:432:7",
+      "row": 4,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.1806268759506313,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          188.438,
+          195.0
+        ],
+        [
+          188.438,
+          194.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 517,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:498:7",
+      "row": 5,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.106869481983525,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          188.438,
+          199.125
+        ],
+        [
+          188.438,
+          198.625
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 518,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:496:49",
+      "row": 5,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.03535468235628,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          191.062,
+          199.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 519,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:517:16",
+      "row": 5,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.0736395377227574,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          189.0,
+          200.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 520,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:518:45",
+      "row": 5,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.023100617801395,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          190.812,
+          200.375
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 521,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:542:48",
+      "row": 5,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.9983554966708343,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          191.0,
+          201.875
+        ],
+        [
+          191.5,
+          201.875
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 522,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:569:8",
+      "row": 5,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.0422258798711943,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          188.5,
+          203.562
+        ],
+        [
+          189.0,
+          203.562
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 523,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:612:7",
+      "row": 6,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.0118530274773354,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          188.438,
+          206.25
+        ],
+        [
+          188.438,
+          205.75
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 524,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:664:11",
+      "row": 6,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.9727018587675373,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          188.688,
+          209.5
+        ],
+        [
+          189.188,
+          209.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 525,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:664:85",
+      "row": 6,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.8651223371986831,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          193.312,
+          209.5
+        ],
+        [
+          193.812,
+          209.5
+        ],
+        [
+          193.312,
+          209.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 526,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:664:136",
+      "row": 6,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.7864979223277637,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          196.5,
+          209.5
+        ],
+        [
+          196.5,
+          209.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 527,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:664:212",
+      "row": 6,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.6644262082329737,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          201.25,
+          209.5
+        ],
+        [
+          201.25,
+          209.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 528,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:658:288",
+      "row": 6,
+      "col": 3,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.539192875906237,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          206.0,
+          209.125
+        ],
+        [
+          206.0,
+          208.625
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 529,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:664:351",
+      "row": 6,
+      "col": 3,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.4365186121583549,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          209.938,
+          209.5
+        ],
+        [
+          209.938,
+          209.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 530,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:664:414",
+      "row": 6,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.3363108657772866,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          213.875,
+          209.5
+        ],
+        [
+          213.875,
+          209.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 531,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:660:485",
+      "row": 6,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.2268272070715354,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          218.312,
+          209.25
+        ],
+        [
+          217.812,
+          209.25
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 532,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:664:556",
+      "row": 6,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.1291305196815093,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          222.75,
+          209.5
+        ],
+        [
+          223.25,
+          209.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 533,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:661:623",
+      "row": 6,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.0406655374462936,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          226.938,
+          209.312
+        ],
+        [
+          227.438,
+          209.312
+        ],
+        [
+          226.438,
+          209.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 534,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:656:702",
+      "row": 6,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.9448847434092733,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          231.875,
+          209.0
+        ],
+        [
+          232.375,
+          209.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 535,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:660:759",
+      "row": 6,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.8884173421537169,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          235.438,
+          209.25
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 536,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:663:826",
+      "row": 6,
+      "col": 8,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.8275056757624898,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          239.625,
+          209.438
+        ],
+        [
+          240.125,
+          209.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 537,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:662:889",
+      "row": 6,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.7731538773731166,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          209.375
+        ],
+        [
+          243.062,
+          209.375
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 538,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:623:870",
+      "row": 6,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.7554157198179128,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          242.375,
+          206.938
+        ],
+        [
+          242.375,
+          207.438
+        ],
+        [
+          242.375,
+          206.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 539,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:605:883",
+      "row": 6,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.7286605014129911,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.188,
+          205.812
+        ],
+        [
+          243.188,
+          205.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 540,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:613:889",
+      "row": 6,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.7310300269242508,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          206.312
+        ],
+        [
+          243.562,
+          205.812
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 541,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:564:888",
+      "row": 5,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.6862571225351336,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.5,
+          203.25
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 542,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:499:889",
+      "row": 5,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.6193334557046876,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          199.188
+        ],
+        [
+          243.562,
+          198.688
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 543,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:443:889",
+      "row": 4,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.5568576625327382,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          195.688
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 544,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:413:870",
+      "row": 4,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.5347726170075711,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          242.375,
+          193.812
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 545,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:416:889",
+      "row": 4,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.5248593484826238,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          194.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 546,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:363:878",
+      "row": 3,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.4656161103951639,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          242.875,
+          190.688
+        ],
+        [
+          242.375,
+          190.688
+        ],
+        [
+          242.875,
+          191.188
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 547,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:341:889",
+      "row": 3,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.4295401062498664,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          189.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 548,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:286:889",
+      "row": 2,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.3538123259217222,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          185.875
+        ],
+        [
+          243.562,
+          186.375
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 549,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:212:889",
+      "row": 2,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.24497866312686414,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          181.25
+        ],
+        [
+          243.062,
+          181.25
+        ],
+        [
+          243.562,
+          181.75
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 550,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:140:889",
+      "row": 1,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.13307973845925558,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          176.75
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 551,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:108:870",
+      "row": 1,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.08465575640853698,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          242.375,
+          174.75
+        ],
+        [
+          242.375,
+          175.25
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 552,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:112:889",
+      "row": 1,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.08847807248097564,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          175.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 553,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:48:889",
+      "row": 0,
+      "col": 9,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.268670197621674,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          243.562,
+          171.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 554,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:52:848",
+      "row": 0,
+      "col": 8,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.274549943247177,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          241.0,
+          171.25
+        ],
+        [
+          241.5,
+          171.25
+        ],
+        [
+          240.5,
+          171.25
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 555,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:59:806",
+      "row": 0,
+      "col": 8,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.0037243775654859377,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          238.375,
+          171.688
+        ],
+        [
+          238.875,
+          171.688
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 556,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:37:734",
+      "row": 0,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.240201047311815,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          233.875,
+          170.312
+        ],
+        [
+          233.375,
+          170.312
+        ],
+        [
+          233.875,
+          170.812
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 557,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:10:754",
+      "row": 0,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.186579744965607,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          235.125,
+          168.625
+        ],
+        [
+          234.625,
+          168.625
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 558,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:10:825",
+      "row": 0,
+      "col": 8,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.1988534224827525,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          239.562,
+          168.625
+        ],
+        [
+          239.062,
+          168.625
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 559,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:7:826",
+      "row": 0,
+      "col": 8,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.193658655692533,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          239.625,
+          168.438
+        ],
+        [
+          240.125,
+          168.438
+        ],
+        [
+          239.125,
+          168.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 561,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:7:756",
+      "row": 0,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.180874384414762,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          235.25,
+          168.438
+        ],
+        [
+          234.75,
+          168.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 562,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:7:688",
+      "row": 0,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.164415204595339,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          231.0,
+          168.438
+        ],
+        [
+          231.5,
+          168.438
+        ],
+        [
+          230.5,
+          168.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 563,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:7:626",
+      "row": 0,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.144034420642625,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          227.125,
+          168.438
+        ],
+        [
+          227.625,
+          168.438
+        ],
+        [
+          227.125,
+          168.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 564,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:7:551",
+      "row": 0,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.107704046859205,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          222.438,
+          168.438
+        ],
+        [
+          222.938,
+          168.438
+        ],
+        [
+          221.938,
+          168.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 565,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:7:482",
+      "row": 0,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.052618063123536,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          218.125,
+          168.438
+        ],
+        [
+          218.625,
+          168.438
+        ],
+        [
+          217.625,
+          168.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 566,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:8:413",
+      "row": 0,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.955197827417744,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          213.812,
+          168.5
+        ],
+        [
+          214.312,
+          168.5
+        ],
+        [
+          213.312,
+          168.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 567,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:8:339",
+      "row": 0,
+      "col": 3,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.672459342790377,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          209.188,
+          168.5
+        ],
+        [
+          208.688,
+          168.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": true,
+      "sequence": 568,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r2:57:269",
+      "row": 0,
+      "col": 2,
+      "batch": 2,
+      "ring": 2,
+      "angle": 0.0,
+      "purpose": "mốc gốc tâm bản đồ",
+      "options": [
+        [
+          204.812,
+          171.562
+        ],
+        [
+          205.312,
+          171.562
+        ],
+        [
+          204.312,
+          171.562
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r3:153:269",
+      "row": 1,
+      "col": 2,
+      "batch": 3,
+      "ring": 3,
+      "angle": 1.5707963267948966,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          204.812,
+          177.562
+        ],
+        [
+          205.312,
+          177.562
+        ],
+        [
+          204.312,
+          177.562
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r3:125:201",
+      "row": 1,
+      "col": 2,
+      "batch": 3,
+      "ring": 3,
+      "angle": 2.356194490192345,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          200.562,
+          175.812
+        ],
+        [
+          201.062,
+          175.812
+        ],
+        [
+          200.062,
+          175.812
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r4:135:444",
+      "row": 1,
+      "col": 4,
+      "batch": 4,
+      "ring": 4,
+      "angle": 0.4192842125951796,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          215.75,
+          176.438
+        ],
+        [
+          216.25,
+          176.438
+        ],
+        [
+          215.25,
+          176.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r4:200:397",
+      "row": 2,
+      "col": 4,
+      "batch": 4,
+      "ring": 4,
+      "angle": 0.8406922950510791,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          212.812,
+          180.5
+        ],
+        [
+          213.312,
+          180.5
+        ],
+        [
+          212.312,
+          180.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r4:240:330",
+      "row": 2,
+      "col": 3,
+      "batch": 4,
+      "ring": 4,
+      "angle": 1.2490457723982544,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          208.625,
+          183.0
+        ],
+        [
+          208.625,
+          183.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r4:248:249",
+      "row": 2,
+      "col": 2,
+      "batch": 4,
+      "ring": 4,
+      "angle": 1.6751281579203594,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          203.562,
+          183.5
+        ],
+        [
+          204.062,
+          183.5
+        ],
+        [
+          203.062,
+          183.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r4:223:173",
+      "row": 2,
+      "col": 1,
+      "batch": 4,
+      "ring": 4,
+      "angle": 2.0951170390983185,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          198.812,
+          181.938
+        ],
+        [
+          199.312,
+          181.938
+        ],
+        [
+          198.812,
+          182.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r4:170:114",
+      "row": 1,
+      "col": 1,
+      "batch": 4,
+      "ring": 4,
+      "angle": 2.5116465018321565,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          195.125,
+          178.625
+        ],
+        [
+          195.625,
+          178.625
+        ],
+        [
+          194.625,
+          178.625
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r5:135:546",
+      "row": 1,
+      "col": 5,
+      "batch": 5,
+      "ring": 5,
+      "angle": 0.27448106181395615,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          222.125,
+          176.438
+        ],
+        [
+          222.625,
+          176.438
+        ],
+        [
+          221.625,
+          176.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r5:207:515",
+      "row": 2,
+      "col": 5,
+      "batch": 5,
+      "ring": 5,
+      "angle": 0.5475622359399975,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          220.188,
+          180.938
+        ],
+        [
+          220.688,
+          180.938
+        ],
+        [
+          219.688,
+          180.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r5:267:466",
+      "row": 2,
+      "col": 4,
+      "batch": 5,
+      "ring": 5,
+      "angle": 0.8173283395883425,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          217.125,
+          184.688
+        ],
+        [
+          217.625,
+          184.688
+        ],
+        [
+          216.625,
+          184.688
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r5:339:328",
+      "row": 3,
+      "col": 3,
+      "batch": 5,
+      "ring": 5,
+      "angle": 1.3645514404287582,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          208.5,
+          189.188
+        ],
+        [
+          209.0,
+          189.188
+        ],
+        [
+          208.0,
+          189.188
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r5:344:249",
+      "row": 3,
+      "col": 2,
+      "batch": 5,
+      "ring": 5,
+      "angle": 1.640370261865467,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          203.562,
+          189.5
+        ],
+        [
+          204.062,
+          189.5
+        ],
+        [
+          203.062,
+          189.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r5:328:173",
+      "row": 3,
+      "col": 1,
+      "batch": 5,
+      "ring": 5,
+      "angle": 1.9112465714476263,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          198.812,
+          188.5
+        ],
+        [
+          198.312,
+          188.5
+        ],
+        [
+          198.812,
+          189.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r5:292:103",
+      "row": 3,
+      "col": 1,
+      "batch": 5,
+      "ring": 5,
+      "angle": 2.185793335828404,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          194.438,
+          186.25
+        ],
+        [
+          194.938,
+          186.25
+        ],
+        [
+          194.438,
+          186.75
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r6:285:578",
+      "row": 2,
+      "col": 6,
+      "batch": 6,
+      "ring": 6,
+      "angle": 0.6356887677331833,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          224.125,
+          185.812
+        ],
+        [
+          223.625,
+          185.812
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r6:342:526",
+      "row": 3,
+      "col": 5,
+      "batch": 6,
+      "ring": 6,
+      "angle": 0.8370127961033137,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          220.875,
+          189.375
+        ],
+        [
+          221.375,
+          189.375
+        ],
+        [
+          220.375,
+          189.375
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r6:390:461",
+      "row": 4,
+      "col": 4,
+      "batch": 6,
+      "ring": 6,
+      "angle": 1.0477780150574778,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          216.812,
+          192.375
+        ],
+        [
+          217.312,
+          192.375
+        ],
+        [
+          216.312,
+          192.375
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r6:422:388",
+      "row": 4,
+      "col": 4,
+      "batch": 6,
+      "ring": 6,
+      "angle": 1.255635462844941,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          212.25,
+          194.375
+        ],
+        [
+          212.75,
+          194.375
+        ],
+        [
+          212.25,
+          194.875
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r6:439:309",
+      "row": 4,
+      "col": 3,
+      "batch": 6,
+      "ring": 6,
+      "angle": 1.4664644956694337,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          207.312,
+          195.438
+        ],
+        [
+          207.812,
+          195.438
+        ],
+        [
+          206.812,
+          195.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r6:439:229",
+      "row": 4,
+      "col": 2,
+      "batch": 6,
+      "ring": 6,
+      "angle": 1.6751281579203594,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          202.312,
+          195.438
+        ],
+        [
+          201.812,
+          195.438
+        ],
+        [
+          202.312,
+          195.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r6:422:150",
+      "row": 4,
+      "col": 1,
+      "batch": 6,
+      "ring": 6,
+      "angle": 1.8859571907448522,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          197.375,
+          194.375
+        ],
+        [
+          197.875,
+          194.375
+        ],
+        [
+          196.875,
+          194.375
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r6:390:77",
+      "row": 4,
+      "col": 0,
+      "batch": 6,
+      "ring": 6,
+      "angle": 2.0938146385323155,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          192.812,
+          192.375
+        ],
+        [
+          193.312,
+          192.375
+        ],
+        [
+          192.312,
+          192.375
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r7:138:742",
+      "row": 1,
+      "col": 7,
+      "batch": 7,
+      "ring": 7,
+      "angle": 0.16960222796346738,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          234.375,
+          176.625
+        ],
+        [
+          234.875,
+          176.625
+        ],
+        [
+          233.875,
+          176.625
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r7:217:722",
+      "row": 2,
+      "col": 7,
+      "batch": 7,
+      "ring": 7,
+      "angle": 0.33952353466700513,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          233.125,
+          181.562
+        ],
+        [
+          233.625,
+          181.562
+        ],
+        [
+          232.625,
+          181.562
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r7:359:643",
+      "row": 3,
+      "col": 6,
+      "batch": 7,
+      "ring": 7,
+      "angle": 0.679289318915276,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          228.188,
+          190.438
+        ],
+        [
+          228.688,
+          190.438
+        ],
+        [
+          228.188,
+          190.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r7:417:586",
+      "row": 4,
+      "col": 6,
+      "batch": 7,
+      "ring": 7,
+      "angle": 0.8488284673013192,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          224.625,
+          194.062
+        ],
+        [
+          225.125,
+          194.062
+        ],
+        [
+          224.125,
+          194.062
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r7:503:448",
+      "row": 5,
+      "col": 4,
+      "batch": 7,
+      "ring": 7,
+      "angle": 1.1891307539111773,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          216.0,
+          199.438
+        ],
+        [
+          216.5,
+          199.438
+        ],
+        [
+          216.0,
+          199.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r7:526:370",
+      "row": 5,
+      "col": 3,
+      "batch": 7,
+      "ring": 7,
+      "angle": 1.3586839227355187,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          211.125,
+          200.875
+        ],
+        [
+          211.625,
+          200.875
+        ],
+        [
+          210.625,
+          200.875
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r7:537:289",
+      "row": 5,
+      "col": 3,
+      "batch": 7,
+      "ring": 7,
+      "angle": 1.5291537476963082,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          206.062,
+          201.562
+        ],
+        [
+          206.562,
+          201.562
+        ],
+        [
+          205.562,
+          201.562
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r7:533:208",
+      "row": 5,
+      "col": 2,
+      "batch": 7,
+      "ring": 7,
+      "angle": 1.6982528880310124,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          201.0,
+          201.312
+        ],
+        [
+          201.5,
+          201.312
+        ],
+        [
+          200.5,
+          201.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r7:516:128",
+      "row": 5,
+      "col": 1,
+      "batch": 7,
+      "ring": 7,
+      "angle": 1.8688359106871546,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          196.0,
+          200.25
+        ],
+        [
+          196.0,
+          200.75
+        ],
+        [
+          196.0,
+          199.75
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r8:216:823",
+      "row": 2,
+      "col": 8,
+      "batch": 8,
+      "ring": 8,
+      "angle": 0.2794912694992583,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          239.438,
+          181.5
+        ],
+        [
+          239.938,
+          181.5
+        ],
+        [
+          238.938,
+          181.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r8:291:795",
+      "row": 3,
+      "col": 8,
+      "batch": 8,
+      "ring": 8,
+      "angle": 0.41857706325066696,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          237.688,
+          186.188
+        ],
+        [
+          238.188,
+          186.188
+        ],
+        [
+          237.188,
+          186.188
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r8:362:757",
+      "row": 3,
+      "col": 7,
+      "batch": 8,
+      "ring": 8,
+      "angle": 0.5585993153435624,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          235.312,
+          190.625
+        ],
+        [
+          235.812,
+          190.625
+        ],
+        [
+          234.812,
+          190.625
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r8:427:710",
+      "row": 4,
+      "col": 7,
+      "batch": 8,
+      "ring": 8,
+      "angle": 0.6980745627505107,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          232.375,
+          194.688
+        ],
+        [
+          232.875,
+          194.688
+        ],
+        [
+          231.875,
+          194.688
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r8:485:654",
+      "row": 5,
+      "col": 6,
+      "batch": 8,
+      "ring": 8,
+      "angle": 0.8382394561194997,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          228.875,
+          198.312
+        ],
+        [
+          229.375,
+          198.312
+        ],
+        [
+          228.375,
+          198.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r8:535:591",
+      "row": 5,
+      "col": 6,
+      "batch": 8,
+      "ring": 8,
+      "angle": 0.9779814408573668,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          224.938,
+          201.438
+        ],
+        [
+          225.438,
+          201.438
+        ],
+        [
+          224.438,
+          201.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r8:574:522",
+      "row": 5,
+      "col": 5,
+      "batch": 8,
+      "ring": 8,
+      "angle": 1.1156955182267019,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          220.625,
+          203.875
+        ],
+        [
+          221.125,
+          203.875
+        ],
+        [
+          220.125,
+          203.875
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r8:605:445",
+      "row": 6,
+      "col": 4,
+      "batch": 8,
+      "ring": 8,
+      "angle": 1.260034341080988,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          215.812,
+          205.812
+        ],
+        [
+          215.312,
+          205.812
+        ],
+        [
+          215.812,
+          206.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r9:503:772",
+      "row": 5,
+      "col": 8,
+      "batch": 9,
+      "ring": 9,
+      "angle": 0.7254070108592179,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          236.25,
+          199.438
+        ],
+        [
+          236.75,
+          199.438
+        ],
+        [
+          235.75,
+          199.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r9:560:715",
+      "row": 5,
+      "col": 7,
+      "batch": 9,
+      "ring": 9,
+      "angle": 0.8453893159356788,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          232.688,
+          203.0
+        ],
+        [
+          233.188,
+          203.0
+        ],
+        [
+          232.188,
+          203.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:66:651",
+      "row": 0,
+      "col": 6,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.023555851581119527,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          228.688,
+          172.125
+        ],
+        [
+          229.188,
+          172.125
+        ],
+        [
+          228.188,
+          172.125
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:64:521",
+      "row": 0,
+      "col": 5,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.027770636593421036,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          220.562,
+          172.0
+        ],
+        [
+          221.062,
+          172.0
+        ],
+        [
+          220.062,
+          172.0
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:70:445",
+      "row": 0,
+      "col": 4,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.07372974506995397,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          215.812,
+          172.375
+        ],
+        [
+          216.312,
+          172.375
+        ],
+        [
+          215.312,
+          172.375
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:71:351",
+      "row": 0,
+      "col": 3,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.16910122600137703,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          209.938,
+          172.438
+        ],
+        [
+          210.438,
+          172.438
+        ],
+        [
+          209.438,
+          172.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:153:809",
+      "row": 1,
+      "col": 8,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.17593962545252784,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          238.562,
+          177.562
+        ],
+        [
+          239.062,
+          177.562
+        ],
+        [
+          238.062,
+          177.562
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:148:626",
+      "row": 1,
+      "col": 6,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.2495869254369846,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          227.125,
+          177.25
+        ],
+        [
+          227.625,
+          177.25
+        ],
+        [
+          226.625,
+          177.25
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:287:726",
+      "row": 2,
+      "col": 7,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.46626998061196345,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          233.375,
+          185.938
+        ],
+        [
+          232.875,
+          185.938
+        ],
+        [
+          233.375,
+          186.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:259:668",
+      "row": 2,
+      "col": 6,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.4686475673347644,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          229.75,
+          184.188
+        ],
+        [
+          230.25,
+          184.188
+        ],
+        [
+          229.25,
+          184.188
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:420:786",
+      "row": 4,
+      "col": 8,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.6121524969450833,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          237.125,
+          194.25
+        ],
+        [
+          237.625,
+          194.25
+        ],
+        [
+          236.625,
+          194.25
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:136:380",
+      "row": 1,
+      "col": 3,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.6185430029976592,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          211.75,
+          176.5
+        ],
+        [
+          212.25,
+          176.5
+        ],
+        [
+          211.25,
+          176.5
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:567:779",
+      "row": 5,
+      "col": 8,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.7853981633974483,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          236.688,
+          203.438
+        ],
+        [
+          237.188,
+          203.438
+        ],
+        [
+          236.188,
+          203.438
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:558:651",
+      "row": 5,
+      "col": 6,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.9193588766941462,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          228.688,
+          202.875
+        ],
+        [
+          229.188,
+          202.875
+        ],
+        [
+          228.188,
+          202.875
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:477:563",
+      "row": 4,
+      "col": 5,
+      "batch": 13,
+      "ring": 13,
+      "angle": 0.960070362405688,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          223.188,
+          197.812
+        ],
+        [
+          223.688,
+          197.812
+        ],
+        [
+          222.688,
+          197.812
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:599:587",
+      "row": 6,
+      "col": 6,
+      "batch": 13,
+      "ring": 13,
+      "angle": 1.0402018378841287,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          224.688,
+          205.438
+        ],
+        [
+          224.188,
+          205.438
+        ],
+        [
+          224.688,
+          204.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:276:383",
+      "row": 2,
+      "col": 3,
+      "batch": 13,
+      "ring": 13,
+      "angle": 1.0908458144754283,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          211.938,
+          185.25
+        ],
+        [
+          212.438,
+          185.25
+        ],
+        [
+          211.438,
+          185.25
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:353:393",
+      "row": 3,
+      "col": 4,
+      "batch": 13,
+      "ring": 13,
+      "angle": 1.1740876639036828,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          212.562,
+          190.062
+        ],
+        [
+          213.062,
+          190.062
+        ],
+        [
+          212.062,
+          190.062
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:581:337",
+      "row": 6,
+      "col": 3,
+      "batch": 13,
+      "ring": 13,
+      "angle": 1.44174653106064,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          209.062,
+          204.312
+        ],
+        [
+          209.562,
+          204.312
+        ],
+        [
+          208.562,
+          204.312
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:591:236",
+      "row": 6,
+      "col": 2,
+      "batch": 13,
+      "ring": 13,
+      "angle": 1.6325155916094067,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          202.75,
+          204.938
+        ],
+        [
+          203.25,
+          204.938
+        ],
+        [
+          202.25,
+          204.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:575:159",
+      "row": 5,
+      "col": 1,
+      "batch": 13,
+      "ring": 13,
+      "angle": 1.7800431836144366,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          197.938,
+          203.938
+        ],
+        [
+          198.438,
+          203.938
+        ],
+        [
+          197.438,
+          203.938
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r13:90:147",
+      "row": 0,
+      "col": 1,
+      "batch": 13,
+      "ring": 13,
+      "angle": 2.877422489009135,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          197.188,
+          173.625
+        ],
+        [
+          197.688,
+          173.625
+        ],
+        [
+          196.688,
+          173.625
+        ]
+      ],
+      "state": "pending",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    }
+  ],
+  "trace": [],
+  "active_id": null,
+  "active_path": [],
+  "obstacles": [],
+  "assets": {
+    "atlas": "map_6_e71eb40ff950ed29.png",
+    "known": "map_6_e71eb40ff950ed29_known.png",
+    "digest": "e71eb40ff950ed2997f126a72a10c0c9a69d86619d02131ad42547b0d327bc0e"
+  },
+  "visited_runs": [],
+  "inspected_runs": []
+}

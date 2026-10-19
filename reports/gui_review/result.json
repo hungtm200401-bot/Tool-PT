@@ -1,0 +1,590 @@
+{
+  "passed": true,
+  "auto_next_map": false,
+  "samples": [
+    {
+      "elapsed": 1.27,
+      "phase": "idle",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 2.33,
+      "phase": "verifying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 3.34,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 4.36,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 5.38,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 6.39,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 7.41,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 8.42,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 9.45,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 10.47,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 11.5,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 12.52,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 13.53,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 14.55,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 15.56,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 16.58,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 17.59,
+      "phase": "surveying",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 18.69,
+      "phase": "pinning",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 19.7,
+      "phase": "pinning",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 20.72,
+      "phase": "pinning",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 21.75,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 22.77,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        205.01953125,
+        201.56640625
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 23.8,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        208.13671875,
+        200.775390625
+      ],
+      "doing": "stand",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 24.81,
+      "phase": "pinning",
+      "map_id": 1,
+      "position": [
+        208.13671875,
+        200.775390625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 25.83,
+      "phase": "pinning",
+      "map_id": 1,
+      "position": [
+        208.13671875,
+        200.775390625
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 26.84,
+      "phase": "pinning",
+      "map_id": 1,
+      "position": [
+        208.13671875,
+        200.775390625
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 27.88,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        208.13671875,
+        200.775390625
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 28.89,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        210.265625,
+        201.755859375
+      ],
+      "doing": "stand",
+      "position_age": 0.0
+    },
+    {
+      "elapsed": 29.91,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        210.265625,
+        201.755859375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 30.97,
+      "phase": "pinning",
+      "map_id": 1,
+      "position": [
+        210.265625,
+        201.755859375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 31.99,
+      "phase": "pinning",
+      "map_id": 1,
+      "position": [
+        210.265625,
+        201.755859375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 33.0,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        210.265625,
+        201.755859375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 34.02,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        210.265625,
+        201.755859375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 35.09,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        212.5703125,
+        203.025390625
+      ],
+      "doing": "run",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 36.09,
+      "phase": "walking",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 37.14,
+      "phase": "paused",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 38.14,
+      "phase": "paused",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 39.2,
+      "phase": "stopped",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 40.28,
+      "phase": "verifying",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 2.0
+    },
+    {
+      "elapsed": 41.28,
+      "phase": "stopped",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 42.28,
+      "phase": "stopped",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 1.0
+    },
+    {
+      "elapsed": 43.28,
+      "phase": "stopped",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 3.0
+    },
+    {
+      "elapsed": 44.3,
+      "phase": "stopped",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 3.0
+    },
+    {
+      "elapsed": 45.3,
+      "phase": "stopped",
+      "map_id": 1,
+      "position": [
+        212.08203125,
+        204.630859375
+      ],
+      "doing": "stand",
+      "position_age": 3.0
+    }
+  ],
+  "checks": {
+    "pause_acknowledged": true,
+    "pause_held_position": true,
+    "resume_same_target": true,
+    "resume_accepted": true,
+    "requested_arrivals": true,
+    "first_stop_verified": true,
+    "saved_progress_reloaded": true,
+    "final_stop_verified": true,
+    "no_movement_after_stop": true,
+    "same_map": true
+  },
+  "gui_errors": [],
+  "pause_displacement": 0.0,
+  "legs": [
+    {
+      "id": "d8a59632fcda4b4ba42e4fea48ca1f67",
+      "mission_id": "2216b0c27f7b4556af85993aa2301e15",
+      "map_id": 1,
+      "target_id": "r1:250:615",
+      "ring": 1,
+      "purpose": "quét vòng",
+      "from": [
+        205.01953125,
+        201.56640625
+      ],
+      "to": [
+        208.25,
+        200.75
+      ],
+      "tolerance": 1.0,
+      "state": "arrived"
+    },
+    {
+      "id": "9279408a632540179c385ed3c628cc2a",
+      "mission_id": "2216b0c27f7b4556af85993aa2301e15",
+      "map_id": 1,
+      "target_id": "r1:250:615",
+      "ring": 1,
+      "purpose": "quét vòng",
+      "from": [
+        208.13671875,
+        200.775390625
+      ],
+      "to": [
+        210.25,
+        201.75
+      ],
+      "tolerance": 1.0,
+      "state": "arrived"
+    },
+    {
+      "id": "4c4c6df3a7ee48e299bd646b3619ad0b",
+      "mission_id": "2216b0c27f7b4556af85993aa2301e15",
+      "map_id": 1,
+      "target_id": "r1:318:587",
+      "ring": 1,
+      "purpose": "quét vòng mép",
+      "from": [
+        210.265625,
+        201.755859375
+      ],
+      "to": [
+        208.75,
+        205.25
+      ],
+      "tolerance": 1.0,
+      "state": "repin"
+    }
+  ],
+  "saved_done_count": 2,
+  "reloaded_done_count": 2,
+  "elapsed_seconds": 45.3,
+  "final_phase": "stopped",
+  "metrics": {
+    "telemetry": {
+      "count": 60,
+      "window": 60,
+      "p50_ms": 219.0,
+      "p95_ms": 266.0
+    },
+    "input": {
+      "count": 19,
+      "window": 19,
+      "p50_ms": 172.0,
+      "p95_ms": 563.0
+    },
+    "screencap": {
+      "count": 12,
+      "window": 12,
+      "p50_ms": 765.0,
+      "p95_ms": 1110.0
+    },
+    "route_planning": {
+      "count": 3,
+      "window": 3,
+      "p50_ms": 0.0,
+      "p95_ms": 0.0
+    }
+  }
+}

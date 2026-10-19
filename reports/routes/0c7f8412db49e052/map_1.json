@@ -1,0 +1,8520 @@
+{
+  "version": 4,
+  "map_id": 1,
+  "bounds": [
+    2752,
+    2976,
+    768,
+    448
+  ],
+  "strategy": "corners_first",
+  "anchor": [
+    204.4375,
+    201.625
+  ],
+  "cell_size": 96,
+  "ring_spacing_pixels": 96,
+  "inspection_radius": 0.0,
+  "inspection_calibrated": false,
+  "observed_fraction": 0.9979742140997023,
+  "targets": [
+    {
+      "id": "r0:250:519",
+      "row": 2,
+      "col": 5,
+      "batch": 0,
+      "ring": 0,
+      "angle": 0.0,
+      "purpose": "mốc gốc",
+      "options": [
+        [
+          204.438,
+          201.625
+        ],
+        [
+          204.438,
+          202.125
+        ],
+        [
+          204.438,
+          201.125
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:240:528",
+      "row": 2,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.4452040821711964,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          205.0,
+          201.0
+        ],
+        [
+          205.5,
+          201.0
+        ],
+        [
+          204.5,
+          201.0
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 1,
+      "destination": [
+        205.0,
+        201.0
+      ]
+    },
+    {
+      "id": "r1:262:577",
+      "row": 2,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.20401797959254858,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          208.062,
+          202.375
+        ],
+        [
+          208.562,
+          202.375
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 1,
+      "attempts": 1,
+      "total_attempts": 5,
+      "destination": [
+        208.062,
+        202.375
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:320:587",
+      "row": 3,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.7998899024629483,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          208.688,
+          206.0
+        ],
+        [
+          209.188,
+          206.0
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 2,
+      "attempts": 0,
+      "total_attempts": 1,
+      "destination": [
+        208.688,
+        206.0
+      ]
+    },
+    {
+      "id": "r1:318:620",
+      "row": 3,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.5925583806847976,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          210.75,
+          205.875
+        ],
+        [
+          210.75,
+          205.375
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 3,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:319:659",
+      "row": 3,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.4579170127062613,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          213.188,
+          205.938
+        ],
+        [
+          212.688,
+          205.938
+        ],
+        [
+          213.188,
+          205.438
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 4,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:302:695",
+      "row": 3,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.2872814533971342,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          215.438,
+          204.875
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 5,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        215.438,
+        204.875
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:288:723",
+      "row": 3,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.1841638179262923,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          217.188,
+          204.0
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 6,
+      "attempts": 0,
+      "total_attempts": 1,
+      "destination": [
+        217.188,
+        204.0
+      ]
+    },
+    {
+      "id": "r1:257:669",
+      "row": 2,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.0466328343200658,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          213.812,
+          202.062
+        ],
+        [
+          213.312,
+          202.062
+        ],
+        [
+          213.812,
+          202.562
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 7,
+      "attempts": 0,
+      "total_attempts": 1,
+      "destination": [
+        213.812,
+        202.062
+      ]
+    },
+    {
+      "id": "r1:244:659",
+      "row": 2,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 6.240354374510859,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          213.188,
+          201.25
+        ],
+        [
+          213.188,
+          201.75
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 8,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        213.188,
+        201.25
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:220:610",
+      "row": 2,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.964735070833431,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          210.125,
+          199.75
+        ],
+        [
+          210.125,
+          200.25
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 9,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:211:556",
+      "row": 2,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.471477426529216,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          206.75,
+          199.188
+        ],
+        [
+          206.25,
+          199.188
+        ],
+        [
+          206.75,
+          199.688
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 10,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:188:602",
+      "row": 1,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.641614697918587,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          209.625,
+          197.75
+        ],
+        [
+          209.625,
+          197.25
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 11,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        209.625,
+        197.75
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:173:648",
+      "row": 1,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.7450489079648985,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          212.5,
+          196.812
+        ],
+        [
+          212.5,
+          196.312
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 12,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        212.5,
+        196.812
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:155:690",
+      "row": 1,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.776086802787249,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          215.125,
+          195.688
+        ],
+        [
+          214.625,
+          195.688
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 13,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        215.125,
+        195.688
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:142:651",
+      "row": 1,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.5974557962733,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          212.688,
+          194.875
+        ],
+        [
+          212.688,
+          195.375
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 14,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        212.688,
+        194.875
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:163:616",
+      "row": 1,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.552081555690444,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          210.5,
+          196.188
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 15,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        210.5,
+        196.188
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:94:596",
+      "row": 0,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 5.170895246512236,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          209.25,
+          191.875
+        ],
+        [
+          209.25,
+          192.375
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 16,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        209.25,
+        191.875
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:116:552",
+      "row": 1,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 4.9538527194983155,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          206.5,
+          193.25
+        ],
+        [
+          207.0,
+          193.25
+        ],
+        [
+          206.0,
+          193.25
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 17,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        206.5,
+        193.25
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:141:513",
+      "row": 1,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 4.6573986051765415,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          204.062,
+          194.812
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 18,
+      "attempts": 0,
+      "total_attempts": 1,
+      "destination": [
+        204.062,
+        194.812
+      ]
+    },
+    {
+      "id": "r1:141:475",
+      "row": 1,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 4.328723056124083,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          201.688,
+          194.812
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 19,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        201.688,
+        194.812
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:123:489",
+      "row": 1,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 4.480420735529042,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          202.562,
+          193.688
+        ],
+        [
+          202.062,
+          193.688
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 20,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        202.562,
+        193.688
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:98:442",
+      "row": 1,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 4.243492075767357,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          199.625,
+          192.125
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 21,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        199.625,
+        192.125
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:115:404",
+      "row": 1,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 4.006820802699479,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          197.25,
+          193.188
+        ],
+        [
+          197.75,
+          193.188
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 22,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        197.25,
+        193.188
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:132:363",
+      "row": 1,
+      "col": 3,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.789183719127774,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          194.688,
+          194.25
+        ],
+        [
+          195.188,
+          194.25
+        ],
+        [
+          194.188,
+          194.25
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 23,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        194.688,
+        194.25
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:99:369",
+      "row": 1,
+      "col": 3,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.930313063900494,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          195.062,
+          192.188
+        ],
+        [
+          195.062,
+          192.688
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 24,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        195.062,
+        192.188
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:67:327",
+      "row": 0,
+      "col": 3,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.9029954233953714,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          192.438,
+          190.188
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 25,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        192.438,
+        190.188
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:40:282",
+      "row": 0,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.866661431447548,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          189.625,
+          188.5
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 26,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        189.625,
+        188.5
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:72:223",
+      "row": 0,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.6830052021933315,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          185.938,
+          190.5
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 27,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        185.938,
+        190.5
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:102:163",
+      "row": 1,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.5355856888620307,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          182.188,
+          192.375
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 28,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        182.188,
+        192.375
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:133:108",
+      "row": 1,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.4189279927395244,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          178.75,
+          194.312
+        ],
+        [
+          179.25,
+          194.312
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 29,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        178.75,
+        194.312
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:157:148",
+      "row": 1,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.3872054320406684,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          181.25,
+          195.812
+        ],
+        [
+          181.75,
+          195.812
+        ],
+        [
+          181.25,
+          195.312
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 30,
+      "attempts": 1,
+      "total_attempts": 4,
+      "destination": [
+        181.25,
+        195.812
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:178:183",
+      "row": 1,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.3526859868125394,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          183.438,
+          197.125
+        ],
+        [
+          183.438,
+          196.625
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 31,
+      "attempts": 1,
+      "total_attempts": 3,
+      "destination": [
+        183.438,
+        197.125
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:151:191",
+      "row": 1,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.4347268297765727,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          183.938,
+          195.438
+        ],
+        [
+          183.438,
+          195.438
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 32,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        183.938,
+        195.438
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:125:244",
+      "row": 1,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.568220146716669,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          187.25,
+          193.812
+        ],
+        [
+          186.75,
+          193.812
+        ],
+        [
+          187.25,
+          193.312
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 33,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        187.25,
+        193.812
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:148:273",
+      "row": 1,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.5346506727717255,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          189.062,
+          195.25
+        ],
+        [
+          189.562,
+          195.25
+        ],
+        [
+          189.062,
+          194.75
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 34,
+      "attempts": 0,
+      "total_attempts": 1,
+      "destination": [
+        189.062,
+        195.25
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:177:300",
+      "row": 1,
+      "col": 3,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.4633432079864352,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          190.75,
+          197.062
+        ],
+        [
+          191.25,
+          197.062
+        ],
+        [
+          190.75,
+          197.562
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 35,
+      "attempts": 0,
+      "total_attempts": 1,
+      "destination": [
+        190.75,
+        197.062
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:204:248",
+      "row": 2,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.3097317527123273,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          187.5,
+          198.75
+        ],
+        [
+          188.0,
+          198.75
+        ],
+        [
+          187.5,
+          199.25
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 36,
+      "attempts": 0,
+      "total_attempts": 1,
+      "destination": [
+        187.5,
+        198.75
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:233:195",
+      "row": 2,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.194013719414042,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          184.188,
+          200.562
+        ],
+        [
+          184.688,
+          200.562
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 37,
+      "attempts": 0,
+      "total_attempts": 1,
+      "destination": [
+        184.188,
+        200.562
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:260:138",
+      "row": 2,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.1153519589761873,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          180.625,
+          202.25
+        ],
+        [
+          181.125,
+          202.25
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 38,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        180.625,
+        202.25
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:286:86",
+      "row": 2,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.0586425531974957,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          177.375,
+          203.875
+        ],
+        [
+          177.875,
+          203.875
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 39,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        177.375,
+        203.875
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:314:35",
+      "row": 3,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 3.010123957902924,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          174.188,
+          205.625
+        ],
+        [
+          174.688,
+          205.625
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 40,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        174.188,
+        205.625
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:329:81",
+      "row": 3,
+      "col": 0,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.963145905280926,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          177.062,
+          206.562
+        ],
+        [
+          177.562,
+          206.562
+        ],
+        [
+          176.562,
+          206.562
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 41,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        177.062,
+        206.562
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:348:129",
+      "row": 3,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.895407718430397,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          180.062,
+          207.75
+        ],
+        [
+          180.062,
+          207.25
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 42,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        180.062,
+        207.75
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:357:177",
+      "row": 3,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.838374840329505,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          183.062,
+          208.312
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 43,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        183.062,
+        208.312
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:347:176",
+      "row": 3,
+      "col": 1,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.865990483224998,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          183.0,
+          207.688
+        ],
+        [
+          182.5,
+          207.688
+        ],
+        [
+          183.0,
+          208.188
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 44,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        183.0,
+        207.688
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:337:208",
+      "row": 3,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.8688225001168783,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          185.0,
+          207.062
+        ],
+        [
+          185.5,
+          207.062
+        ],
+        [
+          185.0,
+          206.562
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 45,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        185.0,
+        207.062
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:388:198",
+      "row": 4,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.735573472066461,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          184.375,
+          210.25
+        ],
+        [
+          184.875,
+          210.25
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 46,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        184.375,
+        210.25
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:408:239",
+      "row": 4,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.6278477213880826,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          186.938,
+          211.5
+        ],
+        [
+          186.938,
+          211.0
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 47,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        186.938,
+        211.5
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:428:279",
+      "row": 4,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.5034462459604905,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          189.438,
+          212.75
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 48,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        189.438,
+        212.75
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:394:301",
+      "row": 4,
+      "col": 3,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.557836309022074,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          190.812,
+          210.625
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 49,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        190.812,
+        210.625
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:392:281",
+      "row": 4,
+      "col": 2,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.6036483957888232,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          189.562,
+          210.5
+        ],
+        [
+          189.062,
+          210.5
+        ],
+        [
+          189.562,
+          210.0
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 51,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        189.562,
+        210.5
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:373:346",
+      "row": 3,
+      "col": 3,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.5235337446068775,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          193.625,
+          209.312
+        ],
+        [
+          193.125,
+          209.312
+        ],
+        [
+          193.625,
+          208.812
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 52,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        193.625,
+        209.312
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:358:403",
+      "row": 3,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.391893602871669,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          197.188,
+          208.375
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 53,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        197.188,
+        208.375
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:382:457",
+      "row": 3,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.009908982732967,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          200.562,
+          209.875
+        ],
+        [
+          200.562,
+          209.375
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 54,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        200.562,
+        209.875
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:351:512",
+      "row": 3,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.6399926054134792,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          204.0,
+          207.938
+        ],
+        [
+          203.5,
+          207.938
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 55,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        204.0,
+        207.938
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:374:533",
+      "row": 3,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.4583691959647065,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          205.312,
+          209.375
+        ],
+        [
+          205.812,
+          209.375
+        ],
+        [
+          205.312,
+          208.875
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 56,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        205.312,
+        209.375
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:404:583",
+      "row": 4,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.1769277160585352,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          208.438,
+          211.25
+        ],
+        [
+          208.938,
+          211.25
+        ],
+        [
+          208.438,
+          210.75
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 57,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        208.438,
+        211.25
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:421:623",
+      "row": 4,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.0243786122571388,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          210.938,
+          212.312
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 58,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        210.938,
+        212.312
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:368:611",
+      "row": 3,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.9085808255387245,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          210.188,
+          209.0
+        ],
+        [
+          209.688,
+          209.0
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 59,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        210.188,
+        209.0
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:346:660",
+      "row": 3,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.5977583915930821,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          213.25,
+          207.625
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 60,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        213.25,
+        207.625
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:327:708",
+      "row": 3,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.3868757177310281,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          216.25,
+          206.438
+        ],
+        [
+          215.75,
+          206.438
+        ],
+        [
+          216.25,
+          205.938
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 61,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        216.25,
+        206.438
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:307:732",
+      "row": 3,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.26147881571224924,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          217.75,
+          205.188
+        ],
+        [
+          217.25,
+          205.188
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 62,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        217.75,
+        205.188
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:337:676",
+      "row": 3,
+      "col": 7,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.5060162537326207,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          214.25,
+          207.062
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 63,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        214.25,
+        207.062
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:359:605",
+      "row": 3,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.902804438452409,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          209.812,
+          208.438
+        ],
+        [
+          209.312,
+          208.438
+        ],
+        [
+          209.812,
+          208.938
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 64,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        209.812,
+        208.438
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:337:625",
+      "row": 3,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.6872687605885387,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          211.062,
+          207.062
+        ],
+        [
+          210.562,
+          207.062
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 65,
+      "attempts": 1,
+      "total_attempts": 2,
+      "destination": [
+        211.062,
+        207.062
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:337:589",
+      "row": 3,
+      "col": 6,
+      "batch": 1,
+      "ring": 1,
+      "angle": 0.893258189069532,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          208.812,
+          207.062
+        ],
+        [
+          208.312,
+          207.062
+        ],
+        [
+          208.812,
+          207.562
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 66,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:336:554",
+      "row": 3,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.1842900216809766,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          206.625,
+          207.0
+        ],
+        [
+          206.125,
+          207.0
+        ],
+        [
+          206.625,
+          207.5
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 67,
+      "attempts": 1,
+      "total_attempts": 1,
+      "destination": [
+        206.625,
+        207.0
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:323:544",
+      "row": 3,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.2408492346483417,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          206.0,
+          206.188
+        ],
+        [
+          206.0,
+          206.688
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 68,
+      "attempts": 1,
+      "total_attempts": 1,
+      "destination": [
+        206.0,
+        206.188
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:351:484",
+      "row": 3,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.9043806482946897,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          202.25,
+          207.938
+        ]
+      ],
+      "state": "deferred",
+      "is_perimeter": true,
+      "sequence": 69,
+      "attempts": 1,
+      "total_attempts": 1,
+      "destination": [
+        202.25,
+        207.938
+      ],
+      "reason": "Đứng yên khi gặp vật cản; chuyển sang mốc khác ngay."
+    },
+    {
+      "id": "r1:317:465",
+      "row": 3,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.2491670171429705,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          201.062,
+          205.812
+        ],
+        [
+          200.562,
+          205.812
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 70,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:299:483",
+      "row": 3,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.204429334864642,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          202.188,
+          204.688
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 71,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:286:414",
+      "row": 2,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.8112952987605397,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          197.875,
+          203.875
+        ],
+        [
+          197.375,
+          203.875
+        ],
+        [
+          197.875,
+          204.375
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 72,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:282:470",
+      "row": 2,
+      "col": 4,
+      "batch": 1,
+      "ring": 1,
+      "angle": 2.563068439172088,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          201.375,
+          203.625
+        ],
+        [
+          201.375,
+          203.125
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 73,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r1:282:516",
+      "row": 2,
+      "col": 5,
+      "batch": 1,
+      "ring": 1,
+      "angle": 1.664273107953486,
+      "purpose": "quét góc & viền mép",
+      "options": [
+        [
+          204.25,
+          203.625
+        ],
+        [
+          203.75,
+          203.625
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": true,
+      "sequence": 74,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r3:290:331",
+      "row": 3,
+      "col": 3,
+      "batch": 3,
+      "ring": 3,
+      "angle": 2.9319528077155805,
+      "purpose": "quét vòng bên trong",
+      "options": [
+        [
+          192.688,
+          204.125
+        ],
+        [
+          193.188,
+          204.125
+        ],
+        [
+          192.188,
+          204.125
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r9:287:267",
+      "row": 2,
+      "col": 2,
+      "batch": 9,
+      "ring": 9,
+      "angle": 2.9958088889626255,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          188.688,
+          203.938
+        ],
+        [
+          189.188,
+          203.938
+        ],
+        [
+          188.188,
+          203.938
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r9:218:351",
+      "row": 2,
+      "col": 3,
+      "batch": 9,
+      "ring": 9,
+      "angle": 3.3298141588945636,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          193.938,
+          199.625
+        ],
+        [
+          194.438,
+          199.625
+        ],
+        [
+          193.438,
+          199.625
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r9:182:404",
+      "row": 1,
+      "col": 4,
+      "batch": 9,
+      "ring": 9,
+      "angle": 3.6755937567613923,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          197.25,
+          197.375
+        ],
+        [
+          196.75,
+          197.375
+        ],
+        [
+          197.25,
+          197.875
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    },
+    {
+      "id": "r9:213:464",
+      "row": 2,
+      "col": 4,
+      "batch": 9,
+      "ring": 9,
+      "angle": 3.7337793331394353,
+      "purpose": "khép diện tích bên trong còn thiếu",
+      "options": [
+        [
+          201.0,
+          199.312
+        ],
+        [
+          201.5,
+          199.312
+        ],
+        [
+          200.5,
+          199.312
+        ]
+      ],
+      "state": "done",
+      "is_perimeter": false,
+      "sequence": 0,
+      "attempts": 0,
+      "total_attempts": 0
+    }
+  ],
+  "trace": [
+    [
+      205.02,
+      201.566
+    ],
+    [
+      208.137,
+      200.775
+    ],
+    [
+      210.266,
+      201.756
+    ],
+    [
+      212.57,
+      203.025
+    ],
+    null,
+    [
+      212.082,
+      204.631
+    ],
+    null,
+    [
+      211.418,
+      205.543
+    ],
+    [
+      212.074,
+      204.395
+    ],
+    [
+      211.105,
+      202.338
+    ],
+    [
+      208.715,
+      200.805
+    ],
+    [
+      205.359,
+      200.805
+    ],
+    [
+      204.746,
+      200.805
+    ],
+    [
+      206.887,
+      200.326
+    ],
+    [
+      209.109,
+      199.861
+    ],
+    [
+      209.723,
+      199.877
+    ],
+    [
+      210.012,
+      199.992
+    ],
+    [
+      208.219,
+      200.357
+    ],
+    [
+      208.957,
+      200.715
+    ],
+    [
+      207.676,
+      201.271
+    ],
+    null,
+    [
+      208.82,
+      201.082
+    ],
+    [
+      210.781,
+      202.061
+    ],
+    [
+      212.551,
+      204.162
+    ],
+    [
+      208.715,
+      206.145
+    ],
+    [
+      208.109,
+      206.207
+    ],
+    null,
+    [
+      212.652,
+      205.188
+    ],
+    [
+      211.746,
+      204.709
+    ],
+    [
+      212.801,
+      203.875
+    ],
+    [
+      213.859,
+      203.637
+    ],
+    [
+      214.586,
+      203.479
+    ],
+    [
+      215.508,
+      203.322
+    ],
+    [
+      216.215,
+      203.498
+    ],
+    [
+      216.754,
+      203.758
+    ],
+    [
+      217.098,
+      203.926
+    ],
+    [
+      217.289,
+      204.043
+    ],
+    [
+      215.398,
+      203.865
+    ],
+    [
+      214.273,
+      203.865
+    ],
+    [
+      213.488,
+      203.668
+    ],
+    [
+      212.922,
+      203.398
+    ],
+    [
+      212.582,
+      203.211
+    ],
+    [
+      212.273,
+      203.045
+    ],
+    [
+      211.855,
+      202.584
+    ],
+    [
+      215.137,
+      203.006
+    ],
+    [
+      214.043,
+      203.234
+    ],
+    [
+      212.82,
+      203.305
+    ],
+    [
+      211.938,
+      202.891
+    ],
+    [
+      211.207,
+      202.533
+    ],
+    [
+      210.445,
+      202.154
+    ],
+    [
+      209.52,
+      201.686
+    ],
+    [
+      208.711,
+      201.293
+    ],
+    [
+      207.949,
+      200.979
+    ],
+    [
+      206.926,
+      200.945
+    ],
+    [
+      206.098,
+      200.779
+    ],
+    [
+      205.242,
+      200.367
+    ],
+    [
+      205.586,
+      202.098
+    ],
+    [
+      205.441,
+      201.723
+    ],
+    [
+      205.336,
+      201.105
+    ],
+    [
+      204.172,
+      201.084
+    ],
+    [
+      202.984,
+      200.961
+    ],
+    [
+      201.906,
+      200.746
+    ],
+    [
+      201.066,
+      200.371
+    ],
+    [
+      200.227,
+      199.963
+    ],
+    [
+      200.379,
+      198.928
+    ],
+    [
+      199.645,
+      198.574
+    ],
+    [
+      198.02,
+      199.432
+    ],
+    [
+      196.828,
+      199.432
+    ],
+    [
+      195.605,
+      199.389
+    ],
+    [
+      194.746,
+      198.977
+    ],
+    [
+      197.93,
+      198.805
+    ],
+    [
+      196.812,
+      198.639
+    ],
+    [
+      195.641,
+      198.629
+    ],
+    [
+      194.559,
+      198.412
+    ],
+    [
+      193.891,
+      198.553
+    ],
+    [
+      192.844,
+      198.291
+    ],
+    [
+      194.238,
+      199.896
+    ],
+    [
+      193.609,
+      199.918
+    ],
+    [
+      194.113,
+      198.961
+    ],
+    [
+      193.449,
+      198.639
+    ],
+    [
+      192.512,
+      198.186
+    ],
+    [
+      194.156,
+      199.004
+    ],
+    [
+      193.391,
+      198.631
+    ],
+    [
+      192.883,
+      198.365
+    ],
+    [
+      193.395,
+      196.885
+    ],
+    [
+      192.305,
+      196.799
+    ],
+    null,
+    [
+      194.023,
+      195.893
+    ],
+    null,
+    [
+      195.895,
+      196.156
+    ],
+    null,
+    [
+      197.031,
+      196.639
+    ],
+    null,
+    [
+      198.828,
+      196.654
+    ],
+    null,
+    [
+      200.484,
+      196.846
+    ],
+    null,
+    [
+      202.016,
+      197.258
+    ],
+    [
+      202.82,
+      197.287
+    ],
+    [
+      203.516,
+      197.021
+    ],
+    null,
+    [
+      203.59,
+      196.205
+    ],
+    null,
+    [
+      204.48,
+      195.41
+    ],
+    null,
+    [
+      203.316,
+      196.0
+    ],
+    [
+      202.504,
+      196.408
+    ],
+    [
+      203.211,
+      196.035
+    ],
+    null,
+    [
+      202.48,
+      196.844
+    ],
+    null,
+    [
+      202.203,
+      197.584
+    ],
+    [
+      202.555,
+      198.723
+    ],
+    null,
+    [
+      201.449,
+      198.963
+    ],
+    [
+      202.398,
+      200.135
+    ],
+    null,
+    [
+      201.664,
+      200.867
+    ],
+    [
+      200.023,
+      201.178
+    ],
+    null,
+    [
+      198.379,
+      201.1
+    ],
+    null,
+    [
+      197.496,
+      200.551
+    ],
+    null,
+    [
+      196.086,
+      199.908
+    ],
+    null,
+    [
+      194.688,
+      199.264
+    ],
+    [
+      194.121,
+      198.996
+    ],
+    null,
+    [
+      193.109,
+      198.227
+    ],
+    [
+      192.652,
+      197.85
+    ],
+    [
+      192.363,
+      198.014
+    ],
+    [
+      193.543,
+      198.656
+    ],
+    [
+      194.125,
+      199.506
+    ],
+    null,
+    [
+      193.074,
+      200.326
+    ],
+    [
+      191.438,
+      200.588
+    ],
+    [
+      190.633,
+      200.273
+    ],
+    [
+      190.445,
+      200.186
+    ],
+    null,
+    [
+      189.742,
+      199.809
+    ],
+    null,
+    [
+      190.324,
+      200.137
+    ],
+    null,
+    [
+      189.594,
+      199.742
+    ],
+    null,
+    [
+      190.957,
+      200.398
+    ],
+    [
+      191.844,
+      200.852
+    ],
+    [
+      192.941,
+      201.086
+    ],
+    null,
+    [
+      192.266,
+      201.17
+    ],
+    null,
+    [
+      191.586,
+      201.352
+    ],
+    null,
+    [
+      191.98,
+      201.773
+    ],
+    [
+      192.168,
+      201.561
+    ],
+    null,
+    [
+      193.309,
+      201.516
+    ],
+    null,
+    [
+      194.414,
+      202.121
+    ],
+    [
+      194.945,
+      202.227
+    ],
+    [
+      196.59,
+      202.592
+    ],
+    null,
+    [
+      199.023,
+      202.59
+    ],
+    [
+      199.809,
+      202.973
+    ],
+    [
+      200.527,
+      203.301
+    ],
+    null,
+    [
+      202.035,
+      202.887
+    ],
+    [
+      202.676,
+      203.184
+    ],
+    [
+      202.047,
+      202.879
+    ],
+    [
+      202.797,
+      203.23
+    ],
+    null,
+    [
+      200.102,
+      203.662
+    ],
+    null,
+    [
+      201.75,
+      202.928
+    ],
+    null,
+    [
+      199.262,
+      203.217
+    ],
+    [
+      197.93,
+      202.311
+    ],
+    [
+      198.277,
+      203.008
+    ],
+    [
+      198.566,
+      202.369
+    ],
+    [
+      198.387,
+      202.229
+    ],
+    [
+      198.57,
+      202.316
+    ],
+    [
+      198.457,
+      202.752
+    ],
+    [
+      198.496,
+      202.283
+    ],
+    null,
+    [
+      199.816,
+      202.971
+    ],
+    null,
+    [
+      198.555,
+      202.344
+    ],
+    [
+      198.141,
+      202.199
+    ],
+    null,
+    [
+      198.914,
+      202.523
+    ],
+    null,
+    [
+      197.648,
+      202.332
+    ],
+    null,
+    [
+      199.438,
+      202.785
+    ],
+    null,
+    [
+      198.562,
+      202.303
+    ],
+    [
+      198.07,
+      203.219
+    ],
+    null,
+    [
+      195.938,
+      202.852
+    ],
+    [
+      195.391,
+      202.711
+    ],
+    [
+      194.125,
+      203.844
+    ],
+    [
+      191.594,
+      203.898
+    ],
+    null,
+    [
+      193.414,
+      203.477
+    ],
+    [
+      191.426,
+      202.801
+    ],
+    [
+      189.102,
+      202.266
+    ],
+    [
+      188.5,
+      202.143
+    ],
+    [
+      186.371,
+      201.287
+    ],
+    [
+      186.23,
+      201.014
+    ],
+    [
+      188.242,
+      200.531
+    ],
+    [
+      187.523,
+      199.725
+    ],
+    null,
+    [
+      188.906,
+      200.396
+    ],
+    [
+      190.852,
+      201.682
+    ],
+    [
+      190.316,
+      201.762
+    ],
+    [
+      190.664,
+      202.051
+    ],
+    null,
+    [
+      191.793,
+      201.525
+    ],
+    null,
+    [
+      191.504,
+      200.094
+    ],
+    [
+      191.832,
+      199.332
+    ],
+    null,
+    [
+      191.223,
+      197.723
+    ],
+    [
+      190.504,
+      197.168
+    ],
+    [
+      189.508,
+      197.658
+    ],
+    [
+      189.879,
+      198.377
+    ],
+    null,
+    [
+      190.004,
+      199.938
+    ],
+    [
+      189.18,
+      199.545
+    ],
+    null,
+    [
+      190.254,
+      199.793
+    ]
+  ],
+  "active_id": null,
+  "active_path": [],
+  "obstacles": [
+    {
+      "cell": [
+        28,
+        35
+      ],
+      "expires": 1792391483.6309824,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        31,
+        38
+      ],
+      "expires": 1792391486.2045188,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        30,
+        37
+      ],
+      "expires": 1792391491.6171227,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        30,
+        36
+      ],
+      "expires": 1792391492.3717434,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        31,
+        37
+      ],
+      "expires": 1792391495.206103,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        29,
+        39
+      ],
+      "expires": 1792391496.807277,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        26,
+        39
+      ],
+      "expires": 1792391499.4672344,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        27,
+        38
+      ],
+      "expires": 1792391500.2779858,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        28,
+        37
+      ],
+      "expires": 1792391500.7679949,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        23,
+        37
+      ],
+      "expires": 1792391504.6479456,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        22,
+        35
+      ],
+      "expires": 1792391507.2569368,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        23,
+        36
+      ],
+      "expires": 1792391509.8414106,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        25,
+        36
+      ],
+      "expires": 1792391512.4748385,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        27,
+        37
+      ],
+      "expires": 1792391515.0367534,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        27,
+        35
+      ],
+      "expires": 1792391517.6636026,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        28,
+        34
+      ],
+      "expires": 1792391518.1934762,
+      "reason": "verified stall; temporary avoidance"
+    }
+  ],
+  "assets": {
+    "atlas": "map_1_fcab11b2fcfb57ce.png",
+    "known": "map_1_fcab11b2fcfb57ce_known.png",
+    "digest": "fcab11b2fcfb57ce24692e27d37b600cc257cd1425accc409b90826284ff7f62"
+  },
+  "visited_runs": [
+    [
+      147,
+      520,
+      521
+    ],
+    [
+      148,
+      518,
+      523
+    ],
+    [
+      149,
+      517,
+      524
+    ],
+    [
+      150,
+      517,
+      524
+    ],
+    [
+      151,
+      516,
+      525
+    ],
+    [
+      152,
+      517,
+      524
+    ],
+    [
+      153,
+      517,
+      524
+    ],
+    [
+      154,
+      352,
+      353
+    ],
+    [
+      154,
+      518,
+      523
+    ],
+    [
+      155,
+      350,
+      355
+    ],
+    [
+      155,
+      520,
+      521
+    ],
+    [
+      156,
+      349,
+      356
+    ],
+    [
+      156,
+      499,
+      500
+    ],
+    [
+      156,
+      501,
+      502
+    ],
+    [
+      157,
+      349,
+      356
+    ],
+    [
+      157,
+      497,
+      504
+    ],
+    [
+      158,
+      348,
+      357
+    ],
+    [
+      158,
+      382,
+      383
+    ],
+    [
+      158,
+      495,
+      505
+    ],
+    [
+      159,
+      349,
+      356
+    ],
+    [
+      159,
+      380,
+      385
+    ],
+    [
+      159,
+      493,
+      506
+    ],
+    [
+      160,
+      349,
+      356
+    ],
+    [
+      160,
+      379,
+      386
+    ],
+    [
+      160,
+      492,
+      508
+    ],
+    [
+      161,
+      350,
+      355
+    ],
+    [
+      161,
+      379,
+      386
+    ],
+    [
+      161,
+      490,
+      509
+    ],
+    [
+      162,
+      352,
+      353
+    ],
+    [
+      162,
+      378,
+      387
+    ],
+    [
+      162,
+      488,
+      509
+    ],
+    [
+      163,
+      379,
+      386
+    ],
+    [
+      163,
+      486,
+      510
+    ],
+    [
+      164,
+      379,
+      386
+    ],
+    [
+      164,
+      486,
+      509
+    ],
+    [
+      165,
+      380,
+      385
+    ],
+    [
+      165,
+      485,
+      509
+    ],
+    [
+      166,
+      382,
+      383
+    ],
+    [
+      166,
+      400,
+      401
+    ],
+    [
+      166,
+      429,
+      430
+    ],
+    [
+      166,
+      485,
+      500
+    ],
+    [
+      166,
+      503,
+      508
+    ],
+    [
+      167,
+      398,
+      403
+    ],
+    [
+      167,
+      427,
+      432
+    ],
+    [
+      167,
+      484,
+      498
+    ],
+    [
+      167,
+      505,
+      506
+    ],
+    [
+      168,
+      397,
+      404
+    ],
+    [
+      168,
+      426,
+      433
+    ],
+    [
+      168,
+      485,
+      496
+    ],
+    [
+      169,
+      325,
+      334
+    ],
+    [
+      169,
+      397,
+      404
+    ],
+    [
+      169,
+      426,
+      433
+    ],
+    [
+      169,
+      485,
+      495
+    ],
+    [
+      170,
+      323,
+      343
+    ],
+    [
+      170,
+      396,
+      405
+    ],
+    [
+      170,
+      425,
+      434
+    ],
+    [
+      170,
+      456,
+      457
+    ],
+    [
+      170,
+      486,
+      493
+    ],
+    [
+      171,
+      322,
+      345
+    ],
+    [
+      171,
+      397,
+      404
+    ],
+    [
+      171,
+      426,
+      433
+    ],
+    [
+      171,
+      454,
+      459
+    ],
+    [
+      171,
+      486,
+      491
+    ],
+    [
+      172,
+      322,
+      346
+    ],
+    [
+      172,
+      397,
+      404
+    ],
+    [
+      172,
+      426,
+      433
+    ],
+    [
+      172,
+      453,
+      460
+    ],
+    [
+      172,
+      485,
+      492
+    ],
+    [
+      172,
+      502,
+      503
+    ],
+    [
+      172,
+      504,
+      505
+    ],
+    [
+      173,
+      321,
+      346
+    ],
+    [
+      173,
+      398,
+      403
+    ],
+    [
+      173,
+      427,
+      432
+    ],
+    [
+      173,
+      453,
+      460
+    ],
+    [
+      173,
+      485,
+      492
+    ],
+    [
+      173,
+      500,
+      507
+    ],
+    [
+      174,
+      322,
+      347
+    ],
+    [
+      174,
+      400,
+      401
+    ],
+    [
+      174,
+      429,
+      430
+    ],
+    [
+      174,
+      452,
+      461
+    ],
+    [
+      174,
+      484,
+      493
+    ],
+    [
+      174,
+      498,
+      508
+    ],
+    [
+      175,
+      294,
+      295
+    ],
+    [
+      175,
+      296,
+      297
+    ],
+    [
+      175,
+      322,
+      347
+    ],
+    [
+      175,
+      453,
+      460
+    ],
+    [
+      175,
+      485,
+      492
+    ],
+    [
+      175,
+      496,
+      508
+    ],
+    [
+      176,
+      292,
+      299
+    ],
+    [
+      176,
+      323,
+      346
+    ],
+    [
+      176,
+      453,
+      460
+    ],
+    [
+      176,
+      480,
+      492
+    ],
+    [
+      176,
+      493,
+      509
+    ],
+    [
+      177,
+      290,
+      301
+    ],
+    [
+      177,
+      325,
+      346
+    ],
+    [
+      177,
+      454,
+      459
+    ],
+    [
+      177,
+      478,
+      508
+    ],
+    [
+      178,
+      288,
+      302
+    ],
+    [
+      178,
+      334,
+      346
+    ],
+    [
+      178,
+      456,
+      457
+    ],
+    [
+      178,
+      477,
+      508
+    ],
+    [
+      179,
+      286,
+      303
+    ],
+    [
+      179,
+      336,
+      345
+    ],
+    [
+      179,
+      477,
+      507
+    ],
+    [
+      180,
+      284,
+      305
+    ],
+    [
+      180,
+      336,
+      345
+    ],
+    [
+      180,
+      476,
+      507
+    ],
+    [
+      181,
+      282,
+      306
+    ],
+    [
+      181,
+      336,
+      345
+    ],
+    [
+      181,
+      477,
+      505
+    ],
+    [
+      182,
+      280,
+      307
+    ],
+    [
+      182,
+      335,
+      344
+    ],
+    [
+      182,
+      477,
+      502
+    ],
+    [
+      183,
+      278,
+      309
+    ],
+    [
+      183,
+      335,
+      344
+    ],
+    [
+      183,
+      478,
+      500
+    ],
+    [
+      184,
+      278,
+      310
+    ],
+    [
+      184,
+      335,
+      344
+    ],
+    [
+      184,
+      480,
+      498
+    ],
+    [
+      185,
+      277,
+      295
+    ],
+    [
+      185,
+      298,
+      311
+    ],
+    [
+      185,
+      334,
+      343
+    ],
+    [
+      185,
+      479,
+      494
+    ],
+    [
+      185,
+      495,
+      496
+    ],
+    [
+      186,
+      277,
+      293
+    ],
+    [
+      186,
+      299,
+      312
+    ],
+    [
+      186,
+      328,
+      329
+    ],
+    [
+      186,
+      330,
+      331
+    ],
+    [
+      186,
+      334,
+      343
+    ],
+    [
+      186,
+      479,
+      488
+    ],
+    [
+      187,
+      276,
+      291
+    ],
+    [
+      187,
+      300,
+      312
+    ],
+    [
+      187,
+      326,
+      333
+    ],
+    [
+      187,
+      334,
+      343
+    ],
+    [
+      187,
+      480,
+      489
+    ],
+    [
+      188,
+      277,
+      289
+    ],
+    [
+      188,
+      302,
+      313
+    ],
+    [
+      188,
+      324,
+      342
+    ],
+    [
+      188,
+      480,
+      489
+    ],
+    [
+      189,
+      276,
+      287
+    ],
+    [
+      189,
+      303,
+      312
+    ],
+    [
+      189,
+      324,
+      342
+    ],
+    [
+      189,
+      480,
+      489
+    ],
+    [
+      190,
+      277,
+      287
+    ],
+    [
+      190,
+      304,
+      312
+    ],
+    [
+      190,
+      323,
+      342
+    ],
+    [
+      190,
+      480,
+      490
+    ],
+    [
+      191,
+      278,
+      288
+    ],
+    [
+      191,
+      306,
+      311
+    ],
+    [
+      191,
+      323,
+      341
+    ],
+    [
+      191,
+      481,
+      490
+    ],
+    [
+      192,
+      278,
+      288
+    ],
+    [
+      192,
+      308,
+      309
+    ],
+    [
+      192,
+      322,
+      341
+    ],
+    [
+      192,
+      481,
+      490
+    ],
+    [
+      193,
+      279,
+      289
+    ],
+    [
+      193,
+      323,
+      341
+    ],
+    [
+      193,
+      481,
+      491
+    ],
+    [
+      194,
+      279,
+      289
+    ],
+    [
+      194,
+      323,
+      342
+    ],
+    [
+      194,
+      482,
+      491
+    ],
+    [
+      195,
+      280,
+      290
+    ],
+    [
+      195,
+      324,
+      345
+    ],
+    [
+      195,
+      358,
+      365
+    ],
+    [
+      195,
+      482,
+      491
+    ],
+    [
+      196,
+      280,
+      291
+    ],
+    [
+      196,
+      324,
+      349
+    ],
+    [
+      196,
+      353,
+      371
+    ],
+    [
+      196,
+      482,
+      492
+    ],
+    [
+      197,
+      281,
+      290
+    ],
+    [
+      197,
+      325,
+      376
+    ],
+    [
+      197,
+      440,
+      441
+    ],
+    [
+      197,
+      442,
+      443
+    ],
+    [
+      197,
+      444,
+      445
+    ],
+    [
+      197,
+      483,
+      492
+    ],
+    [
+      198,
+      281,
+      291
+    ],
+    [
+      198,
+      326,
+      401
+    ],
+    [
+      198,
+      438,
+      447
+    ],
+    [
+      198,
+      483,
+      492
+    ],
+    [
+      199,
+      282,
+      290
+    ],
+    [
+      199,
+      326,
+      407
+    ],
+    [
+      199,
+      436,
+      449
+    ],
+    [
+      199,
+      483,
+      493
+    ],
+    [
+      200,
+      282,
+      290
+    ],
+    [
+      200,
+      328,
+      413
+    ],
+    [
+      200,
+      435,
+      451
+    ],
+    [
+      200,
+      484,
+      493
+    ],
+    [
+      201,
+      284,
+      289
+    ],
+    [
+      201,
+      330,
+      417
+    ],
+    [
+      201,
+      433,
+      453
+    ],
+    [
+      201,
+      484,
+      493
+    ],
+    [
+      202,
+      286,
+      287
+    ],
+    [
+      202,
+      332,
+      418
+    ],
+    [
+      202,
+      431,
+      455
+    ],
+    [
+      202,
+      484,
+      493
+    ],
+    [
+      203,
+      334,
+      419
+    ],
+    [
+      203,
+      429,
+      457
+    ],
+    [
+      203,
+      471,
+      472
+    ],
+    [
+      203,
+      485,
+      494
+    ],
+    [
+      204,
+      335,
+      359
+    ],
+    [
+      204,
+      364,
+      419
+    ],
+    [
+      204,
+      427,
+      457
+    ],
+    [
+      204,
+      469,
+      474
+    ],
+    [
+      204,
+      485,
+      494
+    ],
+    [
+      205,
+      335,
+      359
+    ],
+    [
+      205,
+      362,
+      420
+    ],
+    [
+      205,
+      425,
+      458
+    ],
+    [
+      205,
+      468,
+      475
+    ],
+    [
+      205,
+      485,
+      493
+    ],
+    [
+      206,
+      336,
+      419
+    ],
+    [
+      206,
+      423,
+      458
+    ],
+    [
+      206,
+      468,
+      476
+    ],
+    [
+      206,
+      486,
+      493
+    ],
+    [
+      207,
+      337,
+      419
+    ],
+    [
+      207,
+      422,
+      441
+    ],
+    [
+      207,
+      444,
+      459
+    ],
+    [
+      207,
+      467,
+      477
+    ],
+    [
+      207,
+      487,
+      492
+    ],
+    [
+      208,
+      338,
+      418
+    ],
+    [
+      208,
+      420,
+      439
+    ],
+    [
+      208,
+      446,
+      459
+    ],
+    [
+      208,
+      468,
+      478
+    ],
+    [
+      208,
+      489,
+      490
+    ],
+    [
+      209,
+      317,
+      318
+    ],
+    [
+      209,
+      339,
+      416
+    ],
+    [
+      209,
+      418,
+      437
+    ],
+    [
+      209,
+      448,
+      459
+    ],
+    [
+      209,
+      468,
+      478
+    ],
+    [
+      210,
+      315,
+      320
+    ],
+    [
+      210,
+      340,
+      407
+    ],
+    [
+      210,
+      416,
+      436
+    ],
+    [
+      210,
+      450,
+      459
+    ],
+    [
+      210,
+      469,
+      479
+    ],
+    [
+      211,
+      314,
+      321
+    ],
+    [
+      211,
+      341,
+      434
+    ],
+    [
+      211,
+      450,
+      458
+    ],
+    [
+      211,
+      469,
+      480
+    ],
+    [
+      212,
+      313,
+      321
+    ],
+    [
+      212,
+      342,
+      432
+    ],
+    [
+      212,
+      449,
+      458
+    ],
+    [
+      212,
+      470,
+      481
+    ],
+    [
+      213,
+      275,
+      276
+    ],
+    [
+      213,
+      277,
+      278
+    ],
+    [
+      213,
+      313,
+      322
+    ],
+    [
+      213,
+      342,
+      430
+    ],
+    [
+      213,
+      449,
+      458
+    ],
+    [
+      213,
+      471,
+      481
+    ],
+    [
+      214,
+      273,
+      280
+    ],
+    [
+      214,
+      312,
+      322
+    ],
+    [
+      214,
+      343,
+      428
+    ],
+    [
+      214,
+      449,
+      458
+    ],
+    [
+      214,
+      472,
+      482
+    ],
+    [
+      215,
+      272,
+      282
+    ],
+    [
+      215,
+      312,
+      321
+    ],
+    [
+      215,
+      344,
+      358
+    ],
+    [
+      215,
+      359,
+      366
+    ],
+    [
+      215,
+      369,
+      426
+    ],
+    [
+      215,
+      449,
+      458
+    ],
+    [
+      215,
+      473,
+      483
+    ],
+    [
+      216,
+      247,
+      249
+    ],
+    [
+      216,
+      272,
+      284
+    ],
+    [
+      216,
+      312,
+      321
+    ],
+    [
+      216,
+      345,
+      359
+    ],
+    [
+      216,
+      361,
+      362
+    ],
+    [
+      216,
+      363,
+      364
+    ],
+    [
+      216,
+      371,
+      424
+    ],
+    [
+      216,
+      449,
+      458
+    ],
+    [
+      216,
+      473,
+      484
+    ],
+    [
+      217,
+      245,
+      252
+    ],
+    [
+      217,
+      271,
+      286
+    ],
+    [
+      217,
+      292,
+      293
+    ],
+    [
+      217,
+      311,
+      321
+    ],
+    [
+      217,
+      344,
+      358
+    ],
+    [
+      217,
+      374,
+      423
+    ],
+    [
+      217,
+      449,
+      458
+    ],
+    [
+      217,
+      474,
+      485
+    ],
+    [
+      218,
+      244,
+      253
+    ],
+    [
+      218,
+      272,
+      289
+    ],
+    [
+      218,
+      290,
+      295
+    ],
+    [
+      218,
+      311,
+      320
+    ],
+    [
+      218,
+      344,
+      359
+    ],
+    [
+      218,
+      376,
+      377
+    ],
+    [
+      218,
+      378,
+      421
+    ],
+    [
+      218,
+      449,
+      458
+    ],
+    [
+      218,
+      475,
+      485
+    ],
+    [
+      218,
+      591,
+      605
+    ],
+    [
+      218,
+      606,
+      607
+    ],
+    [
+      219,
+      244,
+      254
+    ],
+    [
+      219,
+      272,
+      296
+    ],
+    [
+      219,
+      311,
+      320
+    ],
+    [
+      219,
+      343,
+      360
+    ],
+    [
+      219,
+      385,
+      386
+    ],
+    [
+      219,
+      388,
+      417
+    ],
+    [
+      219,
+      418,
+      419
+    ],
+    [
+      219,
+      449,
+      457
+    ],
+    [
+      219,
+      476,
+      486
+    ],
+    [
+      219,
+      586,
+      609
+    ],
+    [
+      220,
+      243,
+      255
+    ],
+    [
+      220,
+      273,
+      296
+    ],
+    [
+      220,
+      310,
+      319
+    ],
+    [
+      220,
+      343,
+      360
+    ],
+    [
+      220,
+      383,
+      388
+    ],
+    [
+      220,
+      448,
+      457
+    ],
+    [
+      220,
+      477,
+      487
+    ],
+    [
+      220,
+      581,
+      611
+    ],
+    [
+      221,
+      244,
+      256
+    ],
+    [
+      221,
+      273,
+      297
+    ],
+    [
+      221,
+      310,
+      319
+    ],
+    [
+      221,
+      342,
+      360
+    ],
+    [
+      221,
+      382,
+      389
+    ],
+    [
+      221,
+      448,
+      459
+    ],
+    [
+      221,
+      477,
+      488
+    ],
+    [
+      221,
+      576,
+      611
+    ],
+    [
+      222,
+      244,
+      257
+    ],
+    [
+      222,
+      275,
+      296
+    ],
+    [
+      222,
+      309,
+      319
+    ],
+    [
+      222,
+      343,
+      361
+    ],
+    [
+      222,
+      382,
+      389
+    ],
+    [
+      222,
+      448,
+      460
+    ],
+    [
+      222,
+      478,
+      489
+    ],
+    [
+      222,
+      571,
+      612
+    ],
+    [
+      223,
+      245,
+      258
+    ],
+    [
+      223,
+      278,
+      297
+    ],
+    [
+      223,
+      309,
+      318
+    ],
+    [
+      223,
+      342,
+      360
+    ],
+    [
+      223,
+      381,
+      390
+    ],
+    [
+      223,
+      448,
+      462
+    ],
+    [
+      223,
+      479,
+      489
+    ],
+    [
+      223,
+      566,
+      612
+    ],
+    [
+      224,
+      246,
+      259
+    ],
+    [
+      224,
+      280,
+      300
+    ],
+    [
+      224,
+      309,
+      318
+    ],
+    [
+      224,
+      343,
+      360
+    ],
+    [
+      224,
+      382,
+      389
+    ],
+    [
+      224,
+      449,
+      464
+    ],
+    [
+      224,
+      480,
+      490
+    ],
+    [
+      224,
+      560,
+      613
+    ],
+    [
+      225,
+      247,
+      260
+    ],
+    [
+      225,
+      282,
+      303
+    ],
+    [
+      225,
+      308,
+      318
+    ],
+    [
+      225,
+      334,
+      338
+    ],
+    [
+      225,
+      343,
+      359
+    ],
+    [
+      225,
+      382,
+      389
+    ],
+    [
+      225,
+      449,
+      466
+    ],
+    [
+      225,
+      480,
+      490
+    ],
+    [
+      225,
+      556,
+      612
+    ],
+    [
+      226,
+      248,
+      261
+    ],
+    [
+      226,
+      270,
+      271
+    ],
+    [
+      226,
+      284,
+      306
+    ],
+    [
+      226,
+      308,
+      317
+    ],
+    [
+      226,
+      327,
+      340
+    ],
+    [
+      226,
+      344,
+      357
+    ],
+    [
+      226,
+      383,
+      388
+    ],
+    [
+      226,
+      450,
+      468
+    ],
+    [
+      226,
+      481,
+      491
+    ],
+    [
+      226,
+      532,
+      533
+    ],
+    [
+      226,
+      534,
+      535
+    ],
+    [
+      226,
+      552,
+      612
+    ],
+    [
+      227,
+      249,
+      262
+    ],
+    [
+      227,
+      268,
+      274
+    ],
+    [
+      227,
+      286,
+      287
+    ],
+    [
+      227,
+      288,
+      289
+    ],
+    [
+      227,
+      290,
+      308
+    ],
+    [
+      227,
+      309,
+      317
+    ],
+    [
+      227,
+      321,
+      341
+    ],
+    [
+      227,
+      346,
+      351
+    ],
+    [
+      227,
+      385,
+      386
+    ],
+    [
+      227,
+      450,
+      470
+    ],
+    [
+      227,
+      482,
+      490
+    ],
+    [
+      227,
+      530,
+      537
+    ],
+    [
+      227,
+      547,
+      611
+    ],
+    [
+      228,
+      250,
+      263
+    ],
+    [
+      228,
+      267,
+      275
+    ],
+    [
+      228,
+      290,
+      341
+    ],
+    [
+      228,
+      452,
+      472
+    ],
+    [
+      228,
+      483,
+      490
+    ],
+    [
+      228,
+      529,
+      540
+    ],
+    [
+      228,
+      543,
+      610
+    ],
+    [
+      229,
+      251,
+      264
+    ],
+    [
+      229,
+      267,
+      277
+    ],
+    [
+      229,
+      291,
+      342
+    ],
+    [
+      229,
+      408,
+      409
+    ],
+    [
+      229,
+      454,
+      474
+    ],
+    [
+      229,
+      484,
+      489
+    ],
+    [
+      229,
+      529,
+      607
+    ],
+    [
+      230,
+      250,
+      264
+    ],
+    [
+      230,
+      266,
+      278
+    ],
+    [
+      230,
+      293,
+      341
+    ],
+    [
+      230,
+      406,
+      411
+    ],
+    [
+      230,
+      456,
+      476
+    ],
+    [
+      230,
+      486,
+      487
+    ],
+    [
+      230,
+      528,
+      602
+    ],
+    [
+      231,
+      246,
+      264
+    ],
+    [
+      231,
+      267,
+      280
+    ],
+    [
+      231,
+      294,
+      341
+    ],
+    [
+      231,
+      405,
+      412
+    ],
+    [
+      231,
+      458,
+      479
+    ],
+    [
+      231,
+      528,
+      572
+    ],
+    [
+      231,
+      577,
+      597
+    ],
+    [
+      232,
+      242,
+      265
+    ],
+    [
+      232,
+      267,
+      281
+    ],
+    [
+      232,
+      297,
+      340
+    ],
+    [
+      232,
+      405,
+      412
+    ],
+    [
+      232,
+      459,
+      482
+    ],
+    [
+      232,
+      526,
+      567
+    ],
+    [
+      232,
+      577,
+      594
+    ],
+    [
+      233,
+      238,
+      264
+    ],
+    [
+      233,
+      268,
+      283
+    ],
+    [
+      233,
+      299,
+      339
+    ],
+    [
+      233,
+      404,
+      413
+    ],
+    [
+      233,
+      461,
+      488
+    ],
+    [
+      233,
+      523,
+      595
+    ],
+    [
+      234,
+      234,
+      264
+    ],
+    [
+      234,
+      269,
+      284
+    ],
+    [
+      234,
+      301,
+      335
+    ],
+    [
+      234,
+      405,
+      412
+    ],
+    [
+      234,
+      463,
+      494
+    ],
+    [
+      234,
+      522,
+      595
+    ],
+    [
+      235,
+      229,
+      263
+    ],
+    [
+      235,
+      270,
+      286
+    ],
+    [
+      235,
+      303,
+      328
+    ],
+    [
+      235,
+      405,
+      412
+    ],
+    [
+      235,
+      465,
+      501
+    ],
+    [
+      235,
+      521,
+      596
+    ],
+    [
+      236,
+      227,
+      262
+    ],
+    [
+      236,
+      272,
+      288
+    ],
+    [
+      236,
+      305,
+      333
+    ],
+    [
+      236,
+      406,
+      411
+    ],
+    [
+      236,
+      461,
+      511
+    ],
+    [
+      236,
+      521,
+      595
+    ],
+    [
+      237,
+      226,
+      259
+    ],
+    [
+      237,
+      273,
+      289
+    ],
+    [
+      237,
+      307,
+      337
+    ],
+    [
+      237,
+      408,
+      409
+    ],
+    [
+      237,
+      456,
+      596
+    ],
+    [
+      238,
+      225,
+      255
+    ],
+    [
+      238,
+      275,
+      291
+    ],
+    [
+      238,
+      309,
+      338
+    ],
+    [
+      238,
+      422,
+      423
+    ],
+    [
+      238,
+      451,
+      597
+    ],
+    [
+      239,
+      225,
+      251
+    ],
+    [
+      239,
+      276,
+      292
+    ],
+    [
+      239,
+      310,
+      339
+    ],
+    [
+      239,
+      420,
+      425
+    ],
+    [
+      239,
+      447,
+      599
+    ],
+    [
+      240,
+      224,
+      247
+    ],
+    [
+      240,
+      278,
+      294
+    ],
+    [
+      240,
+      312,
+      339
+    ],
+    [
+      240,
+      419,
+      426
+    ],
+    [
+      240,
+      446,
+      601
+    ],
+    [
+      241,
+      224,
+      243
+    ],
+    [
+      241,
+      279,
+      295
+    ],
+    [
+      241,
+      314,
+      340
+    ],
+    [
+      241,
+      419,
+      426
+    ],
+    [
+      241,
+      445,
+      478
+    ],
+    [
+      241,
+      481,
+      602
+    ],
+    [
+      242,
+      225,
+      239
+    ],
+    [
+      242,
+      281,
+      297
+    ],
+    [
+      242,
+      313,
+      314
+    ],
+    [
+      242,
+      316,
+      339
+    ],
+    [
+      242,
+      418,
+      427
+    ],
+    [
+      242,
+      445,
+      477
+    ],
+    [
+      242,
+      487,
+      539
+    ],
+    [
+      242,
+      552,
+      604
+    ],
+    [
+      243,
+      225,
+      238
+    ],
+    [
+      243,
+      282,
+      298
+    ],
+    [
+      243,
+      311,
+      316
+    ],
+    [
+      243,
+      320,
+      339
+    ],
+    [
+      243,
+      419,
+      426
+    ],
+    [
+      243,
+      444,
+      473
+    ],
+    [
+      243,
+      493,
+      539
+    ],
+    [
+      243,
+      557,
+      606
+    ],
+    [
+      244,
+      225,
+      240
+    ],
+    [
+      244,
+      284,
+      300
+    ],
+    [
+      244,
+      310,
+      318
+    ],
+    [
+      244,
+      321,
+      338
+    ],
+    [
+      244,
+      341,
+      342
+    ],
+    [
+      244,
+      419,
+      426
+    ],
+    [
+      244,
+      445,
+      468
+    ],
+    [
+      244,
+      501,
+      540
+    ],
+    [
+      244,
+      567,
+      607
+    ],
+    [
+      245,
+      226,
+      243
+    ],
+    [
+      245,
+      285,
+      301
+    ],
+    [
+      245,
+      310,
+      320
+    ],
+    [
+      245,
+      321,
+      328
+    ],
+    [
+      245,
+      332,
+      336
+    ],
+    [
+      245,
+      339,
+      344
+    ],
+    [
+      245,
+      420,
+      425
+    ],
+    [
+      245,
+      445,
+      463
+    ],
+    [
+      245,
+      511,
+      540
+    ],
+    [
+      245,
+      568,
+      609
+    ],
+    [
+      246,
+      226,
+      246
+    ],
+    [
+      246,
+      287,
+      303
+    ],
+    [
+      246,
+      309,
+      327
+    ],
+    [
+      246,
+      338,
+      345
+    ],
+    [
+      246,
+      422,
+      423
+    ],
+    [
+      246,
+      446,
+      457
+    ],
+    [
+      246,
+      525,
+      540
+    ],
+    [
+      246,
+      568,
+      610
+    ],
+    [
+      247,
+      227,
+      248
+    ],
+    [
+      247,
+      289,
+      305
+    ],
+    [
+      247,
+      310,
+      327
+    ],
+    [
+      247,
+      338,
+      345
+    ],
+    [
+      247,
+      448,
+      452
+    ],
+    [
+      247,
+      530,
+      540
+    ],
+    [
+      247,
+      569,
+      576
+    ],
+    [
+      247,
+      580,
+      612
+    ],
+    [
+      248,
+      228,
+      251
+    ],
+    [
+      248,
+      290,
+      306
+    ],
+    [
+      248,
+      310,
+      327
+    ],
+    [
+      248,
+      337,
+      346
+    ],
+    [
+      248,
+      530,
+      540
+    ],
+    [
+      248,
+      571,
+      572
+    ],
+    [
+      248,
+      573,
+      574
+    ],
+    [
+      248,
+      583,
+      614
+    ],
+    [
+      249,
+      229,
+      253
+    ],
+    [
+      249,
+      291,
+      306
+    ],
+    [
+      249,
+      311,
+      328
+    ],
+    [
+      249,
+      338,
+      345
+    ],
+    [
+      249,
+      530,
+      541
+    ],
+    [
+      249,
+      585,
+      615
+    ],
+    [
+      250,
+      231,
+      256
+    ],
+    [
+      250,
+      290,
+      307
+    ],
+    [
+      250,
+      313,
+      327
+    ],
+    [
+      250,
+      338,
+      345
+    ],
+    [
+      250,
+      530,
+      541
+    ],
+    [
+      250,
+      587,
+      617
+    ],
+    [
+      251,
+      234,
+      259
+    ],
+    [
+      251,
+      290,
+      307
+    ],
+    [
+      251,
+      315,
+      327
+    ],
+    [
+      251,
+      339,
+      344
+    ],
+    [
+      251,
+      531,
+      541
+    ],
+    [
+      251,
+      590,
+      619
+    ],
+    [
+      252,
+      236,
+      261
+    ],
+    [
+      252,
+      289,
+      306
+    ],
+    [
+      252,
+      316,
+      327
+    ],
+    [
+      252,
+      341,
+      342
+    ],
+    [
+      252,
+      531,
+      541
+    ],
+    [
+      252,
+      592,
+      621
+    ],
+    [
+      253,
+      239,
+      264
+    ],
+    [
+      253,
+      290,
+      306
+    ],
+    [
+      253,
+      317,
+      326
+    ],
+    [
+      253,
+      531,
+      541
+    ],
+    [
+      253,
+      594,
+      623
+    ],
+    [
+      254,
+      242,
+      268
+    ],
+    [
+      254,
+      290,
+      305
+    ],
+    [
+      254,
+      317,
+      325
+    ],
+    [
+      254,
+      359,
+      362
+    ],
+    [
+      254,
+      532,
+      541
+    ],
+    [
+      254,
+      596,
+      624
+    ],
+    [
+      255,
+      244,
+      273
+    ],
+    [
+      255,
+      290,
+      303
+    ],
+    [
+      255,
+      318,
+      324
+    ],
+    [
+      255,
+      357,
+      366
+    ],
+    [
+      255,
+      418,
+      421
+    ],
+    [
+      255,
+      532,
+      542
+    ],
+    [
+      255,
+      598,
+      625
+    ],
+    [
+      256,
+      247,
+      277
+    ],
+    [
+      256,
+      291,
+      303
+    ],
+    [
+      256,
+      320,
+      321
+    ],
+    [
+      256,
+      356,
+      371
+    ],
+    [
+      256,
+      416,
+      424
+    ],
+    [
+      256,
+      532,
+      542
+    ],
+    [
+      256,
+      600,
+      627
+    ],
+    [
+      257,
+      249,
+      281
+    ],
+    [
+      257,
+      292,
+      304
+    ],
+    [
+      257,
+      356,
+      376
+    ],
+    [
+      257,
+      410,
+      411
+    ],
+    [
+      257,
+      415,
+      427
+    ],
+    [
+      257,
+      533,
+      542
+    ],
+    [
+      257,
+      603,
+      628
+    ],
+    [
+      258,
+      252,
+      285
+    ],
+    [
+      258,
+      293,
+      303
+    ],
+    [
+      258,
+      355,
+      381
+    ],
+    [
+      258,
+      408,
+      428
+    ],
+    [
+      258,
+      533,
+      542
+    ],
+    [
+      258,
+      605,
+      629
+    ],
+    [
+      259,
+      255,
+      289
+    ],
+    [
+      259,
+      295,
+      303
+    ],
+    [
+      259,
+      356,
+      386
+    ],
+    [
+      259,
+      407,
+      429
+    ],
+    [
+      259,
+      533,
+      541
+    ],
+    [
+      259,
+      607,
+      631
+    ],
+    [
+      260,
+      257,
+      294
+    ],
+    [
+      260,
+      296,
+      302
+    ],
+    [
+      260,
+      356,
+      392
+    ],
+    [
+      260,
+      407,
+      429
+    ],
+    [
+      260,
+      431,
+      432
+    ],
+    [
+      260,
+      534,
+      541
+    ],
+    [
+      260,
+      609,
+      631
+    ],
+    [
+      261,
+      260,
+      298
+    ],
+    [
+      261,
+      299,
+      300
+    ],
+    [
+      261,
+      357,
+      395
+    ],
+    [
+      261,
+      406,
+      435
+    ],
+    [
+      261,
+      535,
+      540
+    ],
+    [
+      261,
+      611,
+      632
+    ],
+    [
+      261,
+      638,
+      643
+    ],
+    [
+      262,
+      263,
+      302
+    ],
+    [
+      262,
+      358,
+      396
+    ],
+    [
+      262,
+      407,
+      437
+    ],
+    [
+      262,
+      537,
+      538
+    ],
+    [
+      262,
+      613,
+      632
+    ],
+    [
+      262,
+      636,
+      650
+    ],
+    [
+      263,
+      266,
+      306
+    ],
+    [
+      263,
+      361,
+      397
+    ],
+    [
+      263,
+      407,
+      439
+    ],
+    [
+      263,
+      615,
+      658
+    ],
+    [
+      264,
+      271,
+      310
+    ],
+    [
+      264,
+      365,
+      397
+    ],
+    [
+      264,
+      408,
+      440
+    ],
+    [
+      264,
+      617,
+      665
+    ],
+    [
+      265,
+      276,
+      313
+    ],
+    [
+      265,
+      369,
+      398
+    ],
+    [
+      265,
+      410,
+      411
+    ],
+    [
+      265,
+      412,
+      442
+    ],
+    [
+      265,
+      619,
+      673
+    ],
+    [
+      266,
+      280,
+      316
+    ],
+    [
+      266,
+      369,
+      397
+    ],
+    [
+      266,
+      413,
+      444
+    ],
+    [
+      266,
+      481,
+      482
+    ],
+    [
+      266,
+      483,
+      484
+    ],
+    [
+      266,
+      620,
+      680
+    ],
+    [
+      267,
+      284,
+      319
+    ],
+    [
+      267,
+      368,
+      397
+    ],
+    [
+      267,
+      413,
+      446
+    ],
+    [
+      267,
+      476,
+      477
+    ],
+    [
+      267,
+      479,
+      486
+    ],
+    [
+      267,
+      622,
+      688
+    ],
+    [
+      268,
+      288,
+      322
+    ],
+    [
+      268,
+      367,
+      396
+    ],
+    [
+      268,
+      414,
+      448
+    ],
+    [
+      268,
+      474,
+      488
+    ],
+    [
+      268,
+      624,
+      692
+    ],
+    [
+      269,
+      292,
+      325
+    ],
+    [
+      269,
+      366,
+      387
+    ],
+    [
+      269,
+      390,
+      394
+    ],
+    [
+      269,
+      414,
+      450
+    ],
+    [
+      269,
+      473,
+      490
+    ],
+    [
+      269,
+      625,
+      693
+    ],
+    [
+      270,
+      297,
+      328
+    ],
+    [
+      270,
+      365,
+      388
+    ],
+    [
+      270,
+      415,
+      452
+    ],
+    [
+      270,
+      473,
+      492
+    ],
+    [
+      270,
+      625,
+      694
+    ],
+    [
+      271,
+      301,
+      331
+    ],
+    [
+      271,
+      364,
+      387
+    ],
+    [
+      271,
+      415,
+      454
+    ],
+    [
+      271,
+      472,
+      494
+    ],
+    [
+      271,
+      626,
+      694
+    ],
+    [
+      272,
+      305,
+      334
+    ],
+    [
+      272,
+      363,
+      387
+    ],
+    [
+      272,
+      415,
+      457
+    ],
+    [
+      272,
+      473,
+      496
+    ],
+    [
+      272,
+      626,
+      654
+    ],
+    [
+      272,
+      656,
+      695
+    ],
+    [
+      273,
+      309,
+      337
+    ],
+    [
+      273,
+      362,
+      375
+    ],
+    [
+      273,
+      379,
+      386
+    ],
+    [
+      273,
+      414,
+      425
+    ],
+    [
+      273,
+      426,
+      459
+    ],
+    [
+      273,
+      473,
+      496
+    ],
+    [
+      273,
+      627,
+      699
+    ],
+    [
+      274,
+      313,
+      340
+    ],
+    [
+      274,
+      361,
+      374
+    ],
+    [
+      274,
+      382,
+      384
+    ],
+    [
+      274,
+      413,
+      425
+    ],
+    [
+      274,
+      427,
+      459
+    ],
+    [
+      274,
+      474,
+      497
+    ],
+    [
+      274,
+      627,
+      702
+    ],
+    [
+      275,
+      315,
+      342
+    ],
+    [
+      275,
+      360,
+      373
+    ],
+    [
+      275,
+      414,
+      423
+    ],
+    [
+      275,
+      429,
+      460
+    ],
+    [
+      275,
+      476,
+      477
+    ],
+    [
+      275,
+      481,
+      497
+    ],
+    [
+      275,
+      628,
+      706
+    ],
+    [
+      276,
+      318,
+      345
+    ],
+    [
+      276,
+      358,
+      372
+    ],
+    [
+      276,
+      413,
+      423
+    ],
+    [
+      276,
+      430,
+      440
+    ],
+    [
+      276,
+      443,
+      460
+    ],
+    [
+      276,
+      483,
+      498
+    ],
+    [
+      276,
+      628,
+      710
+    ],
+    [
+      277,
+      321,
+      346
+    ],
+    [
+      277,
+      357,
+      371
+    ],
+    [
+      277,
+      414,
+      422
+    ],
+    [
+      277,
+      432,
+      440
+    ],
+    [
+      277,
+      445,
+      461
+    ],
+    [
+      277,
+      485,
+      497
+    ],
+    [
+      277,
+      629,
+      712
+    ],
+    [
+      278,
+      324,
+      347
+    ],
+    [
+      278,
+      356,
+      370
+    ],
+    [
+      278,
+      414,
+      422
+    ],
+    [
+      278,
+      433,
+      439
+    ],
+    [
+      278,
+      448,
+      460
+    ],
+    [
+      278,
+      487,
+      497
+    ],
+    [
+      278,
+      629,
+      714
+    ],
+    [
+      279,
+      327,
+      347
+    ],
+    [
+      279,
+      355,
+      368
+    ],
+    [
+      279,
+      415,
+      420
+    ],
+    [
+      279,
+      436,
+      437
+    ],
+    [
+      279,
+      450,
+      460
+    ],
+    [
+      279,
+      489,
+      496
+    ],
+    [
+      279,
+      630,
+      645
+    ],
+    [
+      279,
+      647,
+      717
+    ],
+    [
+      280,
+      330,
+      348
+    ],
+    [
+      280,
+      354,
+      367
+    ],
+    [
+      280,
+      417,
+      418
+    ],
+    [
+      280,
+      448,
+      459
+    ],
+    [
+      280,
+      491,
+      492
+    ],
+    [
+      280,
+      493,
+      494
+    ],
+    [
+      280,
+      630,
+      646
+    ],
+    [
+      280,
+      649,
+      719
+    ],
+    [
+      281,
+      333,
+      347
+    ],
+    [
+      281,
+      353,
+      366
+    ],
+    [
+      281,
+      447,
+      455
+    ],
+    [
+      281,
+      456,
+      457
+    ],
+    [
+      281,
+      631,
+      647
+    ],
+    [
+      281,
+      651,
+      721
+    ],
+    [
+      282,
+      314,
+      365
+    ],
+    [
+      282,
+      447,
+      454
+    ],
+    [
+      282,
+      631,
+      648
+    ],
+    [
+      282,
+      652,
+      723
+    ],
+    [
+      283,
+      312,
+      364
+    ],
+    [
+      283,
+      446,
+      455
+    ],
+    [
+      283,
+      631,
+      649
+    ],
+    [
+      283,
+      651,
+      725
+    ],
+    [
+      284,
+      311,
+      363
+    ],
+    [
+      284,
+      447,
+      454
+    ],
+    [
+      284,
+      632,
+      726
+    ],
+    [
+      285,
+      311,
+      362
+    ],
+    [
+      285,
+      447,
+      454
+    ],
+    [
+      285,
+      632,
+      727
+    ],
+    [
+      286,
+      310,
+      361
+    ],
+    [
+      286,
+      448,
+      453
+    ],
+    [
+      286,
+      633,
+      728
+    ],
+    [
+      287,
+      311,
+      360
+    ],
+    [
+      287,
+      450,
+      451
+    ],
+    [
+      287,
+      633,
+      729
+    ],
+    [
+      288,
+      311,
+      359
+    ],
+    [
+      288,
+      634,
+      665
+    ],
+    [
+      288,
+      666,
+      729
+    ],
+    [
+      289,
+      312,
+      358
+    ],
+    [
+      289,
+      634,
+      660
+    ],
+    [
+      289,
+      670,
+      730
+    ],
+    [
+      290,
+      314,
+      355
+    ],
+    [
+      290,
+      635,
+      656
+    ],
+    [
+      290,
+      674,
+      729
+    ],
+    [
+      291,
+      635,
+      654
+    ],
+    [
+      291,
+      700,
+      729
+    ],
+    [
+      292,
+      636,
+      653
+    ],
+    [
+      292,
+      710,
+      728
+    ],
+    [
+      293,
+      635,
+      653
+    ],
+    [
+      293,
+      721,
+      726
+    ],
+    [
+      294,
+      633,
+      652
+    ],
+    [
+      295,
+      631,
+      652
+    ],
+    [
+      296,
+      629,
+      650
+    ],
+    [
+      297,
+      627,
+      648
+    ],
+    [
+      298,
+      625,
+      646
+    ],
+    [
+      299,
+      623,
+      645
+    ],
+    [
+      300,
+      621,
+      647
+    ],
+    [
+      301,
+      619,
+      649
+    ],
+    [
+      302,
+      617,
+      651
+    ],
+    [
+      303,
+      615,
+      652
+    ],
+    [
+      304,
+      613,
+      653
+    ],
+    [
+      305,
+      611,
+      654
+    ],
+    [
+      306,
+      609,
+      654
+    ],
+    [
+      307,
+      607,
+      628
+    ],
+    [
+      307,
+      630,
+      640
+    ],
+    [
+      307,
+      642,
+      655
+    ],
+    [
+      308,
+      605,
+      626
+    ],
+    [
+      308,
+      629,
+      639
+    ],
+    [
+      308,
+      643,
+      654
+    ],
+    [
+      309,
+      603,
+      624
+    ],
+    [
+      309,
+      629,
+      639
+    ],
+    [
+      309,
+      645,
+      654
+    ],
+    [
+      310,
+      601,
+      622
+    ],
+    [
+      310,
+      628,
+      638
+    ],
+    [
+      310,
+      647,
+      653
+    ],
+    [
+      311,
+      599,
+      620
+    ],
+    [
+      311,
+      627,
+      638
+    ],
+    [
+      311,
+      650,
+      651
+    ],
+    [
+      312,
+      597,
+      618
+    ],
+    [
+      312,
+      628,
+      637
+    ],
+    [
+      313,
+      595,
+      616
+    ],
+    [
+      313,
+      627,
+      637
+    ],
+    [
+      314,
+      593,
+      614
+    ],
+    [
+      314,
+      628,
+      636
+    ],
+    [
+      315,
+      591,
+      612
+    ],
+    [
+      315,
+      628,
+      636
+    ],
+    [
+      316,
+      589,
+      610
+    ],
+    [
+      316,
+      629,
+      634
+    ],
+    [
+      317,
+      587,
+      608
+    ],
+    [
+      317,
+      631,
+      632
+    ],
+    [
+      318,
+      583,
+      606
+    ],
+    [
+      319,
+      578,
+      604
+    ],
+    [
+      320,
+      576,
+      602
+    ],
+    [
+      321,
+      575,
+      600
+    ],
+    [
+      322,
+      575,
+      598
+    ],
+    [
+      323,
+      574,
+      596
+    ],
+    [
+      324,
+      575,
+      594
+    ],
+    [
+      325,
+      575,
+      592
+    ],
+    [
+      326,
+      576,
+      588
+    ],
+    [
+      326,
+      589,
+      590
+    ],
+    [
+      327,
+      578,
+      583
+    ]
+  ],
+  "inspected_runs": [
+    [
+      128,
+      296,
+      297
+    ],
+    [
+      129,
+      286,
+      307
+    ],
+    [
+      130,
+      282,
+      311
+    ],
+    [
+      131,
+      279,
+      314
+    ],
+    [
+      132,
+      277,
+      316
+    ],
+    [
+      133,
+      274,
+      319
+    ],
+    [
+      134,
+      272,
+      321
+    ],
+    [
+      135,
+      271,
+      322
+    ],
+    [
+      136,
+      269,
+      324
+    ],
+    [
+      137,
+      268,
+      325
+    ],
+    [
+      138,
+      266,
+      327
+    ],
+    [
+      139,
+      265,
+      328
+    ],
+    [
+      140,
+      264,
+      329
+    ],
+    [
+      141,
+      262,
+      331
+    ],
+    [
+      142,
+      261,
+      332
+    ],
+    [
+      143,
+      260,
+      333
+    ],
+    [
+      144,
+      259,
+      334
+    ],
+    [
+      145,
+      258,
+      336
+    ],
+    [
+      146,
+      258,
+      337
+    ],
+    [
+      147,
+      257,
+      339
+    ],
+    [
+      148,
+      256,
+      340
+    ],
+    [
+      149,
+      255,
+      341
+    ],
+    [
+      150,
+      255,
+      343
+    ],
+    [
+      151,
+      254,
+      344
+    ],
+    [
+      152,
+      243,
+      248
+    ],
+    [
+      152,
+      253,
+      345
+    ],
+    [
+      153,
+      242,
+      248
+    ],
+    [
+      153,
+      253,
+      346
+    ],
+    [
+      154,
+      242,
+      248
+    ],
+    [
+      154,
+      252,
+      347
+    ],
+    [
+      155,
+      241,
+      248
+    ],
+    [
+      155,
+      251,
+      347
+    ],
+    [
+      156,
+      240,
+      248
+    ],
+    [
+      156,
+      251,
+      348
+    ],
+    [
+      157,
+      239,
+      248
+    ],
+    [
+      157,
+      250,
+      349
+    ],
+    [
+      158,
+      239,
+      248
+    ],
+    [
+      158,
+      250,
+      350
+    ],
+    [
+      159,
+      238,
+      248
+    ],
+    [
+      159,
+      250,
+      350
+    ],
+    [
+      160,
+      237,
+      351
+    ],
+    [
+      161,
+      237,
+      352
+    ],
+    [
+      162,
+      236,
+      352
+    ],
+    [
+      163,
+      235,
+      353
+    ],
+    [
+      164,
+      235,
+      354
+    ],
+    [
+      165,
+      234,
+      354
+    ],
+    [
+      166,
+      234,
+      355
+    ],
+    [
+      167,
+      234,
+      355
+    ],
+    [
+      168,
+      233,
+      355
+    ],
+    [
+      169,
+      233,
+      356
+    ],
+    [
+      170,
+      232,
+      356
+    ],
+    [
+      171,
+      232,
+      357
+    ],
+    [
+      172,
+      232,
+      357
+    ],
+    [
+      173,
+      231,
+      357
+    ],
+    [
+      174,
+      231,
+      358
+    ],
+    [
+      175,
+      231,
+      358
+    ],
+    [
+      176,
+      231,
+      360
+    ],
+    [
+      177,
+      230,
+      360
+    ],
+    [
+      178,
+      230,
+      360
+    ],
+    [
+      179,
+      230,
+      360
+    ],
+    [
+      180,
+      230,
+      360
+    ],
+    [
+      181,
+      230,
+      360
+    ],
+    [
+      182,
+      230,
+      360
+    ],
+    [
+      183,
+      230,
+      360
+    ],
+    [
+      184,
+      230,
+      368
+    ],
+    [
+      185,
+      230,
+      368
+    ],
+    [
+      186,
+      230,
+      368
+    ],
+    [
+      187,
+      229,
+      368
+    ],
+    [
+      188,
+      230,
+      368
+    ],
+    [
+      189,
+      230,
+      368
+    ],
+    [
+      190,
+      230,
+      368
+    ],
+    [
+      191,
+      230,
+      368
+    ],
+    [
+      192,
+      240,
+      368
+    ],
+    [
+      193,
+      240,
+      368
+    ],
+    [
+      194,
+      240,
+      368
+    ],
+    [
+      195,
+      240,
+      368
+    ],
+    [
+      196,
+      240,
+      368
+    ],
+    [
+      197,
+      240,
+      368
+    ],
+    [
+      198,
+      240,
+      368
+    ],
+    [
+      199,
+      240,
+      368
+    ],
+    [
+      200,
+      224,
+      367
+    ],
+    [
+      201,
+      224,
+      367
+    ],
+    [
+      202,
+      224,
+      367
+    ],
+    [
+      203,
+      224,
+      368
+    ],
+    [
+      204,
+      224,
+      368
+    ],
+    [
+      205,
+      224,
+      368
+    ],
+    [
+      206,
+      224,
+      368
+    ],
+    [
+      207,
+      224,
+      368
+    ],
+    [
+      208,
+      208,
+      368
+    ],
+    [
+      208,
+      418,
+      420
+    ],
+    [
+      209,
+      208,
+      368
+    ],
+    [
+      209,
+      408,
+      430
+    ],
+    [
+      210,
+      208,
+      368
+    ],
+    [
+      210,
+      404,
+      434
+    ],
+    [
+      211,
+      208,
+      368
+    ],
+    [
+      211,
+      400,
+      437
+    ],
+    [
+      212,
+      208,
+      368
+    ],
+    [
+      212,
+      396,
+      440
+    ],
+    [
+      213,
+      208,
+      369
+    ],
+    [
+      213,
+      375,
+      376
+    ],
+    [
+      213,
+      393,
+      443
+    ],
+    [
+      214,
+      208,
+      368
+    ],
+    [
+      214,
+      373,
+      376
+    ],
+    [
+      214,
+      391,
+      445
+    ],
+    [
+      215,
+      208,
+      368
+    ],
+    [
+      215,
+      372,
+      376
+    ],
+    [
+      215,
+      388,
+      448
+    ],
+    [
+      216,
+      192,
+      368
+    ],
+    [
+      216,
+      371,
+      376
+    ],
+    [
+      216,
+      386,
+      440
+    ],
+    [
+      217,
+      192,
+      441
+    ],
+    [
+      218,
+      192,
+      443
+    ],
+    [
+      219,
+      192,
+      444
+    ],
+    [
+      220,
+      192,
+      446
+    ],
+    [
+      220,
+      476,
+      477
+    ],
+    [
+      221,
+      192,
+      447
+    ],
+    [
+      221,
+      466,
+      487
+    ],
+    [
+      222,
+      192,
+      456
+    ],
+    [
+      222,
+      462,
+      491
+    ],
+    [
+      223,
+      192,
+      494
+    ],
+    [
+      224,
+      184,
+      496
+    ],
+    [
+      225,
+      184,
+      499
+    ],
+    [
+      226,
+      184,
+      501
+    ],
+    [
+      227,
+      184,
+      502
+    ],
+    [
+      228,
+      184,
+      504
+    ],
+    [
+      229,
+      184,
+      505
+    ],
+    [
+      230,
+      184,
+      507
+    ],
+    [
+      231,
+      184,
+      508
+    ],
+    [
+      232,
+      178,
+      509
+    ],
+    [
+      233,
+      178,
+      511
+    ],
+    [
+      234,
+      178,
+      512
+    ],
+    [
+      235,
+      178,
+      513
+    ],
+    [
+      236,
+      178,
+      514
+    ],
+    [
+      237,
+      178,
+      515
+    ],
+    [
+      238,
+      178,
+      515
+    ],
+    [
+      239,
+      178,
+      516
+    ],
+    [
+      240,
+      177,
+      517
+    ],
+    [
+      241,
+      178,
+      518
+    ],
+    [
+      242,
+      178,
+      518
+    ],
+    [
+      243,
+      178,
+      519
+    ],
+    [
+      244,
+      178,
+      520
+    ],
+    [
+      245,
+      178,
+      520
+    ],
+    [
+      246,
+      178,
+      521
+    ],
+    [
+      247,
+      178,
+      522
+    ],
+    [
+      248,
+      178,
+      522
+    ],
+    [
+      249,
+      178,
+      523
+    ],
+    [
+      250,
+      178,
+      523
+    ],
+    [
+      251,
+      179,
+      523
+    ],
+    [
+      252,
+      179,
+      524
+    ],
+    [
+      253,
+      179,
+      524
+    ],
+    [
+      254,
+      179,
+      525
+    ],
+    [
+      255,
+      180,
+      525
+    ],
+    [
+      256,
+      180,
+      525
+    ],
+    [
+      257,
+      180,
+      526
+    ],
+    [
+      258,
+      181,
+      526
+    ],
+    [
+      259,
+      181,
+      526
+    ],
+    [
+      260,
+      182,
+      526
+    ],
+    [
+      261,
+      182,
+      527
+    ],
+    [
+      262,
+      182,
+      527
+    ],
+    [
+      263,
+      183,
+      527
+    ],
+    [
+      264,
+      183,
+      527
+    ],
+    [
+      265,
+      184,
+      527
+    ],
+    [
+      266,
+      184,
+      527
+    ],
+    [
+      267,
+      184,
+      527
+    ],
+    [
+      268,
+      185,
+      527
+    ],
+    [
+      269,
+      185,
+      527
+    ],
+    [
+      270,
+      186,
+      527
+    ],
+    [
+      271,
+      187,
+      528
+    ],
+    [
+      272,
+      187,
+      527
+    ],
+    [
+      273,
+      188,
+      527
+    ],
+    [
+      274,
+      189,
+      527
+    ],
+    [
+      275,
+      189,
+      527
+    ],
+    [
+      276,
+      190,
+      527
+    ],
+    [
+      277,
+      191,
+      527
+    ],
+    [
+      278,
+      192,
+      527
+    ],
+    [
+      279,
+      192,
+      527
+    ],
+    [
+      280,
+      193,
+      527
+    ],
+    [
+      281,
+      194,
+      527
+    ],
+    [
+      282,
+      195,
+      526
+    ],
+    [
+      283,
+      196,
+      526
+    ],
+    [
+      284,
+      198,
+      526
+    ],
+    [
+      285,
+      199,
+      526
+    ],
+    [
+      286,
+      200,
+      525
+    ],
+    [
+      287,
+      202,
+      525
+    ],
+    [
+      288,
+      203,
+      525
+    ],
+    [
+      289,
+      205,
+      524
+    ],
+    [
+      290,
+      206,
+      524
+    ],
+    [
+      291,
+      208,
+      523
+    ],
+    [
+      292,
+      211,
+      523
+    ],
+    [
+      293,
+      213,
+      523
+    ],
+    [
+      294,
+      216,
+      522
+    ],
+    [
+      295,
+      220,
+      522
+    ],
+    [
+      296,
+      230,
+      520
+    ],
+    [
+      297,
+      232,
+      520
+    ],
+    [
+      298,
+      233,
+      520
+    ],
+    [
+      299,
+      234,
+      519
+    ],
+    [
+      300,
+      236,
+      518
+    ],
+    [
+      301,
+      237,
+      518
+    ],
+    [
+      302,
+      239,
+      517
+    ],
+    [
+      303,
+      240,
+      516
+    ],
+    [
+      304,
+      242,
+      512
+    ],
+    [
+      305,
+      245,
+      512
+    ],
+    [
+      306,
+      247,
+      512
+    ],
+    [
+      307,
+      250,
+      512
+    ],
+    [
+      308,
+      254,
+      512
+    ],
+    [
+      309,
+      260,
+      511
+    ],
+    [
+      310,
+      264,
+      509
+    ],
+    [
+      311,
+      270,
+      508
+    ],
+    [
+      312,
+      272,
+      504
+    ],
+    [
+      313,
+      272,
+      504
+    ],
+    [
+      314,
+      272,
+      504
+    ],
+    [
+      315,
+      273,
+      502
+    ],
+    [
+      316,
+      273,
+      501
+    ],
+    [
+      317,
+      274,
+      499
+    ],
+    [
+      318,
+      275,
+      496
+    ],
+    [
+      319,
+      276,
+      494
+    ],
+    [
+      320,
+      280,
+      486
+    ],
+    [
+      321,
+      280,
+      392
+    ],
+    [
+      321,
+      393,
+      485
+    ],
+    [
+      322,
+      280,
+      391
+    ],
+    [
+      322,
+      395,
+      483
+    ],
+    [
+      323,
+      280,
+      390
+    ],
+    [
+      323,
+      398,
+      482
+    ],
+    [
+      324,
+      280,
+      389
+    ],
+    [
+      324,
+      400,
+      481
+    ],
+    [
+      325,
+      282,
+      387
+    ],
+    [
+      325,
+      403,
+      479
+    ],
+    [
+      326,
+      283,
+      386
+    ],
+    [
+      326,
+      407,
+      478
+    ],
+    [
+      327,
+      284,
+      385
+    ],
+    [
+      327,
+      417,
+      418
+    ],
+    [
+      327,
+      425,
+      476
+    ],
+    [
+      328,
+      288,
+      383
+    ],
+    [
+      328,
+      426,
+      475
+    ],
+    [
+      329,
+      288,
+      382
+    ],
+    [
+      329,
+      428,
+      473
+    ],
+    [
+      330,
+      289,
+      380
+    ],
+    [
+      330,
+      431,
+      470
+    ],
+    [
+      331,
+      290,
+      379
+    ],
+    [
+      331,
+      433,
+      468
+    ],
+    [
+      332,
+      292,
+      377
+    ],
+    [
+      332,
+      436,
+      465
+    ],
+    [
+      333,
+      295,
+      334
+    ],
+    [
+      333,
+      335,
+      374
+    ],
+    [
+      333,
+      440,
+      461
+    ],
+    [
+      334,
+      297,
+      332
+    ],
+    [
+      334,
+      337,
+      372
+    ],
+    [
+      334,
+      450,
+      451
+    ],
+    [
+      335,
+      300,
+      329
+    ],
+    [
+      335,
+      340,
+      369
+    ],
+    [
+      336,
+      312,
+      320
+    ],
+    [
+      336,
+      352,
+      360
+    ],
+    [
+      337,
+      314,
+      315
+    ],
+    [
+      337,
+      354,
+      355
+    ]
+  ],
+  "stalled_areas": [],
+  "resume_target_id": null,
+  "current_player_position": [
+    190.25390625,
+    199.79296875
+  ],
+  "current_heading": [
+    0.72,
+    0.694
+  ]
+}

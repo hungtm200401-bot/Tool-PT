@@ -1,0 +1,85 @@
+{
+  "adb_path": "auto",
+  "device_id": "auto",
+  "game_package": "com.tech3cgame.vhpt1",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "joystick": {
+    "center_x": 384,
+    "center_y": 784,
+    "radius": 120
+  },
+  "ui_elements": {
+    "minimap_click_open": {"x": 1780, "y": 160},
+    "world_map_tab": {"x": 130, "y": 215},
+    "local_map_tab": {"x": 130, "y": 140},
+    "map_dialog_close": {"x": 1830, "y": 71},
+    "revive_city_button": {"x": 710, "y": 615},
+    "mount_button": {"x": 35, "y": 850},
+    "pk_mode_button": {"x": 35, "y": 950},
+    "auto_combat_button": {"x": 1630, "y": 240}
+  },
+  "traversal": {
+    "map_viewport": [408, 132, 1792, 954],
+    "cell_size": 96,
+    "batch_rows": 3,
+    "strategy": "corners_first",
+    "joystick_only": true,
+    "ring_spacing_pixels": 96,
+    "inspection_overlap": 0.25,
+    "inspection_radius": 0,
+    "inspection_calibrated": false,
+    "vision_radius": 3.2,
+    "inspection_radius_samples": [],
+    "auto_next_map": true,
+    "stop_timeout": 12,
+    "frame_capture_interval": 4.0,
+    "portal_avoidance_seconds": 21600,
+    "portal_avoidance_radius": 2,
+    "teleport_distance": 12,
+    "corridor_tolerance": 10.0,
+    "detour_budget": 12.0,
+    "deviation_timeout_seconds": 12.0,
+    "map_change_confirm_samples": 2,
+    "loop_window_seconds": 20.0,
+    "loop_min_samples": 8,
+    "loop_revisit_threshold": 3,
+    "loop_cell_size": 0.75,
+    "loop_net_distance": 1.5,
+    "loop_progress_distance": 0.35,
+    "max_map_pixels": 8000000,
+    "revisit_budget": 3,
+    "arrival_tolerance": 1.0,
+    "direct_walk_max_distance": 2.5,
+    "final_joystick_correction_distance": 1.5,
+    "stuck_seconds": 8.0,
+    "max_target_attempts": 3,
+    "stalled_area_radius": 4.0,
+    "max_stalled_area_attempts": 2,
+    "stalled_area_cooldown": 600,
+    "recovery_max_seconds": 12,
+    "recovery_max_waypoints": 4
+  },
+  "detection": {
+    "confirm_frames": 3,
+    "confirm_seconds": 1.5,
+    "dedup_seconds": 120,
+    "auto_confirm_missing_texture": false,
+    "stuck_timeout_seconds": 2.5,
+    "optical_flow_threshold": 0.8,
+    "max_unstuck_attempts": 3,
+    "evidence_folder": "reports/evidence"
+  },
+  "sheet_sync": {
+    "spreadsheet_id": "1AvRcllKqX03WwwrE508vhJBnnWBUx2_hgpU8gHwZoqY",
+    "gid": 0,
+    "endpoint": "",
+    "token_env": "PHONG_THAN_SYNC_TOKEN"
+  },
+  "navigation": {
+    "connections": [],
+    "world_slot_overrides": {}
+  }
+}
