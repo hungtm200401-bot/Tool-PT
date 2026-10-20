@@ -471,7 +471,7 @@ class MapTraversalEngine:
                 and math.dist(telemetry["position"], proof["position"]) <= 0.08
                 and time.monotonic()-proof["at"] <= 3.0)
 
-    def _wait_stopped(self):
+    def _wait_stopped(self, max_seconds=None):
         """Never open a map over a leg that is still moving."""
         previous_frame = None
         stopped_samples = 0
@@ -518,6 +518,9 @@ class MapTraversalEngine:
                     else:
                         stopped_samples = 0
                     previous_position = telemetry["position"]
+            if max_seconds is not None and time.monotonic() - started >= max_seconds:
+                if self._valid_position(telemetry):
+                    return telemetry
             if time.monotonic() - last_fresh > 15:
                 raise RuntimeError("Dữ liệu vị trí không cập nhật; giữ nguyên các vùng chưa đi.")
             if time.monotonic()-started > 90:
@@ -745,10 +748,17 @@ class MapTraversalEngine:
             if not self.plan.next_target(max_attempts=int(self.settings.get("max_target_attempts", 3))):
                 self._notify_status(f"Tuyến cũ của {self.current_map_name} đã đi hết mốc. Tự động lập tuyến mới (4 góc full map -> các vòng tròn) để chạy lại theo yêu cầu.")
                 anchor = telemetry["position"]
+                prev_obstacles = self.plan.data.get("obstacles", [])
+                prev_stalls = self.plan.data.get("stalls", [])
+                prev_trace = self.plan.data.get("trace", [])
                 self.plan = CoveragePlan.build(
                     self.current_map_id, self.plan.data["bounds"], self.plan.atlas, self.plan.known,
                     self.settings, anchor=anchor
                 )
+                self.plan.data["obstacles"] = prev_obstacles
+                self.plan.data["stalls"] = prev_stalls
+                self.plan.data["trace"] = prev_trace
+                self.plan._refresh_obstacles()
                 self.plan.save(self.route_directory, self.store)
             else:
                 self._notify_status(f"Đã nhớ tuyến của {self.current_map_name}; tiếp tục các ô chưa đi.")
@@ -1248,58 +1258,85 @@ class MapTraversalEngine:
         self.plan.observe_position(position, tolerance, active_id=active_id)
         return math.dist(position, destination) <= tolerance
 
-    def _perform_active_unstuck(self, curr_pos, angle_blocked):
+    def _perform_active_unstuck(self, curr_pos, blocked_heading=None, angle_blocked=None):
         """
         Quy trình thoát kẹt chủ động VIP PRO MAX (Active Unstuck Escape Maneuver):
-        1. Đánh dấu chướng ngại vật vào bản đồ (note_obstacle) với barrier slab và khóa góc trong _blocked_sectors.
-        2. Xác định các góc rút lui ứng viên:
-           - Ứng viên 1: Lùi về tọa độ vệt di chuyển đã xác minh gần nhất (Persistent Verified Breadcrumbs).
-           - Ứng viên 2: Góc quay 180° lùi ngược hướng với góc đâm vào vật cản.
-           - Ứng viên 3: Góc né 110° và -110°.
-        3. Thực thi vuốt giữ joystick liên tục từ 1.5s - 2.2s để đưa nhân vật thoát hẳn ra khỏi vùng cây/đá:
-           - Kiểm tra vị trí liên tục mỗi 0.15s: nếu đã dịch chuyển ra xa >= 1.5 đơn vị thì hoàn thành và dừng thoát kẹt ngay.
-           - Nếu sau 0.55s góc này hoàn toàn bị chặn (< 0.12 đơn vị): tự động chuyển ngay sang góc né tiếp theo.
-        4. Trả về vị trí an toàn mới sau khi thoát kẹt.
+        1. Nhả điều khiển cũ (joystick_release) để tránh xung đột lệnh cảm ứng.
+        2. Đánh dấu chướng ngại vật vào bản đồ (note_obstacle) trên TỌA ĐỘ GAME chuẩn xác.
+        3. Khóa góc cản trong _blocked_sectors trên hệ tọa độ game để chống quay lại.
+        4. Xác định các góc rút lui ứng viên:
+           - Ưu tiên 1: Lùi tuần tự theo vệt đường thông thoáng đã xác minh (Verified Breadcrumbs).
+           - Ưu tiên 2: Góc quay 180° lùi ngược hướng đâm trong hệ tọa độ game.
+           - Ưu tiên 3: Hai góc né 110° và -110° trong hệ tọa độ game.
+        5. Lái thoát kẹt và xác minh: Di chuyển ra xa >= 2.0 đơn vị và đứng trên vùng đi được an toàn.
+        6. Nhả joystick và ghi nhận vị trí an toàn mới.
         """
         from core.ld_controller import game_to_joystick_angle
         self._notify_status(f"⚠️ Phát hiện mắc kẹt tại ({curr_pos[0]:.1f}, {curr_pos[1]:.1f}); Kích hoạt quy trình thoát kẹt chủ động...")
 
-        rad_b = math.radians(angle_blocked)
-        obs_probe = [curr_pos[0] + math.cos(rad_b) * 1.5, curr_pos[1] + math.sin(rad_b) * 1.5]
+        # Nhả phím cảm ứng cũ trước khi bắt đầu thoát kẹt
+        if hasattr(self.ctrl, "joystick_release"):
+            self.ctrl.joystick_release()
+
+        # Chuẩn hóa hướng cản trên hệ tọa độ game (hỗ trợ cả blocked_heading và angle_blocked)
+        blocked_input = angle_blocked if blocked_heading is None else blocked_heading
+        if isinstance(blocked_input, (tuple, list)):
+            hx, hy = float(blocked_input[0]), float(blocked_input[1])
+            h_len = math.hypot(hx, hy) or 1.0
+            hx, hy = hx / h_len, hy / h_len
+            blocked_game_ang = math.degrees(math.atan2(hy, hx)) % 360
+        else:
+            blocked_game_ang = float(blocked_input or 0.0) % 360
+            rad_b = math.radians(blocked_game_ang)
+            hx, hy = math.cos(rad_b), math.sin(rad_b)
+
+        # 1. Đặt vật cản trên tọa độ game chính xác phía trước điểm kẹt
+        obs_probe = [curr_pos[0] + hx * 1.5, curr_pos[1] + hy * 1.5]
         if self.plan:
             self.plan.note_obstacle(
                 curr_pos, obs_probe, duration=1800.0,
                 reason="stuck against tree/rock obstacle", radius=3, barrier=True,
-                heading=(math.cos(rad_b), math.sin(rad_b))
+                heading=(hx, hy)
             )
+
         now_time = time.monotonic()
         if not hasattr(self, "_blocked_sectors"):
             self._blocked_sectors = []
         self._blocked_sectors = [s for s in self._blocked_sectors if s["expires"] > now_time]
         self._blocked_sectors.append({
             "pos": list(curr_pos),
-            "angle": angle_blocked,
+            "angle": blocked_game_ang,
+            "game_angle": blocked_game_ang,
             "radius": 4.5,
             "span": 80.0,
             "expires": now_time + 120.0
         })
 
         candidates_escape = []
+        # Lùi theo vệt di chuyển đã xác minh (Verified Breadcrumbs)
         if hasattr(self, "_verified_breadcrumbs") and self._verified_breadcrumbs:
             for bc in reversed(self._verified_breadcrumbs):
                 d_bc = math.dist(curr_pos, bc)
                 if 0.8 <= d_bc <= 6.0:
-                    ang_bc = game_to_joystick_angle(bc[0] - curr_pos[0], bc[1] - curr_pos[1])
-                    diff_bc = abs((ang_bc - angle_blocked + 180) % 360 - 180)
+                    esc_dx = bc[0] - curr_pos[0]
+                    esc_dy = bc[1] - curr_pos[1]
+                    esc_game_ang = math.degrees(math.atan2(esc_dy, esc_dx)) % 360
+                    diff_bc = abs((esc_game_ang - blocked_game_ang + 180) % 360 - 180)
                     if diff_bc >= 65.0:
-                        candidates_escape.append(ang_bc)
+                        candidates_escape.append(game_to_joystick_angle(esc_dx, esc_dy))
                         break
 
-        direct_reverse = (angle_blocked + 180) % 360
+        # Góc lùi 180 độ trong hệ tọa độ game -> chuyển sang joystick
+        rad_rev = math.radians((blocked_game_ang + 180) % 360)
+        direct_reverse = game_to_joystick_angle(math.cos(rad_rev), math.sin(rad_rev))
         if direct_reverse not in candidates_escape:
             candidates_escape.append(direct_reverse)
-        candidates_escape.append((angle_blocked + 110) % 360)
-        candidates_escape.append((angle_blocked - 110) % 360)
+
+        # Hai hướng né 110 độ trong hệ game -> chuyển sang joystick
+        rad_f1 = math.radians((blocked_game_ang + 110) % 360)
+        candidates_escape.append(game_to_joystick_angle(math.cos(rad_f1), math.sin(rad_f1)))
+        rad_f2 = math.radians((blocked_game_ang - 110) % 360)
+        candidates_escape.append(game_to_joystick_angle(math.cos(rad_f2), math.sin(rad_f2)))
 
         initial_p = list(curr_pos)
         escaped_pos = list(curr_pos)
@@ -1319,12 +1356,17 @@ class MapTraversalEngine:
                 self._stop_event.wait(0.15)
                 if not self.is_running or self.is_paused:
                     break
-                sample = self.vision.get_engine_telemetry()
+                try:
+                    sample = self.vision.get_engine_telemetry()
+                except (StopIteration, Exception):
+                    sample = None
                 if self._valid_position(sample):
                     escaped_pos = list(sample["position"])
                     net_dist = math.dist(initial_p, escaped_pos)
                     sub_dist = math.dist(sub_init_p, escaped_pos)
-                    if net_dist >= 1.5:
+                    # Xác minh đã thoát ra ngoài vùng nguy hiểm (cách điểm kẹt >= 1.5 và đứng trên vùng đi được)
+                    is_safe_spot = self.plan.is_walkable(escaped_pos[0], escaped_pos[1]) if self.plan else True
+                    if net_dist >= 1.5 and is_safe_spot:
                         self._notify_status(f"✅ Đã thoát kẹt thành công ra khoảng trống an toàn ({escaped_pos[0]:.1f}, {escaped_pos[1]:.1f}, cách điểm kẹt {net_dist:.2f} đơn vị).")
                         moved_far_enough = True
                         break
@@ -1482,8 +1524,8 @@ class MapTraversalEngine:
                     self.bypasser.reset()
                 return _cleanup_exit("arrived")
 
-            # Auto Mount Maintenance
-            if sample.get("doing") == "walk" and (now_time - getattr(self, "_last_mount_check", 0) > 3.0):
+            # Auto Mount Maintenance: chỉ kiểm tra khi không giữ joystick liên tục để không gián đoạn thao tác lái
+            if sample.get("doing") == "walk" and not getattr(self.ctrl, "_touch_down", False) and (now_time - getattr(self, "_last_mount_check", 0) > 3.0):
                 self._last_mount_check = now_time
                 if hasattr(self.ctrl, "toggle_mount"):
                     self.ctrl.toggle_mount()
@@ -1525,7 +1567,7 @@ class MapTraversalEngine:
 
                     if net_moved < 0.20:
                         consecutive_stalls += 1
-                        angle_blocked = game_to_joystick_angle(heading_x, heading_y)
+                        game_heading_ang = math.degrees(math.atan2(heading_y, heading_x)) % 360
                         obs_dist = 0.8
                         obs_pt = (curr_pos[0] + heading_x * obs_dist, curr_pos[1] + heading_y * obs_dist)
 
@@ -1533,13 +1575,13 @@ class MapTraversalEngine:
                         if self.plan:
                             self.plan.note_obstacle(obs_pt, obs_pt, duration=180.0, radius=1, barrier=True, heading=(heading_x, heading_y))
 
-                        # 2. Khóa góc cản cho hệ thống bẻ lái (Anti-Reentry Steering Guard)
+                        # 2. Khóa góc cản cho hệ thống bẻ lái (Anti-Reentry Steering Guard) trên hệ tọa độ game
                         if not hasattr(self, "_blocked_sectors"):
                             self._blocked_sectors = []
                         self._blocked_sectors = [s for s in self._blocked_sectors if s["expires"] > now_time]
                         self._blocked_sectors.append({
                             "pos": list(curr_pos),
-                            "angle": angle_blocked,
+                            "game_angle": game_heading_ang,
                             "radius": 3.5,
                             "span": 60.0,
                             "expires": now_time + 45.0
@@ -1551,18 +1593,19 @@ class MapTraversalEngine:
                             # Lần đầu: Ghi nhận vật cản, bẻ lái lách góc và tiếp tục lướt mượt mà theo đường vòng
                             self._notify_status(f"Gặp vật cản tại ({curr_pos[0]:.1f}, {curr_pos[1]:.1f}); bẻ lái lách góc và tiếp tục theo đường vòng.")
                             if hasattr(self, "bypasser") and hasattr(self.bypasser, "find_smart_exit"):
-                                bypass_heading = self.bypasser.find_smart_exit(
-                                    curr_pos, angle_blocked,
+                                bypass_joy_angle = self.bypasser.find_smart_exit(
+                                    curr_pos, game_heading_ang,
                                     plan=self.plan,
                                     destination=current_target_wp,
                                     breadcrumbs=list(self._verified_breadcrumbs)
                                 )
                             else:
-                                bypass_heading = (angle_blocked + 80) % 360
+                                rad_alt = math.radians((game_heading_ang + 80) % 360)
+                                bypass_joy_angle = game_to_joystick_angle(math.cos(rad_alt), math.sin(rad_alt))
 
                             if hasattr(self.ctrl, "joystick_steer"):
-                                self.ctrl.joystick_steer(bypass_heading)
-                            last_joystick_angle = bypass_heading
+                                self.ctrl.joystick_steer(bypass_joy_angle)
+                            last_joystick_angle = bypass_joy_angle
 
                             new_route_fresh = self.plan.route_to(curr_pos, dest_list) if (self.plan and hasattr(self.plan, "route_to")) else new_route
                             if new_route_fresh:
@@ -1578,7 +1621,16 @@ class MapTraversalEngine:
                             # Đã thử bẻ lái lách góc mà vẫn bị chặn >= 2 lần liên tiếp (2+ giây không tiến):
                             # Mới kích hoạt quy trình thoát kẹt chủ động ra khoảng trống
                             self._notify_status(f"Vật cản chặn đường tại ({curr_pos[0]:.1f}, {curr_pos[1]:.1f}); kích hoạt lùi thoát kẹt.")
-                            self._perform_active_unstuck(curr_pos, angle_blocked)
+                            self._perform_active_unstuck(curr_pos, (heading_x, heading_y))
+                            # Ghi nhận vùng kẹt để tích lũy số lần thất bại theo vùng
+                            if self.plan:
+                                area = self.plan.record_stall(
+                                    curr_pos, dest_list,
+                                    radius=float(self.settings.get("stalled_area_radius", 4)),
+                                    duration=float(self.settings.get("stalled_area_cooldown", 600))
+                                )
+                                if hasattr(self, "store") and self.store:
+                                    self.store.event(self._mission_id, "stalled_area", dict(area))
                             return _cleanup_exit("stalled")
                     else:
                         consecutive_stalls = 0
@@ -1591,36 +1643,39 @@ class MapTraversalEngine:
                 self._stop_event.wait(0.12)
                 continue
 
-            # Tính góc di chuyển cơ sở theo mục tiêu phía trước
-            target_angle = game_to_joystick_angle(heading_x, heading_y)
+            # Tính hướng di chuyển cơ sở trên hệ tọa độ game
+            base_game_ang = math.degrees(math.atan2(heading_y, heading_x)) % 360
+            target_game_ang = base_game_ang
 
-            # BỘ LỌC CẤM CHUI VÀO LẠI (Anti-Reentry Sector Guard):
-            # Nếu góc di chuyển đâm vào khu vực vừa bị kẹt trong bán kính 4.0 đơn vị,
-            # LẬP TỨC BẺ LÁI LỆCH RA KHỎI GÓC CẤM để bảo vệ nhân vật tuyệt đối không chui vào lại
+            # BỘ LỌC CẤM CHUI VÀO LẠI (Anti-Reentry Sector Guard trên hệ tọa độ game):
             if hasattr(self, "_blocked_sectors") and self._blocked_sectors:
                 for s in self._blocked_sectors:
                     if s["expires"] > now_time and math.dist(curr_pos, s["pos"]) <= s["radius"]:
-                        ang_diff = (target_angle - s["angle"] + 180) % 360 - 180
+                        ang_diff = (target_game_ang - s["game_angle"] + 180) % 360 - 180
                         if abs(ang_diff) < s["span"]:
                             veer_dir = 1.0 if ang_diff >= 0 else -1.0
-                            target_angle = (s["angle"] + veer_dir * (s["span"] + 10.0)) % 360
+                            target_game_ang = (s["game_angle"] + veer_dir * (s["span"] + 10.0)) % 360
                             break
 
-            # Tầm nhìn đón đầu phía trước (Proactive Forward Lookahead):
+            # Tầm nhìn đón đầu phía trước (Proactive Forward Lookahead trên hệ tọa độ game):
             # Nhìn trước 1.8 - 2.5 đơn vị để nhận diện góc tường / bậc thang và chủ động bẻ lái lách qua trước khi va chạm
             if self.plan and hasattr(self.plan, "cast_ray"):
-                forward_clearance = self.plan.cast_ray(curr_pos, target_angle, max_dist=2.5, step=0.25)
+                forward_clearance = self.plan.cast_ray(curr_pos, target_game_ang, max_dist=2.5, step=0.25)
                 if forward_clearance < 1.2:
-                    best_veer_angle = target_angle
+                    best_veer_game = target_game_ang
                     best_clearance = forward_clearance
                     for veer in [30, -30, 50, -50, 75, -75]:
-                        cand_angle = (target_angle + veer) % 360
-                        cand_clear = self.plan.cast_ray(curr_pos, cand_angle, max_dist=2.8, step=0.25)
+                        cand_game = (target_game_ang + veer) % 360
+                        cand_clear = self.plan.cast_ray(curr_pos, cand_game, max_dist=2.8, step=0.25)
                         if cand_clear > best_clearance + 0.5:
                             best_clearance = cand_clear
-                            best_veer_angle = cand_angle
-                    if best_veer_angle != target_angle:
-                        target_angle = best_veer_angle
+                            best_veer_game = cand_game
+                    if best_veer_game != target_game_ang:
+                        target_game_ang = best_veer_game
+
+            # Chuyển đổi hướng di chuyển game thành góc joystick màn hình
+            rad_target = math.radians(target_game_ang)
+            target_angle = game_to_joystick_angle(math.cos(rad_target), math.sin(rad_target))
 
             # Áp dụng giới hạn góc xoay sinh học thích ứng (Adaptive Angular Slew Rate)
             if last_joystick_angle is not None:
@@ -1805,6 +1860,24 @@ class MapTraversalEngine:
                     self._publish(force=True)
                     continue
                 if outcome == "stalled":
+                    final_sample = self.vision.get_engine_telemetry()
+                    if self._valid_position(final_sample) and self.plan:
+                        area = self.plan.record_stall(
+                            final_sample["position"], destination,
+                            radius=float(self.settings.get("stalled_area_radius", 4)),
+                            duration=float(self.settings.get("stalled_area_cooldown", 600))
+                        )
+                        if hasattr(self, "store") and self.store:
+                            self.store.event(self._mission_id, "stalled_area", dict(area))
+                        if self._blocked_by_repeated_stalls(final_sample):
+                            target["state"] = "deferred"
+                            target["reason"] = "Kẹt nhiều lần quanh cùng một khu vực; hoãn mốc để bảo đảm an toàn."
+                            self.plan.data["active_id"] = None
+                            self.plan.data["active_path"] = []
+                            self._save_progress()
+                            self._publish(force=True)
+                            continue
+
                     retry_allowed = target["attempts"] < maximum
                     target["state"] = "retry" if (retry_allowed and target["attempts"] < 2) else "deferred"
                     if target["state"] == "deferred":

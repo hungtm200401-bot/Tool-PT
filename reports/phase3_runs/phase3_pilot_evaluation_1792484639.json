@@ -1,0 +1,193 @@
+{
+  "run_timestamp": "2026-10-20T15:23:59.846301",
+  "device_id": "emulator-5554",
+  "package": "com.tech3cgame.vhpt1",
+  "server": "thaptuyettran.vn",
+  "pilot_evaluation_scope": "PILOT_BASELINE_AND_CONFIG",
+  "sessions": {
+    "P3-01": {
+      "session_id": "P3-01",
+      "session_name": "P3-01_PREPARATION_BASELINE",
+      "scope": "BASELINE_OBSERVATION",
+      "timestamp": "2026-10-20T15:23:58.487057",
+      "server": "thaptuyettran.vn",
+      "sub_world_id": 3,
+      "character_name": "ThËpTamTrÊnHïng",
+      "level": 4,
+      "position": [
+        212.484,
+        197.268
+      ],
+      "hp": {
+        "current": 24,
+        "max": 24
+      },
+      "mp": {
+        "current": 70,
+        "max": 70
+      },
+      "exp_percent": "72.500%",
+      "assertions": [
+        {
+          "assertion_id": "ASSERT-P3-01-CHAR-SNAPSHOT",
+          "description": "Nhận diện tên nhân vật, cấp độ, sinh mệnh, nội lực và tọa độ quan sát",
+          "expected": "Level >= 1, Name valid, HP > 0",
+          "actual": "Name=ThËpTamTrÊnHïng, Level=4, HP={'current': 24, 'max': 24}, Pos=(212.484, 197.268)",
+          "status": "PASS",
+          "evidence_ref": "charpanel-render-status.json, pos-trace-status.json"
+        },
+        {
+          "assertion_id": "ASSERT-P3-01-WORLD-MAP",
+          "description": "Nhận diện thế giới phụ (sub-world) và máy chủ kết nối",
+          "expected": "Sub-world ID == 3 (Ngọc Hư Cung), server host thaptuyettran.vn",
+          "actual": "Sub-world=3, Server=thaptuyettran.vn",
+          "status": "PASS",
+          "evidence_ref": "map-render-status.json"
+        },
+        {
+          "assertion_id": "ASSERT-P3-01-BUILD-MANIFEST",
+          "description": "Đối chiếu manifest build client/server và resource build",
+          "expected": "Toàn bộ manifest build đã được xác minh độc lập",
+          "actual": "Chỉ có package com.tech3cgame.vhpt1 và server thaptuyettran.vn, chưa có full manifest",
+          "status": "INCONCLUSIVE",
+          "evidence_ref": "pending_build_manifest"
+        },
+        {
+          "assertion_id": "ASSERT-P3-01-INVENTORY-BASELINE",
+          "description": "Đọc toàn bộ ô hành trang, tiền tệ và số lượng thuốc trước phiên",
+          "expected": "Liệt kê danh mục ô túi và số lượng bình máu/mana",
+          "actual": "Bảng túi đồ chưa mở trong phiên snapshot hiện tại",
+          "status": "NOT_RUN",
+          "evidence_ref": "bag_panel_unopened"
+        }
+      ],
+      "session_status": "BASELINE_OBSERVED",
+      "compliance_note": "Ghi nhận baseline snapshot. Không gán blanket PASS toàn phiên theo quy định Mục 35."
+    },
+    "P3-02": {
+      "session_id": "P3-02",
+      "session_name": "P3-02_UNDERSTAND_QUESTS",
+      "scope": "ACTIVE_QUESTS_UI_READ",
+      "timestamp": "2026-10-20T15:23:59.174275",
+      "total_active_quests": 2,
+      "quests": [
+        {
+          "ui_index": 1,
+          "title": "B¸ch Lý",
+          "detail": "§Õn thØnh gi¸o V©n Trung Tö",
+          "target_npc": null,
+          "status": "active"
+        },
+        {
+          "ui_index": 2,
+          "title": "Ngò ThÊt",
+          "detail": "LÊy Löa vµ B¨ng c¬ giao cho XÝch Tinh Tö",
+          "target_npc": null,
+          "status": "active"
+        }
+      ],
+      "assertions": [
+        {
+          "assertion_id": "ASSERT-P3-02-UI-TASK-EXTRACTION",
+          "description": "Trích xuất nhiệm vụ đang kích hoạt hiển thị trên giao diện người dùng",
+          "expected": "Đọc được ít nhất 2 nhiệm vụ hiển thị",
+          "actual": "Tìm thấy 2 nhiệm vụ: ['B¸ch Lý', 'Ngò ThÊt']",
+          "status": "PASS",
+          "evidence_ref": "charpanel-render-status.json / mission_labels"
+        },
+        {
+          "assertion_id": "ASSERT-P3-02-QUEST-ORACLE-MAPPING",
+          "description": "Ánh xạ mã định danh ổn định (Quest ID, Step ID, Target Object ID) vào Oracle",
+          "expected": "Có quest ID số học chuẩn từ dữ liệu thiết kế server",
+          "actual": "Chỉ có chuỗi text hiển thị Task 1 (Bách Lý), Task 2 (Ngô Thất), chưa có Quest ID nội bộ",
+          "status": "NOT_RUN",
+          "evidence_ref": "pending_quest_database"
+        }
+      ],
+      "session_status": "LOG_READ_OBSERVED",
+      "compliance_note": "Ghi nhận đọc nhật ký nhiệm vụ. Cần bổ sung Quest ID và Step ID trước khi kết luận đạt Mục 35."
+    },
+    "P3-09": {
+      "session_id": "P3-09",
+      "session_name": "P3-09_CHECK_AUTO_POTION_THRESHOLD",
+      "scope": "CONFIG_ONLY",
+      "timestamp": "2026-10-20T15:23:59.846301",
+      "configured_threshold_percent": 50,
+      "current_hp_ratio_percent": 100.0,
+      "fight_state": "off",
+      "assertions": [
+        {
+          "assertion_id": "ASSERT-P3-09-CONFIG",
+          "name": "CONFIG: Đọc cấu hình ngưỡng tự phục hồi",
+          "scope": "CONFIG",
+          "description": "Đọc thông số ngưỡng máu/mana và trạng thái tự đánh",
+          "expected": "Ngưỡng tự động được cấu hình là 50%, fight_state được ghi nhận",
+          "actual": "Threshold=50%, fight_state=off",
+          "status": "PASS",
+          "evidence_ref": "charpanel-render-status.json / autoplay settings"
+        },
+        {
+          "assertion_id": "ASSERT-P3-09-PRECONDITIONS",
+          "name": "PRECONDITIONS: Tiền điều kiện nhân vật và môi trường",
+          "scope": "PRECONDITIONS",
+          "description": "Nhân vật sống, ở trạng thái hợp lệ, sẵn sàng kiểm thử",
+          "expected": "HP hiện tại hợp lệ, nhân vật tồn tại trong game",
+          "actual": "HP=24/24 (100.0%), doing=stand",
+          "status": "PASS",
+          "evidence_ref": "pos-trace-status.json"
+        },
+        {
+          "assertion_id": "ASSERT-P3-09-ABOVE-BOUNDARY-BELOW",
+          "name": "BOUNDARY: Kiểm tra ngưỡng trên, bằng và dưới 50%",
+          "scope": "BEHAVIOR",
+          "description": "Quan sát hành vi kích hoạt tại các mốc HP: 13/24 (~54.2%), 12/24 (50%), 11/24 (~45.8%)",
+          "expected": "Không cắn thuốc ở >50%, cắn thuốc khi <=50% theo quy tắc oracle",
+          "actual": "HP hiện tại đang ở 100% (24/24), chưa có tác động làm suy giảm HP",
+          "status": "NOT_RUN",
+          "evidence_ref": "pending_controlled_damage_test"
+        },
+        {
+          "assertion_id": "ASSERT-P3-09-TRIGGER",
+          "name": "TRIGGER: Ghi nhận sự kiện dùng thuốc khi vượt ngưỡng",
+          "scope": "BEHAVIOR",
+          "description": "Ghi nhận timestamp vượt ngưỡng, trừ bình thuốc trong túi và hồi phục máu",
+          "expected": "Có log event dùng thuốc và thời gian hồi phục trong cửa sổ quy chuẩn",
+          "actual": "Chưa có sự kiện kích hoạt thực tế",
+          "status": "NOT_RUN",
+          "evidence_ref": "pending_potion_event_trace"
+        },
+        {
+          "assertion_id": "ASSERT-P3-09-ATTRIBUTION",
+          "name": "ATTRIBUTION: Phân giải nhân quả hồi phục",
+          "scope": "BEHAVIOR",
+          "description": "Phân biệt lượng HP tăng do bình thuốc với hồi phục tự nhiên hoặc buff",
+          "expected": "Lượng hồi máu khớp chính xác chỉ số bình thuốc sử dụng",
+          "actual": "Chưa có sự kiện hồi phục để phân tích",
+          "status": "NOT_RUN",
+          "evidence_ref": "pending_combat_log_analysis"
+        },
+        {
+          "assertion_id": "ASSERT-P3-09-REPEAT-NEGATIVE",
+          "name": "REPEAT/NEGATIVE: Kiểm tra hồi chiêu và kịch bản âm bản",
+          "scope": "BEHAVIOR",
+          "description": "Kiểm tra cooldown thuốc không bị spam đè, xử lý khi cạn bình thuốc",
+          "expected": "Tuân thủ cooldown thuốc, không spam lệnh khi túi hết thuốc",
+          "actual": "Chưa kiểm nghiệm kịch bản âm bản",
+          "status": "NOT_RUN",
+          "evidence_ref": "pending_negative_potion_test"
+        }
+      ],
+      "session_status": "CONFIG_VERIFIED",
+      "compliance_note": "Chỉ xác nhận cấu hình (CONFIG_PASS). Hành vi cắn thuốc thực tế đang ở trạng thái NOT_RUN theo Mục 35."
+    }
+  },
+  "overall_pilot_status": "PILOT_OBSERVED_PENDING_BEHAVIORAL_TESTS",
+  "matrix_governance_rules": {
+    "TOTAL_CHECKPOINTS": 500,
+    "PASS_STATIC": 29,
+    "BLOCKED_STATIC": 166,
+    "INCONCLUSIVE_STATIC": 1,
+    "NOT_RUN_STATIC": 304,
+    "RULE_SECTION_35": "Tuyệt đối không tăng 29 PASS thành 32 PASS từ các phiên thí điểm. Kho 500 điểm kiểm tra giữ nguyên trạng thái nền cho tới khi nhận đủ bằng chứng chuỗi hành vi có assertion."
+  }
+}

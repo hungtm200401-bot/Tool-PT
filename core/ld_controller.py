@@ -82,9 +82,30 @@ class LDController:
             self.adb_path = selected["adb_path"]
             self.device_id = selected["serial"]
             self.device_name = selected["name"]
+            self._detect_touch_device()
         self.connection_status = result["message"]
         print(f"[LDController] {self.connection_status}")
         return self.connected
+
+    def _detect_touch_device(self):
+        if not self.connected:
+            return getattr(self, "_touch_device", "/dev/input/event2")
+        try:
+            res = run_quiet(self._device_command("shell", "getevent", "-pl"), timeout=3)
+            if res and res.stdout:
+                current_dev = None
+                for line in res.stdout.splitlines():
+                    if "/dev/input/event" in line:
+                        for token in line.split():
+                            if "/dev/input/event" in token:
+                                current_dev = token.strip(":")
+                                break
+                    if ("ABS_MT_POSITION_X" in line or "0035" in line) and current_dev:
+                        self._touch_device = current_dev
+                        return self._touch_device
+        except Exception:
+            pass
+        return getattr(self, "_touch_device", "/dev/input/event2")
 
     def select_device(self, serial):
         if self._session is not None:
@@ -98,6 +119,7 @@ class LDController:
         self.device_id = selected["serial"]
         self.device_name = selected["name"]
         self._user_selected_serial = serial
+        self._detect_touch_device()
         self.connection_status = f"Đã chọn {self.device_name} — {self.device_id}."
         return True
 
@@ -363,7 +385,7 @@ class LDController:
             except Exception:
                 self._touch_down = False
 
-        self.move_joystick(angle_degrees, duration_ms=480)
+        self.move_joystick(angle_degrees, duration_ms=160)
 
     def joystick_steer(self, angle_degrees):
         """
@@ -393,8 +415,8 @@ class LDController:
                 except Exception:
                     self._touch_down = False
 
-        # Fallback tự nhiên qua swipe gối đầu nếu sendevent chưa khả dụng
-        self.move_joystick(angle_degrees, duration_ms=480)
+        # Fallback tự nhiên qua swipe gối đầu nếu sendevent chưa khả dụng (160ms tránh ứ đọng hàng đợi)
+        self.move_joystick(angle_degrees, duration_ms=160)
 
     def joystick_release(self):
         """

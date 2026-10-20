@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "mission_id": "dd49905e5c4f4da794147c95c8ee221c",
-  "current_map_id": 6,
+  "mission_id": "944f7a6dd92443deb1888a685634f505",
+  "current_map_id": 3,
   "visited_maps": [],
   "map_results": {
     "47": {
@@ -131,8 +131,15 @@
       "name": "Ngọc Tuyền"
     },
     "3": {
-      "state": "pending",
-      "name": "Ngọc Hư Cung"
+      "name": "Ngọc Hư Cung",
+      "state": "partial",
+      "reason": "Đã thất bại 2 lần quanh (213.6, 197.2) mà không thêm mốc mới. Đã lưu phần còn thiếu và dừng tại chỗ; cần một lối ra được xác minh trước khi thử tiếp vùng này.",
+      "done": 4,
+      "total": 65,
+      "travelled_fraction": 0.0018925978395608288,
+      "inspected_fraction": 0.005157605808393837,
+      "inspection_calibrated": false,
+      "unknown_pixels": 384
     },
     "12": {
       "state": "pending",
@@ -147,21 +154,21 @@
       "name": "Bích Du Cung"
     }
   },
-  "phase": "stopped",
+  "phase": "partial",
   "leg": {
-    "id": "36d9375a62e84095b0a3d272a6601ee9",
-    "mission_id": "dd49905e5c4f4da794147c95c8ee221c",
-    "map_id": 6,
-    "target_id": "r1:104:41",
-    "ring": 1,
-    "purpose": "quét góc & viền mép",
+    "id": "9d22f27011514fe883b65e510d84240e",
+    "mission_id": "944f7a6dd92443deb1888a685634f505",
+    "map_id": 3,
+    "target_id": "r0:195:368",
+    "ring": 0,
+    "purpose": "mốc gốc",
     "from": [
-      205.51953125,
-      174.748046875
+      212.49609375,
+      197.267578125
     ],
     "to": [
-      190.562,
-      174.5
+      215.0,
+      200.188
     ],
     "tolerance": 1.0,
     "state": "stalled"

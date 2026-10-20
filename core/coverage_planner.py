@@ -311,14 +311,12 @@ class CoveragePlan:
         height, width = walkable.shape
         rows, cols = math.ceil(height/8), math.ceil(width/8)
         padded = np.pad(walkable, ((0, rows*8-height), (0, cols*8-width)))
-        preferred = padded.reshape(rows, 8, cols, 8).mean(axis=(1, 3)) >= 0.6
-        # Texture is uncertain: prefer clear corridors, but allow a costly probe
-        # across ambiguous artwork. Only observed collisions become hard barriers.
-        gray = cv2.cvtColor(atlas, cv2.COLOR_BGR2GRAY)
-        visible = ((known > 0) & (gray > 45) & (gray < 250)).astype(np.uint8)
-        padded_visible = np.pad(visible, ((0, rows*8-height), (0, cols*8-width)))
-        self.navigation = padded_visible.reshape(rows, 8, cols, 8).mean(axis=(1, 3)) >= 0.15
-        self.terrain_cost = np.where(preferred, 1.0, 12.0)
+        walkable_ratio = padded.reshape(rows, 8, cols, 8).mean(axis=(1, 3))
+        preferred = walkable_ratio >= 0.55
+        # Texture is uncertain: require walkable ground (>= 12%) for valid navigation corridors,
+        # so edge tiles remain navigable while obstacle walls (0% ground) are strictly blocked.
+        self.navigation = walkable_ratio >= 0.12
+        self.terrain_cost = np.where(preferred, 1.0, 10.0)
         self._base_navigation = self.navigation.copy()
         self._refresh_obstacles()
         _, self.components = cv2.connectedComponents(self.navigation.astype(np.uint8), connectivity=4)
@@ -455,7 +453,7 @@ class CoveragePlan:
 
         if strategy in {"corners_first", "perimeter_first"}:
             # Phase 1: Đi 4 góc & toàn bộ đường viền mép bản đồ trước (Full Corners & Outer Perimeter First)
-            # TUYỆT ĐỐI không đi mốc gốc giữa map trước!
+            # Chu trình biên an toàn liên tục: nối 4 góc dọc theo cung viền, không chạy tắt qua tâm map
             num_labels, labels = cv2.connectedComponents((ground > 0).astype(np.uint8), connectivity=8)
             anchor_lbl = labels[ay, ax] if 0 <= ay < height and 0 <= ax < width and labels[ay, ax] > 0 else 0
             if anchor_lbl == 0 and num_labels > 1:
@@ -463,31 +461,25 @@ class CoveragePlan:
                 anchor_lbl = int(np.argmax(counts[1:]) + 1)
             main_ground = (labels == anchor_lbl).astype(np.uint8) if anchor_lbl > 0 else (ground > 0).astype(np.uint8)
 
-            # 1.1: Định vị chính xác 4 góc map (Tây Bắc, Đông Bắc, Đông Nam, Tây Nam)
+            # 1.1: Định vị 4 góc bản đồ với khoảng hở an toàn (clearance >= 2)
             corner_bounds = [
                 (0, 0, "góc tây bắc"),
                 (width - 1, 0, "góc đông bắc"),
                 (width - 1, height - 1, "góc đông nam"),
                 (0, height - 1, "góc tây nam")
             ]
-            coords_all = np.argwhere(main_ground > 0)
+            safe_coords = np.argwhere((main_ground > 0) & (clearance >= 2))
+            if not len(safe_coords):
+                safe_coords = np.argwhere(main_ground > 0)
             corner_pts = []
-            if len(coords_all):
+            if len(safe_coords):
                 for cx_bound, cy_bound, cname in corner_bounds:
-                    dists = (coords_all[:, 1] - cx_bound)**2 + (coords_all[:, 0] - cy_bound)**2
+                    dists = (safe_coords[:, 1] - cx_bound)**2 + (safe_coords[:, 0] - cy_bound)**2
                     best_c = np.argmin(dists)
-                    corner_y, corner_x = coords_all[best_c]
-                    corner_pts.append((corner_x, corner_y, cname))
+                    corner_y, corner_x = safe_coords[best_c]
+                    corner_pts.append((int(corner_x), int(corner_y), cname))
 
-            # Sắp xếp 4 góc map bắt đầu từ góc gần nhân vật nhất
-            if corner_pts:
-                start_c_idx = int(np.argmin([(p[0]-ax)**2 + (p[1]-ay)**2 for p in corner_pts]))
-                ordered_corners = corner_pts[start_c_idx:] + corner_pts[:start_c_idx]
-                for c_seq, (cx, cy, cname) in enumerate(ordered_corners):
-                    add_point(cx, cy, ring=1, purpose=f"khám phá {cname}",
-                              is_perimeter=True, batch=1, sequence=c_seq * 100)
-
-            # 1.2: Tạo chu vi viền ngoài (Outer Perimeter Loop) liên tục khép kín kết nối quanh 4 góc
+            # 1.2: Tạo chu vi viền ngoài liên tục khép kín kết nối tuần tự quanh 4 góc
             closed = cv2.morphologyEx(main_ground, cv2.MORPH_CLOSE, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (11, 11)))
             contours, _ = cv2.findContours(closed, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
             dense_pts = []
@@ -505,36 +497,77 @@ class CoveragePlan:
                         dense_pts.append((int(round(p1[0] + (p2[0]-p1[0])*f)),
                                           int(round(p1[1] + (p2[1]-p1[1])*f))))
 
+            # Đảm bảo các điểm viền đều có khoảng cách an toàn (clearance >= 2)
+            valid_dense = []
+            for px, py in dense_pts:
+                px = max(0, min(width - 1, px))
+                py = max(0, min(height - 1, py))
+                if clearance[py, px] < 2:
+                    patch_y = max(0, py - spacing // 2), min(height, py + spacing // 2)
+                    patch_x = max(0, px - spacing // 2), min(width, px + spacing // 2)
+                    sub = (main_ground[patch_y[0]:patch_y[1], patch_x[0]:patch_x[1]] > 0) & (clearance[patch_y[0]:patch_y[1], patch_x[0]:patch_x[1]] >= 2)
+                    if np.any(sub):
+                        coords = np.argwhere(sub)
+                        dists = (coords[:, 1] + patch_x[0] - px)**2 + (coords[:, 0] + patch_y[0] - py)**2
+                        best_idx = np.argmin(dists)
+                        px = patch_x[0] + int(coords[best_idx][1])
+                        py = patch_y[0] + int(coords[best_idx][0])
+                if ground[py, px] > 0:
+                    valid_dense.append((px, py))
+            dense_pts = valid_dense if valid_dense else [(cp[0], cp[1]) for cp in corner_pts]
+
+            # Gán nhãn 4 góc vào các điểm gần nhất trên chu trình biên an toàn
+            corner_indices = {}
+            for cx, cy, cname in corner_pts:
+                if dense_pts:
+                    best_idx = int(np.argmin([(p[0]-cx)**2 + (p[1]-cy)**2 for p in dense_pts]))
+                    corner_indices[best_idx] = cname
+
             if dense_pts:
-                start_idx = int(np.argmin([(p[0]-ax)**2 + (p[1]-ay)**2 for p in dense_pts]))
+                # Bắt đầu chu trình biên từ góc gần vị trí xuất phát nhất
+                if corner_pts:
+                    start_c_idx = int(np.argmin([(p[0]-ax)**2 + (p[1]-ay)**2 for p in corner_pts]))
+                    target_cx, target_cy = corner_pts[start_c_idx][0], corner_pts[start_c_idx][1]
+                    start_idx = int(np.argmin([(p[0]-target_cx)**2 + (p[1]-target_cy)**2 for p in dense_pts]))
+                else:
+                    start_idx = int(np.argmin([(p[0]-ax)**2 + (p[1]-ay)**2 for p in dense_pts]))
+
                 dense_pts = dense_pts[start_idx:] + dense_pts[:start_idx]
+                rotated_corners = {}
+                for old_idx, cname in corner_indices.items():
+                    new_idx = (old_idx - start_idx) % len(dense_pts)
+                    rotated_corners[new_idx] = cname
+
+                # Đảm bảo mốc khởi đầu của chu trình biên luôn là khám phá góc
+                if corner_pts and 0 not in rotated_corners:
+                    rotated_corners[0] = corner_pts[start_c_idx][2]
+
                 for seq_idx, (px, py) in enumerate(dense_pts):
-                    px = max(0, min(width-1, px))
-                    py = max(0, min(height-1, py))
-                    if clearance[py, px] < 2:
-                        patch_y = max(0, py - spacing // 2), min(height, py + spacing // 2)
-                        patch_x = max(0, px - spacing // 2), min(width, px + spacing // 2)
-                        sub = (main_ground[patch_y[0]:patch_y[1], patch_x[0]:patch_x[1]] > 0) & (clearance[patch_y[0]:patch_y[1], patch_x[0]:patch_x[1]] >= 2)
-                        if np.any(sub):
-                            coords = np.argwhere(sub)
-                            dists = (coords[:, 1] + patch_x[0] - px)**2 + (coords[:, 0] + patch_y[0] - py)**2
-                            best_idx = np.argmin(dists)
-                            px = patch_x[0] + int(coords[best_idx][1])
-                            py = patch_y[0] + int(coords[best_idx][0])
-                    if ground[py, px] > 0:
-                        add_point(px, py, ring=1, purpose="quét góc & viền mép",
-                                  is_perimeter=True, batch=1, sequence=500 + seq_idx)
+                    cname = rotated_corners.get(seq_idx)
+                    purpose = f"khám phá {cname}" if cname else "quét góc & viền mép"
+                    add_point(px, py, ring=1, purpose=purpose,
+                              is_perimeter=True, batch=1, sequence=seq_idx)
 
             # Phase 2: Đi các vòng tròn khoanh vùng đồng tâm mở rộng (Concentric Inner Rings)
-            # Thêm mốc gốc tâm bản đồ làm mốc khởi đầu của Phase 2
-            add_point(ax, ay, ring=2, purpose="mốc gốc tâm bản đồ", is_perimeter=False, batch=2, sequence=0)
+            # Chọn tâm vòng ổn định tại vị trí có khoảng trống an toàn cao nhất trong vùng đi được
+            safe_inner_y, safe_inner_x = np.where((main_ground > 0) & (clearance >= 3))
+            if len(safe_inner_x):
+                cx_mean = float(np.mean(safe_inner_x))
+                cy_mean = float(np.mean(safe_inner_y))
+                dists_c = (safe_inner_x - cx_mean)**2 + (safe_inner_y - cy_mean)**2 - clearance[safe_inner_y, safe_inner_x] * 16.0
+                best_c_idx = np.argmin(dists_c)
+                rc_x, rc_y = int(safe_inner_x[best_c_idx]), int(safe_inner_y[best_c_idx])
+            else:
+                rc_x, rc_y = ax, ay
+
+            add_point(rc_x, rc_y, ring=2, purpose="mốc gốc tâm bản đồ", is_perimeter=False, batch=2, sequence=0)
 
             for ring in range(1, num_rings + 1):
                 radius = ring * spacing
                 count = max(8, math.ceil(2 * math.pi * radius / (spacing * 0.85)))
                 for angle in np.linspace(0, 2*math.pi, count, endpoint=False):
-                    tx = int(round(ax + radius * math.cos(angle)))
-                    ty = int(round(ay + radius * math.sin(angle)))
+                    tx = int(round(rc_x + radius * math.cos(angle)))
+                    ty = int(round(rc_y + radius * math.sin(angle)))
                     tx = max(0, min(width - 1, tx))
                     ty = max(0, min(height - 1, ty))
                     if main_ground[ty, tx] > 0 and covered[ty, tx] == 0:
@@ -764,18 +797,18 @@ class CoveragePlan:
                 return interrupted
             self.data["resume_target_id"] = None
         if eligible:
-            # Ưu tiên tuyệt đối theo đúng luật chỉ định:
-            # 1. 4 góc chính của bản đồ (khám phá góc đông bắc/tây bắc/đông nam/tây nam)
-            # 2. Toàn bộ viền mép chu vi bên ngoài (is_perimeter = True)
-            # 3. Các vòng tròn khoanh vùng đồng tâm bên trong (batch 2, 3, 4...)
+            # Khóa chuyển giai đoạn (Phase Locking): Xử lý xong toàn bộ mốc của batch nhỏ nhất trước khi chuyển sang batch tiếp theo
+            min_batch = min(p.get("batch", 0) for p in eligible)
+            pool = [p for p in eligible if p.get("batch", 0) == min_batch]
+
             def priority_key(p):
                 is_corner = 0 if "khám phá góc" in p.get("purpose", "").lower() else 1
                 is_perim = 0 if p.get("is_perimeter") else 1
                 state_prio = 0 if p["state"] == "pending" else 1
-                return (p["batch"], is_corner, is_perim, state_prio, p.get("sequence", 0))
+                return (is_corner, is_perim, state_prio, p.get("sequence", 0))
 
-            eligible.sort(key=priority_key)
-            return eligible[0]
+            pool.sort(key=priority_key)
+            return pool[0]
         return None
 
     def add_inspection_gaps(self):
@@ -1071,24 +1104,36 @@ class CoveragePlan:
         for point in self.data["targets"]:
             if point["state"] == "done":
                 continue
+            is_reached = False
             is_seen = False
             for option in point["options"]:
                 dx = option[0] - position[0]
                 dy = option[1] - position[1]
                 dist = math.hypot(dx, dy)
+                if dist <= float(tolerance):
+                    is_reached = True
+                    is_seen = True
+                    break
                 # Tầm nhìn 360 độ gần (Proximity Sphere):
                 if dist <= effective_radius:
                     is_seen = True
-                    break
                 # Nón tầm nhìn định hướng phía trước (Forward Vision Cone +/- 60 độ):
-                if h_norm is not None and dist <= forward_reach:
+                elif h_norm is not None and dist <= forward_reach:
                     alignment = (dx * h_norm[0] + dy * h_norm[1]) / max(1e-6, dist)
                     if alignment >= 0.45:
                         is_seen = True
-                        break
-            if is_seen:
+
+            if is_reached:
                 point["state"] = "done"
+                point["reached"] = True
+                point["seen"] = True
                 self.revision += 1
+            elif is_seen:
+                # Ghi nhận trạng thái nhìn thấy (seen) phục vụ telemetry và hiển thị radar;
+                # TUYỆT ĐỐI không tính nhìn thấy là đã đi tới (seen != reached).
+                if not point.get("seen"):
+                    point["seen"] = True
+                    self.revision += 1
 
     def observe_inspection(self, position, radius_override=None, heading=None):
         radius = float(radius_override if radius_override is not None else self.data.get("inspection_radius", 0))

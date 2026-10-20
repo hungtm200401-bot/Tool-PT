@@ -14,7 +14,7 @@
   ],
   "cell_size": 96,
   "ring_spacing_pixels": 96,
-  "inspection_radius": 0,
+  "inspection_radius": 0.0,
   "inspection_calibrated": false,
   "observed_fraction": 0.998641304347826,
   "targets": [
@@ -36,11 +36,17 @@
           200.188
         ]
       ],
-      "state": "pending",
+      "state": "deferred",
       "is_perimeter": false,
       "sequence": 0,
-      "attempts": 0,
-      "total_attempts": 0
+      "attempts": 1,
+      "total_attempts": 1,
+      "destination": [
+        215.0,
+        200.188
+      ],
+      "seen": true,
+      "reason": "Kẹt nhiều lần quanh cùng một khu vực; hoãn mốc để bảo đảm an toàn."
     },
     {
       "id": "r1:177:391",
@@ -68,7 +74,8 @@
       "is_perimeter": true,
       "sequence": 0,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:178:330",
@@ -88,11 +95,13 @@
           199.125
         ]
       ],
-      "state": "pending",
+      "state": "deferred",
       "is_perimeter": true,
       "sequence": 1,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true,
+      "reason": "Mốc nằm trong vùng chướng ngại vật/vật cản"
     },
     {
       "id": "r1:172:281",
@@ -112,7 +121,8 @@
       "is_perimeter": true,
       "sequence": 2,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:155:277",
@@ -136,7 +146,8 @@
       "is_perimeter": true,
       "sequence": 3,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:150:348",
@@ -156,11 +167,13 @@
           197.375
         ]
       ],
-      "state": "pending",
+      "state": "done",
       "is_perimeter": true,
       "sequence": 4,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "reached": true,
+      "seen": true
     },
     {
       "id": "r1:144:324",
@@ -184,11 +197,13 @@
           196.5
         ]
       ],
-      "state": "pending",
+      "state": "done",
       "is_perimeter": true,
       "sequence": 5,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "reached": true,
+      "seen": true
     },
     {
       "id": "r1:111:353",
@@ -216,7 +231,8 @@
       "is_perimeter": true,
       "sequence": 6,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:133:305",
@@ -240,11 +256,13 @@
           196.312
         ]
       ],
-      "state": "pending",
+      "state": "done",
       "is_perimeter": true,
       "sequence": 7,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true,
+      "reached": true
     },
     {
       "id": "r1:113:299",
@@ -268,7 +286,8 @@
       "is_perimeter": true,
       "sequence": 8,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:112:343",
@@ -296,7 +315,8 @@
       "is_perimeter": true,
       "sequence": 9,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:110:378",
@@ -320,7 +340,8 @@
       "is_perimeter": true,
       "sequence": 10,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:95:341",
@@ -348,7 +369,8 @@
       "is_perimeter": true,
       "sequence": 11,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:90:383",
@@ -464,7 +486,8 @@
       "is_perimeter": true,
       "sequence": 16,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:116:237",
@@ -488,7 +511,8 @@
       "is_perimeter": true,
       "sequence": 17,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:111:177",
@@ -612,7 +636,8 @@
       "is_perimeter": true,
       "sequence": 22,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:191:279",
@@ -636,7 +661,8 @@
       "is_perimeter": true,
       "sequence": 23,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:189:218",
@@ -936,7 +962,8 @@
       "is_perimeter": true,
       "sequence": 37,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:253:311",
@@ -1012,7 +1039,8 @@
       "is_perimeter": true,
       "sequence": 40,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:223:413",
@@ -1540,7 +1568,8 @@
       "is_perimeter": true,
       "sequence": 62,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:150:403",
@@ -1564,7 +1593,8 @@
       "is_perimeter": true,
       "sequence": 63,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true
     },
     {
       "id": "r1:149:363",
@@ -1580,22 +1610,1611 @@
           197.312
         ]
       ],
-      "state": "pending",
+      "state": "done",
       "is_perimeter": true,
       "sequence": 64,
       "attempts": 0,
-      "total_attempts": 0
+      "total_attempts": 0,
+      "seen": true,
+      "reached": true
     }
   ],
-  "trace": [],
+  "trace": [
+    null,
+    [
+      212.496,
+      197.268
+    ],
+    null,
+    [
+      212.176,
+      197.1
+    ],
+    null,
+    [
+      213.188,
+      197.803
+    ],
+    [
+      214.141,
+      197.348
+    ],
+    [
+      213.602,
+      197.172
+    ],
+    null,
+    [
+      214.562,
+      197.043
+    ]
+  ],
   "active_id": null,
   "active_path": [],
-  "obstacles": [],
+  "obstacles": [
+    {
+      "cell": [
+        17,
+        39
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        38
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        39
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        40
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        19,
+        39
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        21,
+        39
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        21,
+        38
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        22,
+        37
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        20,
+        39
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        20,
+        38
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        21,
+        37
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        19,
+        39
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        19,
+        38
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        20,
+        37
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        39
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        38
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        19,
+        37
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        17,
+        39
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        17,
+        38
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        37
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        16,
+        39
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        16,
+        38
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        17,
+        37
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        15,
+        38
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        15,
+        37
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        16,
+        36
+      ],
+      "expires": 1792485256.7261205,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        36
+      ],
+      "expires": 1792485258.915066,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        36
+      ],
+      "expires": 1792485258.915066,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        16,
+        37
+      ],
+      "expires": 1792485258.915066,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        17,
+        36
+      ],
+      "expires": 1792485258.915066,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        19,
+        40
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        19,
+        41
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        20,
+        40
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        22,
+        40
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        22,
+        39
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        22,
+        38
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        21,
+        40
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        20,
+        40
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        19,
+        40
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        17,
+        40
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        16,
+        40
+      ],
+      "expires": 1792485261.3338604,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        17,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        41
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        43
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        19,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        21,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        21,
+        41
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        20,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        20,
+        41
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        19,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        18,
+        41
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        17,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        17,
+        41
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        16,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        16,
+        41
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        15,
+        42
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        15,
+        41
+      ],
+      "expires": 1792485263.5125403,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        15,
+        40
+      ],
+      "expires": 1792485265.6560533,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        15,
+        39
+      ],
+      "expires": 1792485265.6560533,
+      "reason": "verified stall; temporary avoidance"
+    },
+    {
+      "cell": [
+        15,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        43
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        44
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        43
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        44
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        43
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        44
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        45
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        43
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        44
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        43
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        44
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        21,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        23,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        23,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        23,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        23,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        23,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        22,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        22,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        22,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        22,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        22,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        21,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        21,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        21,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        21,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        22,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        21,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        20,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        42
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        19,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        18,
+        37
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        17,
+        37
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        15,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        15,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        15,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        15,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        16,
+        37
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        14,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        14,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        14,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        14,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        15,
+        37
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        13,
+        41
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        13,
+        40
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        13,
+        39
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        13,
+        38
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    },
+    {
+      "cell": [
+        14,
+        37
+      ],
+      "expires": 1792486886.6573737,
+      "reason": "stuck against tree/rock obstacle"
+    }
+  ],
   "assets": {
     "atlas": "map_3_87774f91f0e46c49.png",
     "known": "map_3_87774f91f0e46c49_known.png",
     "digest": "87774f91f0e46c49001e068d1edc58f9eba3f70e4fd54d3439bd2cad134d99ae"
   },
-  "visited_runs": [],
-  "inspected_runs": []
+  "visited_runs": [
+    [
+      141,
+      361,
+      362
+    ],
+    [
+      142,
+      323,
+      324
+    ],
+    [
+      142,
+      359,
+      364
+    ],
+    [
+      143,
+      321,
+      326
+    ],
+    [
+      143,
+      346,
+      348
+    ],
+    [
+      143,
+      358,
+      365
+    ],
+    [
+      144,
+      320,
+      327
+    ],
+    [
+      144,
+      328,
+      329
+    ],
+    [
+      144,
+      344,
+      351
+    ],
+    [
+      144,
+      358,
+      365
+    ],
+    [
+      145,
+      320,
+      331
+    ],
+    [
+      145,
+      343,
+      354
+    ],
+    [
+      145,
+      357,
+      366
+    ],
+    [
+      146,
+      319,
+      332
+    ],
+    [
+      146,
+      343,
+      356
+    ],
+    [
+      146,
+      358,
+      365
+    ],
+    [
+      147,
+      320,
+      332
+    ],
+    [
+      147,
+      342,
+      357
+    ],
+    [
+      147,
+      358,
+      365
+    ],
+    [
+      148,
+      320,
+      333
+    ],
+    [
+      148,
+      343,
+      358
+    ],
+    [
+      148,
+      359,
+      364
+    ],
+    [
+      149,
+      321,
+      332
+    ],
+    [
+      149,
+      343,
+      358
+    ],
+    [
+      149,
+      361,
+      362
+    ],
+    [
+      150,
+      323,
+      324
+    ],
+    [
+      150,
+      325,
+      332
+    ],
+    [
+      150,
+      344,
+      359
+    ],
+    [
+      151,
+      326,
+      331
+    ],
+    [
+      151,
+      342,
+      358
+    ],
+    [
+      152,
+      328,
+      329
+    ],
+    [
+      152,
+      339,
+      358
+    ],
+    [
+      153,
+      337,
+      357
+    ],
+    [
+      154,
+      337,
+      357
+    ],
+    [
+      155,
+      336,
+      355
+    ],
+    [
+      156,
+      336,
+      352
+    ],
+    [
+      157,
+      335,
+      350
+    ],
+    [
+      158,
+      336,
+      348
+    ],
+    [
+      159,
+      336,
+      346
+    ],
+    [
+      160,
+      337,
+      344
+    ],
+    [
+      161,
+      339,
+      340
+    ],
+    [
+      161,
+      341,
+      342
+    ]
+  ],
+  "inspected_runs": [
+    [
+      128,
+      312,
+      336
+    ],
+    [
+      129,
+      312,
+      336
+    ],
+    [
+      130,
+      312,
+      336
+    ],
+    [
+      131,
+      312,
+      336
+    ],
+    [
+      132,
+      312,
+      336
+    ],
+    [
+      133,
+      312,
+      336
+    ],
+    [
+      134,
+      312,
+      336
+    ],
+    [
+      135,
+      312,
+      336
+    ],
+    [
+      136,
+      320,
+      328
+    ],
+    [
+      137,
+      320,
+      328
+    ],
+    [
+      138,
+      320,
+      328
+    ],
+    [
+      139,
+      320,
+      328
+    ],
+    [
+      140,
+      320,
+      328
+    ],
+    [
+      141,
+      320,
+      328
+    ],
+    [
+      142,
+      320,
+      328
+    ],
+    [
+      143,
+      320,
+      328
+    ],
+    [
+      144,
+      320,
+      352
+    ],
+    [
+      145,
+      320,
+      352
+    ],
+    [
+      146,
+      320,
+      352
+    ],
+    [
+      147,
+      320,
+      352
+    ],
+    [
+      148,
+      320,
+      352
+    ],
+    [
+      149,
+      320,
+      352
+    ],
+    [
+      150,
+      320,
+      352
+    ],
+    [
+      151,
+      320,
+      352
+    ],
+    [
+      152,
+      320,
+      352
+    ],
+    [
+      153,
+      320,
+      352
+    ],
+    [
+      154,
+      320,
+      352
+    ],
+    [
+      155,
+      320,
+      352
+    ],
+    [
+      156,
+      320,
+      352
+    ],
+    [
+      157,
+      320,
+      352
+    ],
+    [
+      158,
+      320,
+      352
+    ],
+    [
+      159,
+      320,
+      352
+    ]
+  ],
+  "resume_target_id": null,
+  "stalled_areas": [
+    {
+      "position": [
+        213.6015625,
+        197.171875
+      ],
+      "failures": 2,
+      "done_count": 4,
+      "destination": [
+        215.0,
+        200.188
+      ],
+      "expires": 1792485691.587938
+    }
+  ],
+  "current_player_position": [
+    213.6015625,
+    197.171875
+  ],
+  "current_heading": [
+    -0.991,
+    0.132
+  ],
+  "blocked_reason": "Đã thất bại 2 lần quanh (213.6, 197.2) mà không thêm mốc mới. Đã lưu phần còn thiếu và dừng tại chỗ; cần một lối ra được xác minh trước khi thử tiếp vùng này."
 }

@@ -10,5 +10,11 @@ echo     [F9]  : Bat dau / Tiep tuc
 echo     [F10] : Tam dung
 echo     [F11] : Dung han va luu tien do
 echo =======================================================================
-python main.py
+
+set PYTHON_BIN="C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\python.exe"
+if exist %PYTHON_BIN% (
+    %PYTHON_BIN% main.py
+) else (
+    python main.py
+)
 pause

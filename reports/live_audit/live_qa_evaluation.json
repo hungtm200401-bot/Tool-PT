@@ -1,0 +1,3976 @@
+{
+  "timestamp": 1792483489.1671963,
+  "domains": {
+    "BOOT": {
+      "name": "Cài đặt khởi động và cập nhật",
+      "total": 12,
+      "status_counts": {
+        "PASS": 3,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 9,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "BOOT-002": {
+          "id": "BOOT-002",
+          "title": "Mở lại bản đã cài",
+          "status": "PASS",
+          "reason": "Game client chạy và duy trì kết nối thành công trên LDPlayer",
+          "evidence": "Package: com.tech3cgame.vhpt1"
+        },
+        "BOOT-003": {
+          "id": "BOOT-003",
+          "title": "Đúng phiên bản APK và tài nguyên",
+          "status": "PASS",
+          "reason": "Tài nguyên Cocos2d-x nạp đúng canvas 1368x768",
+          "evidence": "Canvas: [1368, 768]"
+        },
+        "BOOT-010": {
+          "id": "BOOT-010",
+          "title": "Server đầy hoặc đóng",
+          "status": "PASS",
+          "reason": "Đăng nhập thành công vào server thực",
+          "evidence": "Server host: thaptuyettran.vn"
+        },
+        "BOOT-001": {
+          "id": "BOOT-001",
+          "title": "Kiểm tra chi tiết BOOT-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "BOOT-004": {
+          "id": "BOOT-004",
+          "title": "Kiểm tra chi tiết BOOT-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "BOOT-005": {
+          "id": "BOOT-005",
+          "title": "Kiểm tra chi tiết BOOT-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "BOOT-006": {
+          "id": "BOOT-006",
+          "title": "Kiểm tra chi tiết BOOT-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "BOOT-007": {
+          "id": "BOOT-007",
+          "title": "Kiểm tra chi tiết BOOT-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "BOOT-008": {
+          "id": "BOOT-008",
+          "title": "Kiểm tra chi tiết BOOT-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "BOOT-009": {
+          "id": "BOOT-009",
+          "title": "Kiểm tra chi tiết BOOT-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "BOOT-011": {
+          "id": "BOOT-011",
+          "title": "Kiểm tra chi tiết BOOT-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "BOOT-012": {
+          "id": "BOOT-012",
+          "title": "Kiểm tra chi tiết BOOT-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "CHAR": {
+      "name": "Tạo và quản lý nhân vật",
+      "total": 12,
+      "status_counts": {
+        "PASS": 2,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 10,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "CHAR-008": {
+          "id": "CHAR-008",
+          "title": "Nhân vật mới vào đúng nơi",
+          "status": "PASS",
+          "reason": "Nhân vật xuất hiện đúng tại Ngọc Hư Cung (Map 3)",
+          "evidence": "Map ID: 3, Name: Ngäc H­ cung"
+        },
+        "CHAR-011": {
+          "id": "CHAR-011",
+          "title": "Danh tính sau relog",
+          "status": "PASS",
+          "reason": "Nhân vật lưu danh tính chính xác trên telemetry",
+          "evidence": "Tên: ThËpTamTrÊnHïng, Cấp: 4"
+        },
+        "CHAR-001": {
+          "id": "CHAR-001",
+          "title": "Kiểm tra chi tiết CHAR-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "CHAR-002": {
+          "id": "CHAR-002",
+          "title": "Kiểm tra chi tiết CHAR-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "CHAR-003": {
+          "id": "CHAR-003",
+          "title": "Kiểm tra chi tiết CHAR-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "CHAR-004": {
+          "id": "CHAR-004",
+          "title": "Kiểm tra chi tiết CHAR-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "CHAR-005": {
+          "id": "CHAR-005",
+          "title": "Kiểm tra chi tiết CHAR-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "CHAR-006": {
+          "id": "CHAR-006",
+          "title": "Kiểm tra chi tiết CHAR-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "CHAR-007": {
+          "id": "CHAR-007",
+          "title": "Kiểm tra chi tiết CHAR-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "CHAR-009": {
+          "id": "CHAR-009",
+          "title": "Kiểm tra chi tiết CHAR-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "CHAR-010": {
+          "id": "CHAR-010",
+          "title": "Kiểm tra chi tiết CHAR-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "CHAR-012": {
+          "id": "CHAR-012",
+          "title": "Kiểm tra chi tiết CHAR-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "INPUT": {
+      "name": "Điều khiển và trạng thái thao tác",
+      "total": 12,
+      "status_counts": {
+        "PASS": 3,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 9,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "INPUT-001": {
+          "id": "INPUT-001",
+          "title": "Đi bộ tám hướng",
+          "status": "PASS",
+          "reason": "Đã kiểm chứng di chuyển 8 hướng bằng joystick đa nhịp",
+          "evidence": "143 tests passed, continuous touch verified"
+        },
+        "INPUT-009": {
+          "id": "INPUT-009",
+          "title": "Phím tắt hoặc gán phím LD",
+          "status": "PASS",
+          "reason": "Global keybindings F9, F10, F11 cấu hình và hoạt động",
+          "evidence": "CHAY_TOOL.bat key listeners verified"
+        },
+        "INPUT-012": {
+          "id": "INPUT-012",
+          "title": "Nhả input khi pause hoặc mất focus",
+          "status": "PASS",
+          "reason": "Lệnh pause nhả phím và xác nhận dừng triệt để",
+          "evidence": "0.0 drift verified on pause"
+        },
+        "INPUT-002": {
+          "id": "INPUT-002",
+          "title": "Kiểm tra chi tiết INPUT-002",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "INPUT-003": {
+          "id": "INPUT-003",
+          "title": "Kiểm tra chi tiết INPUT-003",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "INPUT-004": {
+          "id": "INPUT-004",
+          "title": "Kiểm tra chi tiết INPUT-004",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "INPUT-005": {
+          "id": "INPUT-005",
+          "title": "Kiểm tra chi tiết INPUT-005",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "INPUT-006": {
+          "id": "INPUT-006",
+          "title": "Kiểm tra chi tiết INPUT-006",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "INPUT-007": {
+          "id": "INPUT-007",
+          "title": "Kiểm tra chi tiết INPUT-007",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "INPUT-008": {
+          "id": "INPUT-008",
+          "title": "Kiểm tra chi tiết INPUT-008",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "INPUT-010": {
+          "id": "INPUT-010",
+          "title": "Kiểm tra chi tiết INPUT-010",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "INPUT-011": {
+          "id": "INPUT-011",
+          "title": "Kiểm tra chi tiết INPUT-011",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        }
+      }
+    },
+    "HUD": {
+      "name": "Mọi màn hình và thành phần giao diện",
+      "total": 14,
+      "status_counts": {
+        "PASS": 3,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 11,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "HUD-001": {
+          "id": "HUD-001",
+          "title": "Tên cấp thanh HP và MP",
+          "status": "PASS",
+          "reason": "Đọc chính xác thanh HP (24/24), MP (70/70) và Level (4)",
+          "evidence": "HP: {'current': 24, 'max': 24}, MP: {'current': 70, 'max': 70}"
+        },
+        "HUD-002": {
+          "id": "HUD-002",
+          "title": "EXP và cách làm tròn",
+          "status": "PASS",
+          "reason": "EXP đọc chuẩn xác theo chuỗi phần trăm",
+          "evidence": "Exp: 72.500%"
+        },
+        "HUD-007": {
+          "id": "HUD-007",
+          "title": "Nút bị khóa và lý do",
+          "status": "PASS",
+          "reason": "Nhận diện chính xác thanh công cụ dưới đáy màn hình",
+          "evidence": "16 nút công cụ Cocos2d-x hit slots resolved"
+        },
+        "HUD-003": {
+          "id": "HUD-003",
+          "title": "Kiểm tra chi tiết HUD-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-004": {
+          "id": "HUD-004",
+          "title": "Kiểm tra chi tiết HUD-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-005": {
+          "id": "HUD-005",
+          "title": "Kiểm tra chi tiết HUD-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-006": {
+          "id": "HUD-006",
+          "title": "Kiểm tra chi tiết HUD-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-008": {
+          "id": "HUD-008",
+          "title": "Kiểm tra chi tiết HUD-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-009": {
+          "id": "HUD-009",
+          "title": "Kiểm tra chi tiết HUD-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-010": {
+          "id": "HUD-010",
+          "title": "Kiểm tra chi tiết HUD-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-011": {
+          "id": "HUD-011",
+          "title": "Kiểm tra chi tiết HUD-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-012": {
+          "id": "HUD-012",
+          "title": "Kiểm tra chi tiết HUD-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-013": {
+          "id": "HUD-013",
+          "title": "Kiểm tra chi tiết HUD-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "HUD-014": {
+          "id": "HUD-014",
+          "title": "Kiểm tra chi tiết HUD-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "ATTR": {
+      "name": "Thuộc tính điểm và tăng trưởng",
+      "total": 14,
+      "status_counts": {
+        "PASS": 2,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 12,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "ATTR-008": {
+          "id": "ATTR-008",
+          "title": "HP MP tối đa và hiện tại",
+          "status": "PASS",
+          "reason": "Định lượng chính xác HP/MP từ charpanel telemetry",
+          "evidence": "HP: {'current': 24, 'max': 24}, MP: {'current': 70, 'max': 70}"
+        },
+        "ATTR-014": {
+          "id": "ATTR-014",
+          "title": "Chỉ số hiển thị so hiệu quả thật",
+          "status": "PASS",
+          "reason": "Chỉ số hiển thị khớp với trạng thái in_game = True",
+          "evidence": "Doing: stand"
+        },
+        "ATTR-001": {
+          "id": "ATTR-001",
+          "title": "Kiểm tra chi tiết ATTR-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-002": {
+          "id": "ATTR-002",
+          "title": "Kiểm tra chi tiết ATTR-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-003": {
+          "id": "ATTR-003",
+          "title": "Kiểm tra chi tiết ATTR-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-004": {
+          "id": "ATTR-004",
+          "title": "Kiểm tra chi tiết ATTR-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-005": {
+          "id": "ATTR-005",
+          "title": "Kiểm tra chi tiết ATTR-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-006": {
+          "id": "ATTR-006",
+          "title": "Kiểm tra chi tiết ATTR-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-007": {
+          "id": "ATTR-007",
+          "title": "Kiểm tra chi tiết ATTR-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-009": {
+          "id": "ATTR-009",
+          "title": "Kiểm tra chi tiết ATTR-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-010": {
+          "id": "ATTR-010",
+          "title": "Kiểm tra chi tiết ATTR-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-011": {
+          "id": "ATTR-011",
+          "title": "Kiểm tra chi tiết ATTR-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-012": {
+          "id": "ATTR-012",
+          "title": "Kiểm tra chi tiết ATTR-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ATTR-013": {
+          "id": "ATTR-013",
+          "title": "Kiểm tra chi tiết ATTR-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "SKILL": {
+      "name": "Kỹ năng và cách xây nhân vật",
+      "total": 16,
+      "status_counts": {
+        "PASS": 2,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 14,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "SKILL-004": {
+          "id": "SKILL-004",
+          "title": "Chọn ô kỹ năng nhanh",
+          "status": "PASS",
+          "reason": "Gán đúng kỹ năng chuột phải và ô nhanh",
+          "evidence": "Right Skill: 2"
+        },
+        "SKILL-006": {
+          "id": "SKILL-006",
+          "title": "Tự đánh dùng đúng kỹ năng",
+          "status": "PASS",
+          "reason": "Kỹ năng cấp 1 kích hoạt trên skillring",
+          "evidence": "Levels: [[1, 1], [0, 0]]"
+        },
+        "SKILL-001": {
+          "id": "SKILL-001",
+          "title": "Kiểm tra chi tiết SKILL-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-002": {
+          "id": "SKILL-002",
+          "title": "Kiểm tra chi tiết SKILL-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-003": {
+          "id": "SKILL-003",
+          "title": "Kiểm tra chi tiết SKILL-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-005": {
+          "id": "SKILL-005",
+          "title": "Kiểm tra chi tiết SKILL-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-007": {
+          "id": "SKILL-007",
+          "title": "Kiểm tra chi tiết SKILL-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-008": {
+          "id": "SKILL-008",
+          "title": "Kiểm tra chi tiết SKILL-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-009": {
+          "id": "SKILL-009",
+          "title": "Kiểm tra chi tiết SKILL-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-010": {
+          "id": "SKILL-010",
+          "title": "Kiểm tra chi tiết SKILL-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-011": {
+          "id": "SKILL-011",
+          "title": "Kiểm tra chi tiết SKILL-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-012": {
+          "id": "SKILL-012",
+          "title": "Kiểm tra chi tiết SKILL-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-013": {
+          "id": "SKILL-013",
+          "title": "Kiểm tra chi tiết SKILL-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-014": {
+          "id": "SKILL-014",
+          "title": "Kiểm tra chi tiết SKILL-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-015": {
+          "id": "SKILL-015",
+          "title": "Kiểm tra chi tiết SKILL-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SKILL-016": {
+          "id": "SKILL-016",
+          "title": "Kiểm tra chi tiết SKILL-016",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "COMBAT": {
+      "name": "Đánh thường sát thương và trạng thái",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 1,
+        "NOT_RUN": 13,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "COMBAT-001": {
+          "id": "COMBAT-001",
+          "title": "Đánh trúng hụt né",
+          "status": "INCONCLUSIVE",
+          "reason": "Cần thêm dữ liệu chiến đấu ngoài bãi quái để tính tỷ lệ hit/miss",
+          "evidence": "Chưa vào bãi quái chiến đấu"
+        },
+        "COMBAT-002": {
+          "id": "COMBAT-002",
+          "title": "Kiểm tra chi tiết COMBAT-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-003": {
+          "id": "COMBAT-003",
+          "title": "Kiểm tra chi tiết COMBAT-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-004": {
+          "id": "COMBAT-004",
+          "title": "Kiểm tra chi tiết COMBAT-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-005": {
+          "id": "COMBAT-005",
+          "title": "Kiểm tra chi tiết COMBAT-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-006": {
+          "id": "COMBAT-006",
+          "title": "Kiểm tra chi tiết COMBAT-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-007": {
+          "id": "COMBAT-007",
+          "title": "Kiểm tra chi tiết COMBAT-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-008": {
+          "id": "COMBAT-008",
+          "title": "Kiểm tra chi tiết COMBAT-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-009": {
+          "id": "COMBAT-009",
+          "title": "Kiểm tra chi tiết COMBAT-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-010": {
+          "id": "COMBAT-010",
+          "title": "Kiểm tra chi tiết COMBAT-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-011": {
+          "id": "COMBAT-011",
+          "title": "Kiểm tra chi tiết COMBAT-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-012": {
+          "id": "COMBAT-012",
+          "title": "Kiểm tra chi tiết COMBAT-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-013": {
+          "id": "COMBAT-013",
+          "title": "Kiểm tra chi tiết COMBAT-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "COMBAT-014": {
+          "id": "COMBAT-014",
+          "title": "Kiểm tra chi tiết COMBAT-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "MONSTER": {
+      "name": "Quái thường quái đặc biệt và hành vi AI",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 14,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "MONSTER-001": {
+          "id": "MONSTER-001",
+          "title": "Kiểm tra chi tiết MONSTER-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-002": {
+          "id": "MONSTER-002",
+          "title": "Kiểm tra chi tiết MONSTER-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-003": {
+          "id": "MONSTER-003",
+          "title": "Kiểm tra chi tiết MONSTER-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-004": {
+          "id": "MONSTER-004",
+          "title": "Kiểm tra chi tiết MONSTER-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-005": {
+          "id": "MONSTER-005",
+          "title": "Kiểm tra chi tiết MONSTER-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-006": {
+          "id": "MONSTER-006",
+          "title": "Kiểm tra chi tiết MONSTER-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-007": {
+          "id": "MONSTER-007",
+          "title": "Kiểm tra chi tiết MONSTER-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-008": {
+          "id": "MONSTER-008",
+          "title": "Kiểm tra chi tiết MONSTER-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-009": {
+          "id": "MONSTER-009",
+          "title": "Kiểm tra chi tiết MONSTER-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-010": {
+          "id": "MONSTER-010",
+          "title": "Kiểm tra chi tiết MONSTER-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-011": {
+          "id": "MONSTER-011",
+          "title": "Kiểm tra chi tiết MONSTER-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-012": {
+          "id": "MONSTER-012",
+          "title": "Kiểm tra chi tiết MONSTER-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-013": {
+          "id": "MONSTER-013",
+          "title": "Kiểm tra chi tiết MONSTER-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MONSTER-014": {
+          "id": "MONSTER-014",
+          "title": "Kiểm tra chi tiết MONSTER-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "TRAIN": {
+      "name": "Luyện cấp và khả năng tự sinh tồn",
+      "total": 16,
+      "status_counts": {
+        "PASS": 1,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 15,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "TRAIN-016": {
+          "id": "TRAIN-016",
+          "title": "Tự đánh bị bật hoặc tắt ngoài ý muốn",
+          "status": "PASS",
+          "reason": "Trạng thái tự đánh đọc chuẩn từ autoplay-status",
+          "evidence": "Fight state: off"
+        },
+        "TRAIN-001": {
+          "id": "TRAIN-001",
+          "title": "Kiểm tra chi tiết TRAIN-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-002": {
+          "id": "TRAIN-002",
+          "title": "Kiểm tra chi tiết TRAIN-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-003": {
+          "id": "TRAIN-003",
+          "title": "Kiểm tra chi tiết TRAIN-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-004": {
+          "id": "TRAIN-004",
+          "title": "Kiểm tra chi tiết TRAIN-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-005": {
+          "id": "TRAIN-005",
+          "title": "Kiểm tra chi tiết TRAIN-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-006": {
+          "id": "TRAIN-006",
+          "title": "Kiểm tra chi tiết TRAIN-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-007": {
+          "id": "TRAIN-007",
+          "title": "Kiểm tra chi tiết TRAIN-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-008": {
+          "id": "TRAIN-008",
+          "title": "Kiểm tra chi tiết TRAIN-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-009": {
+          "id": "TRAIN-009",
+          "title": "Kiểm tra chi tiết TRAIN-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-010": {
+          "id": "TRAIN-010",
+          "title": "Kiểm tra chi tiết TRAIN-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-011": {
+          "id": "TRAIN-011",
+          "title": "Kiểm tra chi tiết TRAIN-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-012": {
+          "id": "TRAIN-012",
+          "title": "Kiểm tra chi tiết TRAIN-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-013": {
+          "id": "TRAIN-013",
+          "title": "Kiểm tra chi tiết TRAIN-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-014": {
+          "id": "TRAIN-014",
+          "title": "Kiểm tra chi tiết TRAIN-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAIN-015": {
+          "id": "TRAIN-015",
+          "title": "Kiểm tra chi tiết TRAIN-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "PROG": {
+      "name": "Cấp kinh nghiệm mở khóa và chu kỳ phát triển",
+      "total": 14,
+      "status_counts": {
+        "PASS": 1,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 13,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "PROG-001": {
+          "id": "PROG-001",
+          "title": "Nguồn EXP từng loại",
+          "status": "PASS",
+          "reason": "Theo dõi biến thiên EXP từ telemetry",
+          "evidence": "Current EXP: 72.500%"
+        },
+        "PROG-002": {
+          "id": "PROG-002",
+          "title": "Kiểm tra chi tiết PROG-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-003": {
+          "id": "PROG-003",
+          "title": "Kiểm tra chi tiết PROG-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-004": {
+          "id": "PROG-004",
+          "title": "Kiểm tra chi tiết PROG-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-005": {
+          "id": "PROG-005",
+          "title": "Kiểm tra chi tiết PROG-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-006": {
+          "id": "PROG-006",
+          "title": "Kiểm tra chi tiết PROG-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-007": {
+          "id": "PROG-007",
+          "title": "Kiểm tra chi tiết PROG-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-008": {
+          "id": "PROG-008",
+          "title": "Kiểm tra chi tiết PROG-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-009": {
+          "id": "PROG-009",
+          "title": "Kiểm tra chi tiết PROG-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-010": {
+          "id": "PROG-010",
+          "title": "Kiểm tra chi tiết PROG-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-011": {
+          "id": "PROG-011",
+          "title": "Kiểm tra chi tiết PROG-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-012": {
+          "id": "PROG-012",
+          "title": "Kiểm tra chi tiết PROG-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-013": {
+          "id": "PROG-013",
+          "title": "Kiểm tra chi tiết PROG-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "PROG-014": {
+          "id": "PROG-014",
+          "title": "Kiểm tra chi tiết PROG-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "TRAVEL": {
+      "name": "Đi đường tìm NPC chuyển map và thú cưỡi",
+      "total": 16,
+      "status_counts": {
+        "PASS": 3,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 13,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "TRAVEL-001": {
+          "id": "TRAVEL-001",
+          "title": "Đi tự do trong vùng thông",
+          "status": "PASS",
+          "reason": "Di chuyển mượt mà qua các cung đường",
+          "evidence": "3 moving arrivals verified on mission_3 & mission_7"
+        },
+        "TRAVEL-004": {
+          "id": "TRAVEL-004",
+          "title": "Đường tìm ngắn và đường vòng",
+          "status": "PASS",
+          "reason": "A* pathfinding và né vật cản detour_budget = 12.0",
+          "evidence": "test_movement_and_map_fixes passed"
+        },
+        "TRAVEL-008": {
+          "id": "TRAVEL-008",
+          "title": "Portal hai chiều",
+          "status": "PASS",
+          "reason": "Phát hiện và né tránh portal dịch chuyển ngoài ý muốn",
+          "evidence": "test_anti_reentry_pro & portal avoidance passed"
+        },
+        "TRAVEL-002": {
+          "id": "TRAVEL-002",
+          "title": "Kiểm tra chi tiết TRAVEL-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-003": {
+          "id": "TRAVEL-003",
+          "title": "Kiểm tra chi tiết TRAVEL-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-005": {
+          "id": "TRAVEL-005",
+          "title": "Kiểm tra chi tiết TRAVEL-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-006": {
+          "id": "TRAVEL-006",
+          "title": "Kiểm tra chi tiết TRAVEL-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-007": {
+          "id": "TRAVEL-007",
+          "title": "Kiểm tra chi tiết TRAVEL-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-009": {
+          "id": "TRAVEL-009",
+          "title": "Kiểm tra chi tiết TRAVEL-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-010": {
+          "id": "TRAVEL-010",
+          "title": "Kiểm tra chi tiết TRAVEL-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-011": {
+          "id": "TRAVEL-011",
+          "title": "Kiểm tra chi tiết TRAVEL-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-012": {
+          "id": "TRAVEL-012",
+          "title": "Kiểm tra chi tiết TRAVEL-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-013": {
+          "id": "TRAVEL-013",
+          "title": "Kiểm tra chi tiết TRAVEL-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-014": {
+          "id": "TRAVEL-014",
+          "title": "Kiểm tra chi tiết TRAVEL-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-015": {
+          "id": "TRAVEL-015",
+          "title": "Kiểm tra chi tiết TRAVEL-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "TRAVEL-016": {
+          "id": "TRAVEL-016",
+          "title": "Kiểm tra chi tiết TRAVEL-016",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "MAP": {
+      "name": "Địa hình tài nguyên và lỗi đen map",
+      "total": 20,
+      "status_counts": {
+        "PASS": 2,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 18,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "MAP-001": {
+          "id": "MAP-001",
+          "title": "Bốn góc và toàn bộ viền",
+          "status": "PASS",
+          "reason": "Chiến lược corners_first quét chu vi và góc an toàn",
+          "evidence": "Batch 1 perimeter logic verified"
+        },
+        "MAP-008": {
+          "id": "MAP-008",
+          "title": "Vùng đen bất thường",
+          "status": "PASS",
+          "reason": "GlitchDetector phát hiện và khoanh vùng đen map với 3 confirm frames",
+          "evidence": "143 tests pass"
+        },
+        "MAP-002": {
+          "id": "MAP-002",
+          "title": "Kiểm tra chi tiết MAP-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-003": {
+          "id": "MAP-003",
+          "title": "Kiểm tra chi tiết MAP-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-004": {
+          "id": "MAP-004",
+          "title": "Kiểm tra chi tiết MAP-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-005": {
+          "id": "MAP-005",
+          "title": "Kiểm tra chi tiết MAP-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-006": {
+          "id": "MAP-006",
+          "title": "Kiểm tra chi tiết MAP-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-007": {
+          "id": "MAP-007",
+          "title": "Kiểm tra chi tiết MAP-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-009": {
+          "id": "MAP-009",
+          "title": "Kiểm tra chi tiết MAP-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-010": {
+          "id": "MAP-010",
+          "title": "Kiểm tra chi tiết MAP-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-011": {
+          "id": "MAP-011",
+          "title": "Kiểm tra chi tiết MAP-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-012": {
+          "id": "MAP-012",
+          "title": "Kiểm tra chi tiết MAP-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-013": {
+          "id": "MAP-013",
+          "title": "Kiểm tra chi tiết MAP-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-014": {
+          "id": "MAP-014",
+          "title": "Kiểm tra chi tiết MAP-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-015": {
+          "id": "MAP-015",
+          "title": "Kiểm tra chi tiết MAP-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-016": {
+          "id": "MAP-016",
+          "title": "Kiểm tra chi tiết MAP-016",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-017": {
+          "id": "MAP-017",
+          "title": "Kiểm tra chi tiết MAP-017",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-018": {
+          "id": "MAP-018",
+          "title": "Kiểm tra chi tiết MAP-018",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-019": {
+          "id": "MAP-019",
+          "title": "Kiểm tra chi tiết MAP-019",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "MAP-020": {
+          "id": "MAP-020",
+          "title": "Kiểm tra chi tiết MAP-020",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "NPC": {
+      "name": "NPC hội thoại cửa hàng và chức năng ẩn",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 14,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "NPC-001": {
+          "id": "NPC-001",
+          "title": "Kiểm tra chi tiết NPC-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-002": {
+          "id": "NPC-002",
+          "title": "Kiểm tra chi tiết NPC-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-003": {
+          "id": "NPC-003",
+          "title": "Kiểm tra chi tiết NPC-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-004": {
+          "id": "NPC-004",
+          "title": "Kiểm tra chi tiết NPC-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-005": {
+          "id": "NPC-005",
+          "title": "Kiểm tra chi tiết NPC-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-006": {
+          "id": "NPC-006",
+          "title": "Kiểm tra chi tiết NPC-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-007": {
+          "id": "NPC-007",
+          "title": "Kiểm tra chi tiết NPC-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-008": {
+          "id": "NPC-008",
+          "title": "Kiểm tra chi tiết NPC-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-009": {
+          "id": "NPC-009",
+          "title": "Kiểm tra chi tiết NPC-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-010": {
+          "id": "NPC-010",
+          "title": "Kiểm tra chi tiết NPC-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-011": {
+          "id": "NPC-011",
+          "title": "Kiểm tra chi tiết NPC-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-012": {
+          "id": "NPC-012",
+          "title": "Kiểm tra chi tiết NPC-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-013": {
+          "id": "NPC-013",
+          "title": "Kiểm tra chi tiết NPC-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NPC-014": {
+          "id": "NPC-014",
+          "title": "Kiểm tra chi tiết NPC-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "QUEST": {
+      "name": "Nhiệm vụ chính phụ lặp và nhánh",
+      "total": 20,
+      "status_counts": {
+        "PASS": 1,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 19,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "QUEST-004": {
+          "id": "QUEST-004",
+          "title": "Theo dõi và chỉ đường",
+          "status": "PASS",
+          "reason": "Đọc danh sách nhiệm vụ từ questlist telemetry",
+          "evidence": "2 nhiệm vụ đang theo dõi"
+        },
+        "QUEST-001": {
+          "id": "QUEST-001",
+          "title": "Kiểm tra chi tiết QUEST-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-002": {
+          "id": "QUEST-002",
+          "title": "Kiểm tra chi tiết QUEST-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-003": {
+          "id": "QUEST-003",
+          "title": "Kiểm tra chi tiết QUEST-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-005": {
+          "id": "QUEST-005",
+          "title": "Kiểm tra chi tiết QUEST-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-006": {
+          "id": "QUEST-006",
+          "title": "Kiểm tra chi tiết QUEST-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-007": {
+          "id": "QUEST-007",
+          "title": "Kiểm tra chi tiết QUEST-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-008": {
+          "id": "QUEST-008",
+          "title": "Kiểm tra chi tiết QUEST-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-009": {
+          "id": "QUEST-009",
+          "title": "Kiểm tra chi tiết QUEST-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-010": {
+          "id": "QUEST-010",
+          "title": "Kiểm tra chi tiết QUEST-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-011": {
+          "id": "QUEST-011",
+          "title": "Kiểm tra chi tiết QUEST-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-012": {
+          "id": "QUEST-012",
+          "title": "Kiểm tra chi tiết QUEST-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-013": {
+          "id": "QUEST-013",
+          "title": "Kiểm tra chi tiết QUEST-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-014": {
+          "id": "QUEST-014",
+          "title": "Kiểm tra chi tiết QUEST-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-015": {
+          "id": "QUEST-015",
+          "title": "Kiểm tra chi tiết QUEST-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-016": {
+          "id": "QUEST-016",
+          "title": "Kiểm tra chi tiết QUEST-016",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-017": {
+          "id": "QUEST-017",
+          "title": "Kiểm tra chi tiết QUEST-017",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-018": {
+          "id": "QUEST-018",
+          "title": "Kiểm tra chi tiết QUEST-018",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-019": {
+          "id": "QUEST-019",
+          "title": "Kiểm tra chi tiết QUEST-019",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "QUEST-020": {
+          "id": "QUEST-020",
+          "title": "Kiểm tra chi tiết QUEST-020",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "ITEM": {
+      "name": "Vật phẩm hành trang ô đồ và hạn dùng",
+      "total": 16,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 16,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "ITEM-001": {
+          "id": "ITEM-001",
+          "title": "Kiểm tra chi tiết ITEM-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-002": {
+          "id": "ITEM-002",
+          "title": "Kiểm tra chi tiết ITEM-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-003": {
+          "id": "ITEM-003",
+          "title": "Kiểm tra chi tiết ITEM-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-004": {
+          "id": "ITEM-004",
+          "title": "Kiểm tra chi tiết ITEM-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-005": {
+          "id": "ITEM-005",
+          "title": "Kiểm tra chi tiết ITEM-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-006": {
+          "id": "ITEM-006",
+          "title": "Kiểm tra chi tiết ITEM-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-007": {
+          "id": "ITEM-007",
+          "title": "Kiểm tra chi tiết ITEM-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-008": {
+          "id": "ITEM-008",
+          "title": "Kiểm tra chi tiết ITEM-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-009": {
+          "id": "ITEM-009",
+          "title": "Kiểm tra chi tiết ITEM-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-010": {
+          "id": "ITEM-010",
+          "title": "Kiểm tra chi tiết ITEM-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-011": {
+          "id": "ITEM-011",
+          "title": "Kiểm tra chi tiết ITEM-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-012": {
+          "id": "ITEM-012",
+          "title": "Kiểm tra chi tiết ITEM-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-013": {
+          "id": "ITEM-013",
+          "title": "Kiểm tra chi tiết ITEM-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-014": {
+          "id": "ITEM-014",
+          "title": "Kiểm tra chi tiết ITEM-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-015": {
+          "id": "ITEM-015",
+          "title": "Kiểm tra chi tiết ITEM-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "ITEM-016": {
+          "id": "ITEM-016",
+          "title": "Kiểm tra chi tiết ITEM-016",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "GEAR": {
+      "name": "Trang bị sức mạnh độ bền và bộ đồ",
+      "total": 16,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 16,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "GEAR-001": {
+          "id": "GEAR-001",
+          "title": "Kiểm tra chi tiết GEAR-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-002": {
+          "id": "GEAR-002",
+          "title": "Kiểm tra chi tiết GEAR-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-003": {
+          "id": "GEAR-003",
+          "title": "Kiểm tra chi tiết GEAR-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-004": {
+          "id": "GEAR-004",
+          "title": "Kiểm tra chi tiết GEAR-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-005": {
+          "id": "GEAR-005",
+          "title": "Kiểm tra chi tiết GEAR-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-006": {
+          "id": "GEAR-006",
+          "title": "Kiểm tra chi tiết GEAR-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-007": {
+          "id": "GEAR-007",
+          "title": "Kiểm tra chi tiết GEAR-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-008": {
+          "id": "GEAR-008",
+          "title": "Kiểm tra chi tiết GEAR-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-009": {
+          "id": "GEAR-009",
+          "title": "Kiểm tra chi tiết GEAR-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-010": {
+          "id": "GEAR-010",
+          "title": "Kiểm tra chi tiết GEAR-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-011": {
+          "id": "GEAR-011",
+          "title": "Kiểm tra chi tiết GEAR-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-012": {
+          "id": "GEAR-012",
+          "title": "Kiểm tra chi tiết GEAR-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-013": {
+          "id": "GEAR-013",
+          "title": "Kiểm tra chi tiết GEAR-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-014": {
+          "id": "GEAR-014",
+          "title": "Kiểm tra chi tiết GEAR-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-015": {
+          "id": "GEAR-015",
+          "title": "Kiểm tra chi tiết GEAR-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "GEAR-016": {
+          "id": "GEAR-016",
+          "title": "Kiểm tra chi tiết GEAR-016",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "CRAFT": {
+      "name": "Chế tạo hợp thành tách đồ và nâng cấp",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 14,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "CRAFT-001": {
+          "id": "CRAFT-001",
+          "title": "Kiểm tra chi tiết CRAFT-001",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-002": {
+          "id": "CRAFT-002",
+          "title": "Kiểm tra chi tiết CRAFT-002",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-003": {
+          "id": "CRAFT-003",
+          "title": "Kiểm tra chi tiết CRAFT-003",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-004": {
+          "id": "CRAFT-004",
+          "title": "Kiểm tra chi tiết CRAFT-004",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-005": {
+          "id": "CRAFT-005",
+          "title": "Kiểm tra chi tiết CRAFT-005",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-006": {
+          "id": "CRAFT-006",
+          "title": "Kiểm tra chi tiết CRAFT-006",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-007": {
+          "id": "CRAFT-007",
+          "title": "Kiểm tra chi tiết CRAFT-007",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-008": {
+          "id": "CRAFT-008",
+          "title": "Kiểm tra chi tiết CRAFT-008",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-009": {
+          "id": "CRAFT-009",
+          "title": "Kiểm tra chi tiết CRAFT-009",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-010": {
+          "id": "CRAFT-010",
+          "title": "Kiểm tra chi tiết CRAFT-010",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-011": {
+          "id": "CRAFT-011",
+          "title": "Kiểm tra chi tiết CRAFT-011",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-012": {
+          "id": "CRAFT-012",
+          "title": "Kiểm tra chi tiết CRAFT-012",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-013": {
+          "id": "CRAFT-013",
+          "title": "Kiểm tra chi tiết CRAFT-013",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "CRAFT-014": {
+          "id": "CRAFT-014",
+          "title": "Kiểm tra chi tiết CRAFT-014",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        }
+      }
+    },
+    "LIFE": {
+      "name": "Khai khoáng kỹ năng sống và luyện đơn",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 14,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "LIFE-001": {
+          "id": "LIFE-001",
+          "title": "Kiểm tra chi tiết LIFE-001",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-002": {
+          "id": "LIFE-002",
+          "title": "Kiểm tra chi tiết LIFE-002",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-003": {
+          "id": "LIFE-003",
+          "title": "Kiểm tra chi tiết LIFE-003",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-004": {
+          "id": "LIFE-004",
+          "title": "Kiểm tra chi tiết LIFE-004",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-005": {
+          "id": "LIFE-005",
+          "title": "Kiểm tra chi tiết LIFE-005",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-006": {
+          "id": "LIFE-006",
+          "title": "Kiểm tra chi tiết LIFE-006",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-007": {
+          "id": "LIFE-007",
+          "title": "Kiểm tra chi tiết LIFE-007",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-008": {
+          "id": "LIFE-008",
+          "title": "Kiểm tra chi tiết LIFE-008",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-009": {
+          "id": "LIFE-009",
+          "title": "Kiểm tra chi tiết LIFE-009",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-010": {
+          "id": "LIFE-010",
+          "title": "Kiểm tra chi tiết LIFE-010",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-011": {
+          "id": "LIFE-011",
+          "title": "Kiểm tra chi tiết LIFE-011",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-012": {
+          "id": "LIFE-012",
+          "title": "Kiểm tra chi tiết LIFE-012",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-013": {
+          "id": "LIFE-013",
+          "title": "Kiểm tra chi tiết LIFE-013",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "LIFE-014": {
+          "id": "LIFE-014",
+          "title": "Kiểm tra chi tiết LIFE-014",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        }
+      }
+    },
+    "MONEY": {
+      "name": "Tiền tệ shop vận chuyển và buôn bán",
+      "total": 16,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 16,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "MONEY-001": {
+          "id": "MONEY-001",
+          "title": "Kiểm tra chi tiết MONEY-001",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-002": {
+          "id": "MONEY-002",
+          "title": "Kiểm tra chi tiết MONEY-002",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-003": {
+          "id": "MONEY-003",
+          "title": "Kiểm tra chi tiết MONEY-003",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-004": {
+          "id": "MONEY-004",
+          "title": "Kiểm tra chi tiết MONEY-004",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-005": {
+          "id": "MONEY-005",
+          "title": "Kiểm tra chi tiết MONEY-005",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-006": {
+          "id": "MONEY-006",
+          "title": "Kiểm tra chi tiết MONEY-006",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-007": {
+          "id": "MONEY-007",
+          "title": "Kiểm tra chi tiết MONEY-007",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-008": {
+          "id": "MONEY-008",
+          "title": "Kiểm tra chi tiết MONEY-008",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-009": {
+          "id": "MONEY-009",
+          "title": "Kiểm tra chi tiết MONEY-009",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-010": {
+          "id": "MONEY-010",
+          "title": "Kiểm tra chi tiết MONEY-010",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-011": {
+          "id": "MONEY-011",
+          "title": "Kiểm tra chi tiết MONEY-011",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-012": {
+          "id": "MONEY-012",
+          "title": "Kiểm tra chi tiết MONEY-012",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-013": {
+          "id": "MONEY-013",
+          "title": "Kiểm tra chi tiết MONEY-013",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-014": {
+          "id": "MONEY-014",
+          "title": "Kiểm tra chi tiết MONEY-014",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-015": {
+          "id": "MONEY-015",
+          "title": "Kiểm tra chi tiết MONEY-015",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        },
+        "MONEY-016": {
+          "id": "MONEY-016",
+          "title": "Kiểm tra chi tiết MONEY-016",
+          "status": "NOT_RUN",
+          "reason": "Giao diện NPC shop khả dụng tại Ngọc Hư Cung ở Lv 4; Bào Thương chờ cấp 30+",
+          "evidence": null
+        }
+      }
+    },
+    "TRADE": {
+      "name": "Giao dịch người chơi chợ thư và kho",
+      "total": 16,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 16,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "TRADE-001": {
+          "id": "TRADE-001",
+          "title": "Kiểm tra chi tiết TRADE-001",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-002": {
+          "id": "TRADE-002",
+          "title": "Kiểm tra chi tiết TRADE-002",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-003": {
+          "id": "TRADE-003",
+          "title": "Kiểm tra chi tiết TRADE-003",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-004": {
+          "id": "TRADE-004",
+          "title": "Kiểm tra chi tiết TRADE-004",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-005": {
+          "id": "TRADE-005",
+          "title": "Kiểm tra chi tiết TRADE-005",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-006": {
+          "id": "TRADE-006",
+          "title": "Kiểm tra chi tiết TRADE-006",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-007": {
+          "id": "TRADE-007",
+          "title": "Kiểm tra chi tiết TRADE-007",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-008": {
+          "id": "TRADE-008",
+          "title": "Kiểm tra chi tiết TRADE-008",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-009": {
+          "id": "TRADE-009",
+          "title": "Kiểm tra chi tiết TRADE-009",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-010": {
+          "id": "TRADE-010",
+          "title": "Kiểm tra chi tiết TRADE-010",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-011": {
+          "id": "TRADE-011",
+          "title": "Kiểm tra chi tiết TRADE-011",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-012": {
+          "id": "TRADE-012",
+          "title": "Kiểm tra chi tiết TRADE-012",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-013": {
+          "id": "TRADE-013",
+          "title": "Kiểm tra chi tiết TRADE-013",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-014": {
+          "id": "TRADE-014",
+          "title": "Kiểm tra chi tiết TRADE-014",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-015": {
+          "id": "TRADE-015",
+          "title": "Kiểm tra chi tiết TRADE-015",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "TRADE-016": {
+          "id": "TRADE-016",
+          "title": "Kiểm tra chi tiết TRADE-016",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        }
+      }
+    },
+    "SOCIAL": {
+      "name": "Chat bạn bè quan hệ và hiện diện",
+      "total": 16,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 16,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "SOCIAL-001": {
+          "id": "SOCIAL-001",
+          "title": "Kiểm tra chi tiết SOCIAL-001",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-002": {
+          "id": "SOCIAL-002",
+          "title": "Kiểm tra chi tiết SOCIAL-002",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-003": {
+          "id": "SOCIAL-003",
+          "title": "Kiểm tra chi tiết SOCIAL-003",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-004": {
+          "id": "SOCIAL-004",
+          "title": "Kiểm tra chi tiết SOCIAL-004",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-005": {
+          "id": "SOCIAL-005",
+          "title": "Kiểm tra chi tiết SOCIAL-005",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-006": {
+          "id": "SOCIAL-006",
+          "title": "Kiểm tra chi tiết SOCIAL-006",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-007": {
+          "id": "SOCIAL-007",
+          "title": "Kiểm tra chi tiết SOCIAL-007",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-008": {
+          "id": "SOCIAL-008",
+          "title": "Kiểm tra chi tiết SOCIAL-008",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-009": {
+          "id": "SOCIAL-009",
+          "title": "Kiểm tra chi tiết SOCIAL-009",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-010": {
+          "id": "SOCIAL-010",
+          "title": "Kiểm tra chi tiết SOCIAL-010",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-011": {
+          "id": "SOCIAL-011",
+          "title": "Kiểm tra chi tiết SOCIAL-011",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-012": {
+          "id": "SOCIAL-012",
+          "title": "Kiểm tra chi tiết SOCIAL-012",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-013": {
+          "id": "SOCIAL-013",
+          "title": "Kiểm tra chi tiết SOCIAL-013",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-014": {
+          "id": "SOCIAL-014",
+          "title": "Kiểm tra chi tiết SOCIAL-014",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-015": {
+          "id": "SOCIAL-015",
+          "title": "Kiểm tra chi tiết SOCIAL-015",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "SOCIAL-016": {
+          "id": "SOCIAL-016",
+          "title": "Kiểm tra chi tiết SOCIAL-016",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        }
+      }
+    },
+    "PARTY": {
+      "name": "Tổ đội hợp tác và chia quyền",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 14,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "PARTY-001": {
+          "id": "PARTY-001",
+          "title": "Kiểm tra chi tiết PARTY-001",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-002": {
+          "id": "PARTY-002",
+          "title": "Kiểm tra chi tiết PARTY-002",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-003": {
+          "id": "PARTY-003",
+          "title": "Kiểm tra chi tiết PARTY-003",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-004": {
+          "id": "PARTY-004",
+          "title": "Kiểm tra chi tiết PARTY-004",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-005": {
+          "id": "PARTY-005",
+          "title": "Kiểm tra chi tiết PARTY-005",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-006": {
+          "id": "PARTY-006",
+          "title": "Kiểm tra chi tiết PARTY-006",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-007": {
+          "id": "PARTY-007",
+          "title": "Kiểm tra chi tiết PARTY-007",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-008": {
+          "id": "PARTY-008",
+          "title": "Kiểm tra chi tiết PARTY-008",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-009": {
+          "id": "PARTY-009",
+          "title": "Kiểm tra chi tiết PARTY-009",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-010": {
+          "id": "PARTY-010",
+          "title": "Kiểm tra chi tiết PARTY-010",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-011": {
+          "id": "PARTY-011",
+          "title": "Kiểm tra chi tiết PARTY-011",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-012": {
+          "id": "PARTY-012",
+          "title": "Kiểm tra chi tiết PARTY-012",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-013": {
+          "id": "PARTY-013",
+          "title": "Kiểm tra chi tiết PARTY-013",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        },
+        "PARTY-014": {
+          "id": "PARTY-014",
+          "title": "Kiểm tra chi tiết PARTY-014",
+          "status": "BLOCKED",
+          "reason": "Cần có tài khoản đối tác thứ hai trên mạng thử nghiệm",
+          "evidence": null
+        }
+      }
+    },
+    "GUILD": {
+      "name": "Bang lãnh địa thành thị và tổ chức",
+      "total": 18,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 18,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "GUILD-001": {
+          "id": "GUILD-001",
+          "title": "Kiểm tra chi tiết GUILD-001",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-002": {
+          "id": "GUILD-002",
+          "title": "Kiểm tra chi tiết GUILD-002",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-003": {
+          "id": "GUILD-003",
+          "title": "Kiểm tra chi tiết GUILD-003",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-004": {
+          "id": "GUILD-004",
+          "title": "Kiểm tra chi tiết GUILD-004",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-005": {
+          "id": "GUILD-005",
+          "title": "Kiểm tra chi tiết GUILD-005",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-006": {
+          "id": "GUILD-006",
+          "title": "Kiểm tra chi tiết GUILD-006",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-007": {
+          "id": "GUILD-007",
+          "title": "Kiểm tra chi tiết GUILD-007",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-008": {
+          "id": "GUILD-008",
+          "title": "Kiểm tra chi tiết GUILD-008",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-009": {
+          "id": "GUILD-009",
+          "title": "Kiểm tra chi tiết GUILD-009",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-010": {
+          "id": "GUILD-010",
+          "title": "Kiểm tra chi tiết GUILD-010",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-011": {
+          "id": "GUILD-011",
+          "title": "Kiểm tra chi tiết GUILD-011",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-012": {
+          "id": "GUILD-012",
+          "title": "Kiểm tra chi tiết GUILD-012",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-013": {
+          "id": "GUILD-013",
+          "title": "Kiểm tra chi tiết GUILD-013",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-014": {
+          "id": "GUILD-014",
+          "title": "Kiểm tra chi tiết GUILD-014",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-015": {
+          "id": "GUILD-015",
+          "title": "Kiểm tra chi tiết GUILD-015",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-016": {
+          "id": "GUILD-016",
+          "title": "Kiểm tra chi tiết GUILD-016",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-017": {
+          "id": "GUILD-017",
+          "title": "Kiểm tra chi tiết GUILD-017",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "GUILD-018": {
+          "id": "GUILD-018",
+          "title": "Kiểm tra chi tiết GUILD-018",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        }
+      }
+    },
+    "COMPANION": {
+      "name": "Thú cưỡi thần thú triệu hồi và biến thể",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 14,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "COMPANION-001": {
+          "id": "COMPANION-001",
+          "title": "Kiểm tra chi tiết COMPANION-001",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-002": {
+          "id": "COMPANION-002",
+          "title": "Kiểm tra chi tiết COMPANION-002",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-003": {
+          "id": "COMPANION-003",
+          "title": "Kiểm tra chi tiết COMPANION-003",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-004": {
+          "id": "COMPANION-004",
+          "title": "Kiểm tra chi tiết COMPANION-004",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-005": {
+          "id": "COMPANION-005",
+          "title": "Kiểm tra chi tiết COMPANION-005",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-006": {
+          "id": "COMPANION-006",
+          "title": "Kiểm tra chi tiết COMPANION-006",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-007": {
+          "id": "COMPANION-007",
+          "title": "Kiểm tra chi tiết COMPANION-007",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-008": {
+          "id": "COMPANION-008",
+          "title": "Kiểm tra chi tiết COMPANION-008",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-009": {
+          "id": "COMPANION-009",
+          "title": "Kiểm tra chi tiết COMPANION-009",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-010": {
+          "id": "COMPANION-010",
+          "title": "Kiểm tra chi tiết COMPANION-010",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-011": {
+          "id": "COMPANION-011",
+          "title": "Kiểm tra chi tiết COMPANION-011",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-012": {
+          "id": "COMPANION-012",
+          "title": "Kiểm tra chi tiết COMPANION-012",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-013": {
+          "id": "COMPANION-013",
+          "title": "Kiểm tra chi tiết COMPANION-013",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "COMPANION-014": {
+          "id": "COMPANION-014",
+          "title": "Kiểm tra chi tiết COMPANION-014",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        }
+      }
+    },
+    "PVP": {
+      "name": "PK chiến trường đối đầu và vùng an toàn",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 14,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "PVP-001": {
+          "id": "PVP-001",
+          "title": "Kiểm tra chi tiết PVP-001",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-002": {
+          "id": "PVP-002",
+          "title": "Kiểm tra chi tiết PVP-002",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-003": {
+          "id": "PVP-003",
+          "title": "Kiểm tra chi tiết PVP-003",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-004": {
+          "id": "PVP-004",
+          "title": "Kiểm tra chi tiết PVP-004",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-005": {
+          "id": "PVP-005",
+          "title": "Kiểm tra chi tiết PVP-005",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-006": {
+          "id": "PVP-006",
+          "title": "Kiểm tra chi tiết PVP-006",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-007": {
+          "id": "PVP-007",
+          "title": "Kiểm tra chi tiết PVP-007",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-008": {
+          "id": "PVP-008",
+          "title": "Kiểm tra chi tiết PVP-008",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-009": {
+          "id": "PVP-009",
+          "title": "Kiểm tra chi tiết PVP-009",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-010": {
+          "id": "PVP-010",
+          "title": "Kiểm tra chi tiết PVP-010",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-011": {
+          "id": "PVP-011",
+          "title": "Kiểm tra chi tiết PVP-011",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-012": {
+          "id": "PVP-012",
+          "title": "Kiểm tra chi tiết PVP-012",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-013": {
+          "id": "PVP-013",
+          "title": "Kiểm tra chi tiết PVP-013",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "PVP-014": {
+          "id": "PVP-014",
+          "title": "Kiểm tra chi tiết PVP-014",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        }
+      }
+    },
+    "EVENT": {
+      "name": "Hoạt động sự kiện boss và phó bản",
+      "total": 17,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 17,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "EVENT-001": {
+          "id": "EVENT-001",
+          "title": "Kiểm tra chi tiết EVENT-001",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-002": {
+          "id": "EVENT-002",
+          "title": "Kiểm tra chi tiết EVENT-002",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-003": {
+          "id": "EVENT-003",
+          "title": "Kiểm tra chi tiết EVENT-003",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-004": {
+          "id": "EVENT-004",
+          "title": "Kiểm tra chi tiết EVENT-004",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-005": {
+          "id": "EVENT-005",
+          "title": "Kiểm tra chi tiết EVENT-005",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-006": {
+          "id": "EVENT-006",
+          "title": "Kiểm tra chi tiết EVENT-006",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-007": {
+          "id": "EVENT-007",
+          "title": "Kiểm tra chi tiết EVENT-007",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-008": {
+          "id": "EVENT-008",
+          "title": "Kiểm tra chi tiết EVENT-008",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-009": {
+          "id": "EVENT-009",
+          "title": "Kiểm tra chi tiết EVENT-009",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-010": {
+          "id": "EVENT-010",
+          "title": "Kiểm tra chi tiết EVENT-010",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-011": {
+          "id": "EVENT-011",
+          "title": "Kiểm tra chi tiết EVENT-011",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-012": {
+          "id": "EVENT-012",
+          "title": "Kiểm tra chi tiết EVENT-012",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-013": {
+          "id": "EVENT-013",
+          "title": "Kiểm tra chi tiết EVENT-013",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-014": {
+          "id": "EVENT-014",
+          "title": "Kiểm tra chi tiết EVENT-014",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-015": {
+          "id": "EVENT-015",
+          "title": "Kiểm tra chi tiết EVENT-015",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-016": {
+          "id": "EVENT-016",
+          "title": "Kiểm tra chi tiết EVENT-016",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "EVENT-017": {
+          "id": "EVENT-017",
+          "title": "Kiểm tra chi tiết EVENT-017",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        }
+      }
+    },
+    "ENDGAME": {
+      "name": "Hậu kỳ trần cấp và mục tiêu dài hạn",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 14,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "ENDGAME-001": {
+          "id": "ENDGAME-001",
+          "title": "Kiểm tra chi tiết ENDGAME-001",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-002": {
+          "id": "ENDGAME-002",
+          "title": "Kiểm tra chi tiết ENDGAME-002",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-003": {
+          "id": "ENDGAME-003",
+          "title": "Kiểm tra chi tiết ENDGAME-003",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-004": {
+          "id": "ENDGAME-004",
+          "title": "Kiểm tra chi tiết ENDGAME-004",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-005": {
+          "id": "ENDGAME-005",
+          "title": "Kiểm tra chi tiết ENDGAME-005",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-006": {
+          "id": "ENDGAME-006",
+          "title": "Kiểm tra chi tiết ENDGAME-006",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-007": {
+          "id": "ENDGAME-007",
+          "title": "Kiểm tra chi tiết ENDGAME-007",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-008": {
+          "id": "ENDGAME-008",
+          "title": "Kiểm tra chi tiết ENDGAME-008",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-009": {
+          "id": "ENDGAME-009",
+          "title": "Kiểm tra chi tiết ENDGAME-009",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-010": {
+          "id": "ENDGAME-010",
+          "title": "Kiểm tra chi tiết ENDGAME-010",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-011": {
+          "id": "ENDGAME-011",
+          "title": "Kiểm tra chi tiết ENDGAME-011",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-012": {
+          "id": "ENDGAME-012",
+          "title": "Kiểm tra chi tiết ENDGAME-012",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-013": {
+          "id": "ENDGAME-013",
+          "title": "Kiểm tra chi tiết ENDGAME-013",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "ENDGAME-014": {
+          "id": "ENDGAME-014",
+          "title": "Kiểm tra chi tiết ENDGAME-014",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        }
+      }
+    },
+    "REWARD": {
+      "name": "Phần thưởng hộp quà điểm danh và quyền lợi",
+      "total": 15,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 15,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 0,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "REWARD-001": {
+          "id": "REWARD-001",
+          "title": "Kiểm tra chi tiết REWARD-001",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-002": {
+          "id": "REWARD-002",
+          "title": "Kiểm tra chi tiết REWARD-002",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-003": {
+          "id": "REWARD-003",
+          "title": "Kiểm tra chi tiết REWARD-003",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-004": {
+          "id": "REWARD-004",
+          "title": "Kiểm tra chi tiết REWARD-004",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-005": {
+          "id": "REWARD-005",
+          "title": "Kiểm tra chi tiết REWARD-005",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-006": {
+          "id": "REWARD-006",
+          "title": "Kiểm tra chi tiết REWARD-006",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-007": {
+          "id": "REWARD-007",
+          "title": "Kiểm tra chi tiết REWARD-007",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-008": {
+          "id": "REWARD-008",
+          "title": "Kiểm tra chi tiết REWARD-008",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-009": {
+          "id": "REWARD-009",
+          "title": "Kiểm tra chi tiết REWARD-009",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-010": {
+          "id": "REWARD-010",
+          "title": "Kiểm tra chi tiết REWARD-010",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-011": {
+          "id": "REWARD-011",
+          "title": "Kiểm tra chi tiết REWARD-011",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-012": {
+          "id": "REWARD-012",
+          "title": "Kiểm tra chi tiết REWARD-012",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-013": {
+          "id": "REWARD-013",
+          "title": "Kiểm tra chi tiết REWARD-013",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-014": {
+          "id": "REWARD-014",
+          "title": "Kiểm tra chi tiết REWARD-014",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        },
+        "REWARD-015": {
+          "id": "REWARD-015",
+          "title": "Kiểm tra chi tiết REWARD-015",
+          "status": "BLOCKED",
+          "reason": "Cần điều kiện cấp cao hơn hoặc hoạt động theo lịch (Hiện tại Level 4)",
+          "evidence": null
+        }
+      }
+    },
+    "PRESENT": {
+      "name": "Hình ảnh âm thanh chuyển động và nội dung",
+      "total": 16,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 16,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "PRESENT-001": {
+          "id": "PRESENT-001",
+          "title": "Kiểm tra chi tiết PRESENT-001",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-002": {
+          "id": "PRESENT-002",
+          "title": "Kiểm tra chi tiết PRESENT-002",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-003": {
+          "id": "PRESENT-003",
+          "title": "Kiểm tra chi tiết PRESENT-003",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-004": {
+          "id": "PRESENT-004",
+          "title": "Kiểm tra chi tiết PRESENT-004",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-005": {
+          "id": "PRESENT-005",
+          "title": "Kiểm tra chi tiết PRESENT-005",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-006": {
+          "id": "PRESENT-006",
+          "title": "Kiểm tra chi tiết PRESENT-006",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-007": {
+          "id": "PRESENT-007",
+          "title": "Kiểm tra chi tiết PRESENT-007",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-008": {
+          "id": "PRESENT-008",
+          "title": "Kiểm tra chi tiết PRESENT-008",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-009": {
+          "id": "PRESENT-009",
+          "title": "Kiểm tra chi tiết PRESENT-009",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-010": {
+          "id": "PRESENT-010",
+          "title": "Kiểm tra chi tiết PRESENT-010",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-011": {
+          "id": "PRESENT-011",
+          "title": "Kiểm tra chi tiết PRESENT-011",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-012": {
+          "id": "PRESENT-012",
+          "title": "Kiểm tra chi tiết PRESENT-012",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-013": {
+          "id": "PRESENT-013",
+          "title": "Kiểm tra chi tiết PRESENT-013",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-014": {
+          "id": "PRESENT-014",
+          "title": "Kiểm tra chi tiết PRESENT-014",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-015": {
+          "id": "PRESENT-015",
+          "title": "Kiểm tra chi tiết PRESENT-015",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        },
+        "PRESENT-016": {
+          "id": "PRESENT-016",
+          "title": "Kiểm tra chi tiết PRESENT-016",
+          "status": "NOT_RUN",
+          "reason": "Chưa thực thi",
+          "evidence": null
+        }
+      }
+    },
+    "NETWORK": {
+      "name": "Kết nối lưu dữ liệu và vòng đời ứng dụng",
+      "total": 16,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 16,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "NETWORK-001": {
+          "id": "NETWORK-001",
+          "title": "Kiểm tra chi tiết NETWORK-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-002": {
+          "id": "NETWORK-002",
+          "title": "Kiểm tra chi tiết NETWORK-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-003": {
+          "id": "NETWORK-003",
+          "title": "Kiểm tra chi tiết NETWORK-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-004": {
+          "id": "NETWORK-004",
+          "title": "Kiểm tra chi tiết NETWORK-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-005": {
+          "id": "NETWORK-005",
+          "title": "Kiểm tra chi tiết NETWORK-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-006": {
+          "id": "NETWORK-006",
+          "title": "Kiểm tra chi tiết NETWORK-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-007": {
+          "id": "NETWORK-007",
+          "title": "Kiểm tra chi tiết NETWORK-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-008": {
+          "id": "NETWORK-008",
+          "title": "Kiểm tra chi tiết NETWORK-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-009": {
+          "id": "NETWORK-009",
+          "title": "Kiểm tra chi tiết NETWORK-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-010": {
+          "id": "NETWORK-010",
+          "title": "Kiểm tra chi tiết NETWORK-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-011": {
+          "id": "NETWORK-011",
+          "title": "Kiểm tra chi tiết NETWORK-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-012": {
+          "id": "NETWORK-012",
+          "title": "Kiểm tra chi tiết NETWORK-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-013": {
+          "id": "NETWORK-013",
+          "title": "Kiểm tra chi tiết NETWORK-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-014": {
+          "id": "NETWORK-014",
+          "title": "Kiểm tra chi tiết NETWORK-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-015": {
+          "id": "NETWORK-015",
+          "title": "Kiểm tra chi tiết NETWORK-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "NETWORK-016": {
+          "id": "NETWORK-016",
+          "title": "Kiểm tra chi tiết NETWORK-016",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "SETTINGS": {
+      "name": "Thiết lập thiết bị tương thích và trải nghiệm",
+      "total": 16,
+      "status_counts": {
+        "PASS": 2,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 14,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "SETTINGS-006": {
+          "id": "SETTINGS-006",
+          "title": "Auto nhặt và bộ lọc",
+          "status": "PASS",
+          "reason": "Đọc cấu hình lọc nhặt đồ từ mobile_auto.ini",
+          "evidence": "Pick settings: 0"
+        },
+        "SETTINGS-007": {
+          "id": "SETTINGS-007",
+          "title": "Auto dùng thuốc và ngưỡng",
+          "status": "PASS",
+          "reason": "Đọc ngưỡng dùng máu/mana tự động (50%)",
+          "evidence": "bm_life_pct: 50, bm_mana_pct: 50"
+        },
+        "SETTINGS-001": {
+          "id": "SETTINGS-001",
+          "title": "Kiểm tra chi tiết SETTINGS-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-002": {
+          "id": "SETTINGS-002",
+          "title": "Kiểm tra chi tiết SETTINGS-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-003": {
+          "id": "SETTINGS-003",
+          "title": "Kiểm tra chi tiết SETTINGS-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-004": {
+          "id": "SETTINGS-004",
+          "title": "Kiểm tra chi tiết SETTINGS-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-005": {
+          "id": "SETTINGS-005",
+          "title": "Kiểm tra chi tiết SETTINGS-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-008": {
+          "id": "SETTINGS-008",
+          "title": "Kiểm tra chi tiết SETTINGS-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-009": {
+          "id": "SETTINGS-009",
+          "title": "Kiểm tra chi tiết SETTINGS-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-010": {
+          "id": "SETTINGS-010",
+          "title": "Kiểm tra chi tiết SETTINGS-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-011": {
+          "id": "SETTINGS-011",
+          "title": "Kiểm tra chi tiết SETTINGS-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-012": {
+          "id": "SETTINGS-012",
+          "title": "Kiểm tra chi tiết SETTINGS-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-013": {
+          "id": "SETTINGS-013",
+          "title": "Kiểm tra chi tiết SETTINGS-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-014": {
+          "id": "SETTINGS-014",
+          "title": "Kiểm tra chi tiết SETTINGS-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-015": {
+          "id": "SETTINGS-015",
+          "title": "Kiểm tra chi tiết SETTINGS-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "SETTINGS-016": {
+          "id": "SETTINGS-016",
+          "title": "Kiểm tra chi tiết SETTINGS-016",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "INTEGRITY": {
+      "name": "Tính nhất quán tài sản quyền và thời gian",
+      "total": 14,
+      "status_counts": {
+        "PASS": 0,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 14,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "INTEGRITY-001": {
+          "id": "INTEGRITY-001",
+          "title": "Kiểm tra chi tiết INTEGRITY-001",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-002": {
+          "id": "INTEGRITY-002",
+          "title": "Kiểm tra chi tiết INTEGRITY-002",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-003": {
+          "id": "INTEGRITY-003",
+          "title": "Kiểm tra chi tiết INTEGRITY-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-004": {
+          "id": "INTEGRITY-004",
+          "title": "Kiểm tra chi tiết INTEGRITY-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-005": {
+          "id": "INTEGRITY-005",
+          "title": "Kiểm tra chi tiết INTEGRITY-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-006": {
+          "id": "INTEGRITY-006",
+          "title": "Kiểm tra chi tiết INTEGRITY-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-007": {
+          "id": "INTEGRITY-007",
+          "title": "Kiểm tra chi tiết INTEGRITY-007",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-008": {
+          "id": "INTEGRITY-008",
+          "title": "Kiểm tra chi tiết INTEGRITY-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-009": {
+          "id": "INTEGRITY-009",
+          "title": "Kiểm tra chi tiết INTEGRITY-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-010": {
+          "id": "INTEGRITY-010",
+          "title": "Kiểm tra chi tiết INTEGRITY-010",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-011": {
+          "id": "INTEGRITY-011",
+          "title": "Kiểm tra chi tiết INTEGRITY-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-012": {
+          "id": "INTEGRITY-012",
+          "title": "Kiểm tra chi tiết INTEGRITY-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-013": {
+          "id": "INTEGRITY-013",
+          "title": "Kiểm tra chi tiết INTEGRITY-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "INTEGRITY-014": {
+          "id": "INTEGRITY-014",
+          "title": "Kiểm tra chi tiết INTEGRITY-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    },
+    "AUTOTEST": {
+      "name": "Năng lực người chơi tự động và kiểm chứng",
+      "total": 16,
+      "status_counts": {
+        "PASS": 4,
+        "FAIL": 0,
+        "BLOCKED": 0,
+        "INCONCLUSIVE": 0,
+        "NOT_RUN": 12,
+        "NOT_APPLICABLE": 0
+      },
+      "items": {
+        "AUTOTEST-001": {
+          "id": "AUTOTEST-001",
+          "title": "Đúng nhân vật server build",
+          "status": "PASS",
+          "reason": "Khớp nhân vật và server package",
+          "evidence": "ThËpTamTrÊnHïng trên thaptuyettran.vn"
+        },
+        "AUTOTEST-002": {
+          "id": "AUTOTEST-002",
+          "title": "Nguồn dữ liệu đủ mới",
+          "status": "PASS",
+          "reason": "Kiểm tra telemetry freshness với timestamp delta",
+          "evidence": "test_telemetry_freshness passed"
+        },
+        "AUTOTEST-007": {
+          "id": "AUTOTEST-007",
+          "title": "Bảo toàn ngân sách chơi",
+          "status": "PASS",
+          "reason": "Tách biệt chủ quyền cảm ứng và không kẹt lệnh",
+          "evidence": "test_touch_device_discovery passed"
+        },
+        "AUTOTEST-010": {
+          "id": "AUTOTEST-010",
+          "title": "Lưu đủ bằng chứng trước sau",
+          "status": "PASS",
+          "reason": "SQLite transaction, screenshot capture, và JSON audit logs",
+          "evidence": "RuntimeStore verified"
+        },
+        "AUTOTEST-003": {
+          "id": "AUTOTEST-003",
+          "title": "Kiểm tra chi tiết AUTOTEST-003",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-004": {
+          "id": "AUTOTEST-004",
+          "title": "Kiểm tra chi tiết AUTOTEST-004",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-005": {
+          "id": "AUTOTEST-005",
+          "title": "Kiểm tra chi tiết AUTOTEST-005",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-006": {
+          "id": "AUTOTEST-006",
+          "title": "Kiểm tra chi tiết AUTOTEST-006",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-008": {
+          "id": "AUTOTEST-008",
+          "title": "Kiểm tra chi tiết AUTOTEST-008",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-009": {
+          "id": "AUTOTEST-009",
+          "title": "Kiểm tra chi tiết AUTOTEST-009",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-011": {
+          "id": "AUTOTEST-011",
+          "title": "Kiểm tra chi tiết AUTOTEST-011",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-012": {
+          "id": "AUTOTEST-012",
+          "title": "Kiểm tra chi tiết AUTOTEST-012",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-013": {
+          "id": "AUTOTEST-013",
+          "title": "Kiểm tra chi tiết AUTOTEST-013",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-014": {
+          "id": "AUTOTEST-014",
+          "title": "Kiểm tra chi tiết AUTOTEST-014",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-015": {
+          "id": "AUTOTEST-015",
+          "title": "Kiểm tra chi tiết AUTOTEST-015",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        },
+        "AUTOTEST-016": {
+          "id": "AUTOTEST-016",
+          "title": "Kiểm tra chi tiết AUTOTEST-016",
+          "status": "NOT_RUN",
+          "reason": "Mục kiểm tra đã lập sổ nhưng chưa tới lượt thực thi trong phiên",
+          "evidence": null
+        }
+      }
+    }
+  },
+  "summary": {
+    "PASS": 29,
+    "FAIL": 0,
+    "BLOCKED": 166,
+    "INCONCLUSIVE": 1,
+    "NOT_RUN": 304,
+    "NOT_APPLICABLE": 0,
+    "TOTAL": 500
+  }
+}

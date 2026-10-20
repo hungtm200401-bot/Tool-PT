@@ -1,0 +1,62 @@
+{
+  "run_timestamp": "2026-10-20T15:06:00.965054",
+  "device_id": "emulator-5554",
+  "package": "com.tech3cgame.vhpt1",
+  "server": "thaptuyettran.vn",
+  "sessions": {
+    "P3-01": {
+      "session_id": "P3-01",
+      "timestamp": "2026-10-20T15:05:59.674053",
+      "server": "thaptuyettran.vn",
+      "sub_world_id": 3,
+      "character_name": "ThËpTamTrÊnHïng",
+      "level": 4,
+      "position": [
+        213.0,
+        197.002
+      ],
+      "hp": {
+        "current": 24,
+        "max": 24
+      },
+      "mp": {
+        "current": 70,
+        "max": 70
+      },
+      "exp_percent": "72.500%",
+      "status": "PASS"
+    },
+    "P3-02": {
+      "session_id": "P3-02",
+      "timestamp": "2026-10-20T15:06:00.326023",
+      "total_active_quests": 2,
+      "quests": [
+        {
+          "task_id": 2,
+          "title": "Ngò ThÊt",
+          "detail": "LÊy Löa vµ B¨ng c¬ giao cho XÝch Tinh Tö",
+          "target_npc": null,
+          "status": "active"
+        },
+        {
+          "task_id": 1,
+          "title": "B¸ch Lý",
+          "detail": "§Õn thØnh gi¸o V©n Trung Tö",
+          "target_npc": null,
+          "status": "active"
+        }
+      ],
+      "status": "PASS"
+    },
+    "P3-09": {
+      "session_id": "P3-09",
+      "timestamp": "2026-10-20T15:06:00.965054",
+      "configured_threshold_percent": 50,
+      "current_hp_ratio_percent": 100.0,
+      "fight_state": "off",
+      "needs_potion": false,
+      "status": "PASS"
+    }
+  },
+  "overall_pilot_status": "PASS"
+}

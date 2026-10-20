@@ -22,59 +22,71 @@ class ObstacleBypasser:
         """
         VIP PRO MAX Vision-Guided Smart Exit Finder:
         Tìm lối thoát tối ưu bằng Radar tầm nhìn 360 độ và bản đồ địa hình:
-        1. Tuyệt đối loại trừ mọi góc trong phạm vi +/- 70 độ của góc đâm vào vật cản (current_heading_deg).
+        - Mọi tính toán hình học, vệt đường, góc cản và raycast thực hiện trên TỌA ĐỘ GAME.
+        - Chỉ chuyển sang góc joystick màn hình tại thời điểm trả kết quả điều khiển.
+        1. Tuyệt đối loại trừ mọi góc trong phạm vi +/- 70 độ của góc đâm vào vật cản (current_heading_deg trong hệ game).
         2. Nếu đích đến (destination) cũng nằm cùng hướng với vật cản, TỪ CHỐI hướng về đích để không chui vào lại.
         3. Ưu tiên rút lui dọc theo vệt đường thông thoáng đã đi qua (Verified Breadcrumbs).
         4. Quét Radar tìm hành lang mở sâu nhất lệch xa vật cản.
         """
         self.consecutive_blocks += 1
         from core.ld_controller import game_to_joystick_angle
-        blocked_ang = (current_heading_deg or 0.0) % 360
-        print(f"[ObstacleBypasser] 👁️ Radar tầm nhìn 360° kích hoạt quét lối thoát (Lần {self.consecutive_blocks}, góc cản: {blocked_ang:.1f}°)...")
+        blocked_game_ang = (current_heading_deg or 0.0) % 360
+        print(f"[ObstacleBypasser] 👁️ Radar tầm nhìn 360° kích hoạt quét lối thoát (Lần {self.consecutive_blocks}, góc cản game: {blocked_game_ang:.1f}°)...")
 
-        # Ưu tiên 1: Lùi theo vệt di chuyển đã xác minh (Breadcrumbs)
+        # Ưu tiên 1: Lùi theo vệt di chuyển đã xác minh (Verified Breadcrumbs)
         if breadcrumbs and len(breadcrumbs) >= 1 and current_pos:
             for bc in reversed(breadcrumbs):
                 if math.dist(current_pos, bc) >= 0.55:
-                    escape_ang = game_to_joystick_angle(bc[0] - current_pos[0], bc[1] - current_pos[1])
-                    ang_diff = abs((escape_ang - blocked_ang + 180) % 360 - 180)
+                    esc_dx = bc[0] - current_pos[0]
+                    esc_dy = bc[1] - current_pos[1]
+                    esc_game_ang = math.degrees(math.atan2(esc_dy, esc_dx)) % 360
+                    ang_diff = abs((esc_game_ang - blocked_game_ang + 180) % 360 - 180)
                     if ang_diff >= 75.0:
-                        print(f"[ObstacleBypasser] 🔙 Rút lui theo vệt mở gần nhất hướng {escape_ang:.1f}° ra khỏi góc kẹt.")
-                        return escape_ang
+                        escape_joy_ang = game_to_joystick_angle(esc_dx, esc_dy)
+                        print(f"[ObstacleBypasser] 🔙 Rút lui theo vệt mở gần nhất hướng joystick {escape_joy_ang:.1f}° (hướng game {esc_game_ang:.1f}°) ra khỏi góc kẹt.")
+                        return escape_joy_ang
 
-        # Ưu tiên 2: Quét Radar 360 độ và lọc góc an toàn
+        # Ưu tiên 2: Quét Radar 360 độ trên bản đồ game và lọc góc an toàn
         if plan and hasattr(plan, "scan_exit_corridors") and current_pos:
             candidates = plan.scan_exit_corridors(current_pos, num_rays=16, max_dist=4.5)
-            # Lọc các hướng có lối ra thực sự (open >= 1.0) VÀ lệch ít nhất 70 độ so với góc cản
+            # Lọc các hướng có lối ra thực sự (open >= 1.0) VÀ lệch ít nhất 70 độ so với góc cản game
             valid_exits = []
-            for ang, depth in candidates:
-                ang_diff = abs((ang - blocked_ang + 180) % 360 - 180)
+            for ang_game, depth in candidates:
+                ang_diff = abs((ang_game - blocked_game_ang + 180) % 360 - 180)
                 if ang_diff >= 70.0 and depth >= 1.0:
-                    valid_exits.append((ang, depth, ang_diff))
+                    valid_exits.append((ang_game, depth, ang_diff))
 
             if valid_exits:
                 if destination:
-                    dest_ang = game_to_joystick_angle(destination[0] - current_pos[0], destination[1] - current_pos[1])
-                    dest_diff = abs((dest_ang - blocked_ang + 180) % 360 - 180)
+                    dest_dx = destination[0] - current_pos[0]
+                    dest_dy = destination[1] - current_pos[1]
+                    dest_game_ang = math.degrees(math.atan2(dest_dy, dest_dx)) % 360
+                    dest_diff = abs((dest_game_ang - blocked_game_ang + 180) % 360 - 180)
                     # Chỉ hướng về destination nếu destination KHÔNG nằm cùng hướng với góc cản
                     if dest_diff >= 65.0:
                         def score_exit(item):
-                            ang, depth, _ = item
-                            diff = abs((ang - dest_ang + 180) % 360 - 180)
+                            ang_g, depth, _ = item
+                            diff = abs((ang_g - dest_game_ang + 180) % 360 - 180)
                             return depth * 2.0 - (diff / 45.0)
                         valid_exits.sort(key=score_exit, reverse=True)
-                        best_exit_angle = valid_exits[0][0]
-                        print(f"[ObstacleBypasser] 🎯 Phát hiện lối thoát an toàn hướng {best_exit_angle:.1f}° (mở {valid_exits[0][1]:.2f} đơn vị).")
-                        return best_exit_angle
+                        best_exit_game_ang = valid_exits[0][0]
+                        rad_out = math.radians(best_exit_game_ang)
+                        best_joy_ang = game_to_joystick_angle(math.cos(rad_out), math.sin(rad_out))
+                        print(f"[ObstacleBypasser] 🎯 Phát hiện lối thoát an toàn hướng joystick {best_joy_ang:.1f}° (game {best_exit_game_ang:.1f}°, mở {valid_exits[0][1]:.2f} đơn vị).")
+                        return best_joy_ang
 
                 # Nếu destination cũng nằm sau vật cản hoặc không có destination, chọn góc mở sâu nhất lệch xa góc cản nhất
                 valid_exits.sort(key=lambda it: it[1] * 1.5 + (it[2] / 60.0), reverse=True)
-                best_exit_angle = valid_exits[0][0]
-                print(f"[ObstacleBypasser] 🎯 Lối thoát an toàn nhất hướng {best_exit_angle:.1f}° (mở {valid_exits[0][1]:.2f} đơn vị, lệch cản {valid_exits[0][2]:.1f}°).")
-                return best_exit_angle
+                best_exit_game_ang = valid_exits[0][0]
+                rad_out = math.radians(best_exit_game_ang)
+                best_joy_ang = game_to_joystick_angle(math.cos(rad_out), math.sin(rad_out))
+                print(f"[ObstacleBypasser] 🎯 Lối thoát an toàn nhất hướng joystick {best_joy_ang:.1f}° (game {best_exit_game_ang:.1f}°, mở {valid_exits[0][1]:.2f} đơn vị, lệch cản {valid_exits[0][2]:.1f}°).")
+                return best_joy_ang
 
-        # Fallback an toàn: Quay 180 độ lùi lại
-        return (blocked_ang + 180) % 360
+        # Fallback an toàn: Quay 180 độ lùi lại trong hệ tọa độ game rồi chuyển sang joystick
+        rev_game_rad = math.radians((blocked_game_ang + 180) % 360)
+        return game_to_joystick_angle(math.cos(rev_game_rad), math.sin(rev_game_rad))
 
 
     def bypass(self, current_heading_deg):

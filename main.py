@@ -6,8 +6,10 @@ import os
 sys.dont_write_bytecode = True
 
 def main():
-    parser = argparse.ArgumentParser(description="Phong Thần — Khảo sát vòng mở rộng và ghi nhận bất thường")
-    parser.add_argument("--cli", action="store_true", help="Chạy chế độ dòng lệnh (Headless CLI) không dùng GUI")
+    parser = argparse.ArgumentParser(description="Phong Thần — Hệ thống Tự Chơi & Khảo Sát Bản Đồ VIP PRO")
+    parser.add_argument("--agent", action="store_true", help="Chạy chế độ Người chơi am hiểu tự động chơi game (Autonomous Player Agent)")
+    parser.add_argument("--cli", action="store_true", help="Chạy chế độ khảo sát map dòng lệnh (Headless CLI)")
+    parser.add_argument("--turns", type=int, default=None, help="Số lượt chơi tối đa cho Player Agent (mặc định: chạy liên tục)")
     args = parser.parse_args()
 
     from core.single_instance import SingleInstanceLock
@@ -18,6 +20,18 @@ def main():
         return 2
     atexit.register(process_lock.release)
 
+    # 1. Chế độ NGƯỜI CHƠI AM HIỂU (V2.0)
+    if args.agent:
+        from core.player_agent import PlayerAgent
+        print("=" * 70)
+        print("  PHONG THẦN — HỆ THỐNG AI NGƯỜI CHƠI AM HIỂU TỰ ĐỘNG CHƠI GAME")
+        print("  (Làm nhiệm vụ, đánh quái, tiếp tế, tung kỹ năng, bảo vệ sinh tồn)")
+        print("=" * 70)
+        agent = PlayerAgent()
+        agent.start_loop(max_turns=args.turns)
+        return
+
+    # 2. Chế độ KHẢO SÁT MAP (CLI)
     if args.cli:
         print("=" * 60)
         print("  PHONG THẦN AUTO MAP TRAVELER & LAG HUNTER (CLI MODE)")

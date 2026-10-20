@@ -43,10 +43,19 @@ class TestSmartStairVision(unittest.TestCase):
             heading=(1.0, 0.0)
         )
 
-        # Target ahead must be swept and marked done by forward vision cone
-        self.assertEqual(target_ahead["state"], "done", "Target directly ahead in vision cone must be marked done")
-        # Target behind at distance 5.0 must NOT be marked done
+        # Target ahead must be swept and marked seen by forward vision cone (seen != done)
+        self.assertTrue(target_ahead.get("seen"), "Target directly ahead in vision cone must be marked seen")
+        self.assertEqual(target_ahead["state"], "pending", "Target 5.0 units away must remain pending until physically reached")
+        # Target behind at distance 5.0 must NOT be marked seen
+        self.assertFalse(target_behind.get("seen"), "Target behind outside vision radius must remain unseen")
         self.assertEqual(target_behind["state"], "pending", "Target behind outside vision radius must remain pending")
+
+        # When character physically reaches within tolerance (4.5, 0.0), it becomes done
+        self.plan.observe_position(
+            position=(4.5, 0.0),
+            tolerance=1.0
+        )
+        self.assertEqual(target_ahead["state"], "done", "Target must be marked done once reached within tolerance")
 
     def test_forward_vision_cone_angular_cutoff(self):
         # Target at 4.5 units away at 90 degrees (perpendicular, alignment = 0.0)

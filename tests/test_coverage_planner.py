@@ -782,9 +782,16 @@ class LegCompletionTests(unittest.TestCase):
         target2["state"] = "pending"
         engine.plan.data["targets"] = [target1, target2]
 
-        # Target2 is 2.5 units away. With vision_radius 3.2, it is seen directly and marked done.
+        # Target2 is 2.5 units away. With vision_radius 3.2, it is seen directly (seen=True),
+        # but its state remains "pending" because physical arrival requires tolerance (1.0).
         engine.plan.observe_position((0.0, 0.0), tolerance=1.0, vision_radius=3.2)
+        self.assertTrue(target2.get("seen"))
+        self.assertEqual(target2["state"], "pending")
+
+        # When character moves within arrival tolerance (dist <= 1.0), it is marked done.
+        engine.plan.observe_position((2.0, 0.0), tolerance=1.0)
         self.assertEqual(target2["state"], "done")
+        self.assertTrue(target2.get("reached"))
 
     def test_joystick_continuous_updates_live_player_position_and_publishes(self):
         clock = FakeClock()

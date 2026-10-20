@@ -1,0 +1,60 @@
+{
+  "run_timestamp": "2026-10-20T15:05:38.988448",
+  "device_id": "emulator-5554",
+  "package": "com.tech3cgame.vhpt1",
+  "server": "thaptuyettran.vn",
+  "sessions": {
+    "P3-01": {
+      "session_id": "P3-01",
+      "timestamp": "2026-10-20T15:05:37.709453",
+      "server": "thaptuyettran.vn",
+      "sub_world_id": 3,
+      "character_name": "ThËpTamTrÊnHïng",
+      "level": 4,
+      "position": [
+        213.0,
+        197.002
+      ],
+      "hp": {
+        "current": 24,
+        "max": 24
+      },
+      "mp": {
+        "current": 70,
+        "max": 70
+      },
+      "exp_percent": "72.500%",
+      "status": "PASS"
+    },
+    "P3-02": {
+      "session_id": "P3-02",
+      "timestamp": "2026-10-20T15:05:38.346291",
+      "total_active_quests": 2,
+      "quests": [
+        {
+          "quest_id": null,
+          "name": null,
+          "target_npc": null,
+          "status": "active"
+        },
+        {
+          "quest_id": null,
+          "name": null,
+          "target_npc": null,
+          "status": "active"
+        }
+      ],
+      "status": "PASS"
+    },
+    "P3-09": {
+      "session_id": "P3-09",
+      "timestamp": "2026-10-20T15:05:38.988448",
+      "configured_threshold_percent": 50,
+      "current_hp_ratio_percent": 100.0,
+      "fight_state": "off",
+      "needs_potion": false,
+      "status": "PASS"
+    }
+  },
+  "overall_pilot_status": "PASS"
+}
