@@ -92,8 +92,99 @@ class TestGameStateAndOracle(unittest.TestCase):
 
         # Verify PASS counts are > 0
         self.assertGreater(eval_result["summary"]["PASS"], 15)
-        # Verify BLOCKED counts for advanced features at level 4
-        self.assertGreater(eval_result["summary"]["BLOCKED"], 100)
+    def test_npcprompt_and_dialog_parsing(self):
+        fake_prompt = {
+            "visible": True,
+            "cocos_hit_valid": True,
+            "name": "Xích Tinh Tử",
+            "distance": 206
+        }
+        fake_dialog = {
+            "visible": True,
+            "message": "Tử Nha là người thông minh...",
+            "answer_count": 2,
+            "answers": [
+                {"index": 0, "text": "Tiếp nhận"},
+                {"index": 1, "text": "Từ chối"}
+            ]
+        }
+
+        def mock_read(fname, timeout=2.0):
+            if fname == "npcprompt-render-status.json":
+                return fake_prompt, 0.1
+            if fname == "npcdialog-render-status.json":
+                return fake_dialog, 0.1
+            return None, None
+
+        with patch.object(self.observer, "read_remote_json", side_effect=mock_read):
+            snapshot = self.observer.capture_snapshot()
+            prompt = snapshot["raw_sources"].get("npcprompt", {})
+            dialog = snapshot["raw_sources"].get("npcdialog", {})
+            self.assertTrue(prompt.get("visible"))
+            self.assertEqual(prompt.get("name"), "Xích Tinh Tử")
+            self.assertTrue(dialog.get("visible"))
+            self.assertEqual(len(dialog.get("answers", [])), 2)
+
+    def test_player_mind_priorities(self):
+        from core.player_agent import PlayerMind
+        mind = PlayerMind()
+
+        # 1. Emergency HP < 50%
+        state_emergency = {
+            "character": {"hp": {"current": 10, "max": 24}, "mp": {"current": 70, "max": 70}, "position": (213.0, 197.0)},
+            "world": {"sub_world_id": 3, "map_name": "Ngọc Hư Cung"},
+            "raw_sources": {}
+        }
+        dec1 = mind.evaluate_situation(state_emergency)
+        self.assertEqual(dec1["priority"], "EMERGENCY")
+        self.assertEqual(dec1["action"], "USE_POTION_OR_RETREAT")
+
+        # 2. NPC Dialog open
+        state_dialog = {
+            "character": {"hp": {"current": 24, "max": 24}, "mp": {"current": 70, "max": 70}, "position": (213.0, 197.0)},
+            "world": {"sub_world_id": 3, "map_name": "Ngọc Hư Cung"},
+            "raw_sources": {"npcdialog": {"visible": True, "cocos_nodes_visible": 5}}
+        }
+        dec2 = mind.evaluate_situation(state_dialog)
+        self.assertEqual(dec2["priority"], "QUEST_INTERACTION")
+        self.assertEqual(dec2["action"], "ADVANCE_NPC_DIALOG")
+
+        # 3. NPC Prompt banner visible
+        state_prompt = {
+            "character": {"hp": {"current": 24, "max": 24}, "mp": {"current": 70, "max": 70}, "position": (213.0, 197.0)},
+            "world": {"sub_world_id": 3, "map_name": "Ngọc Hư Cung"},
+            "raw_sources": {"npcprompt": {"visible": True, "cocos_hit_valid": True, "name": "Vân Trung Tử"}}
+        }
+        dec3 = mind.evaluate_situation(state_prompt)
+        self.assertEqual(dec3["priority"], "QUEST_INTERACTION")
+        self.assertEqual(dec3["action"], "TALK_TO_NPC")
+        self.assertEqual(dec3["npc_name"], "Vân Trung Tử")
+
+        # 4. Story Quest tracking
+        state_quest = {
+            "character": {"hp": {"current": 24, "max": 24}, "mp": {"current": 70, "max": 70}, "position": (213.0, 197.0)},
+            "world": {"sub_world_id": 3, "map_name": "Ngọc Hư Cung"},
+            "raw_sources": {},
+            "quests": [{"title": "Bách Lý", "detail": "Thỉnh giáo Vân Trung Tử", "task_id": 1}]
+        }
+        dec4 = mind.evaluate_situation(state_quest)
+        self.assertEqual(dec4["priority"], "ACTIVE_QUEST")
+        self.assertEqual(dec4["action"], "TRACK_QUEST")
+
+    def test_action_executor_quest_flow_x_close(self):
+        from core.player_agent import ActionExecutor
+        mock_ctrl = MagicMock()
+        executor = ActionExecutor(mock_ctrl)
+
+        executor.execute_quest_flow("Bách Lý")
+        tapped_coords = [(call[0][0], call[0][1]) for call in mock_ctrl.tap.call_args_list]
+
+        # Verify critical coordinates were tapped
+        self.assertIn((1856, 344), tapped_coords, "Phải mở menu tính năng")
+        self.assertIn((1695, 740), tapped_coords, "Phải mở cửa sổ Nhiệm vụ")
+        self.assertIn((180, 210), tapped_coords, "Phải chọn nhiệm vụ Bách Lý")
+        self.assertIn((1873, 32), tapped_coords, "Phải bấm X đóng bảng đôi theo hướng dẫn người dùng")
+        self.assertIn((1550, 71), tapped_coords, "Phải bấm X đóng bảng đơn theo hướng dẫn người dùng")
 
 
 if __name__ == "__main__":

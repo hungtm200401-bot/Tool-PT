@@ -95,7 +95,17 @@ class PlayerMind:
             decision["reason"] = "Hộp thoại NPC đang mở. Đọc và chọn phương án đối thoại để hoàn thành nhiệm vụ."
             return decision
 
-        # 3. Làm nhiệm vụ cốt truyện (Ngô Thất, Bách Lý)
+        # 3. Đang đứng gần NPC có thể đối thoại (có banner thoại nổi [💬 Tên NPC])
+        npcprompt = state.get("raw_sources", {}).get("npcprompt", {})
+        if npcprompt.get("visible") and npcprompt.get("cocos_hit_valid"):
+            npc_name = npcprompt.get("name", "NPC")
+            decision["priority"] = "QUEST_INTERACTION"
+            decision["action"] = "TALK_TO_NPC"
+            decision["npc_name"] = npc_name
+            decision["reason"] = f"Đã tới gần NPC '{npc_name}'. Bấm nút đối thoại nổi để nói chuyện/trả nhiệm vụ."
+            return decision
+
+        # 4. Làm nhiệm vụ cốt truyện (Ngô Thất, Bách Lý)
         if quests:
             # Ưu tiên quest đầu tiên
             target_q = quests[0]
@@ -120,50 +130,62 @@ class ActionExecutor:
     def __init__(self, ctrl: LDController):
         self.ctrl = ctrl
 
-    def execute_quest_flow(self, quest_name: str = "Bách Lý"):
+    def execute_quest_flow(self, quest_name: str = "Bách Lý", state: dict = None):
         """
         Thực hiện quy trình mở nhiệm vụ và tự tìm đường theo chuẩn giao diện Phong Thần Mobile:
-        Bước 1: Bấm nút mở rộng tính năng (hoa thị 4 mũi tên vàng dưới minimap) tại (1856, 344)
-        Bước 2: Bấm biểu tượng cuộn giấy "Nhiệm vụ" tại (1730, 740)
+        Bước 1: Bấm nút mở rộng tính năng (hoa thị 4 mũi tên vàng dưới minimap) tại (1856, 344) nếu menu chưa mở
+        Bước 2: Bấm biểu tượng cuộn giấy "Nhiệm vụ" tại (1695, 740)
         Bước 3: Chọn nhiệm vụ (Bách Lý tại (180, 210) hoặc Ngũ Thất tại (180, 270))
-        Bước 4: Bấm nút "Theo dõi" ((375, 895) hoặc (879, 944)) và liên kết tọa độ xanh
+        Bước 4: Bấm liên kết tọa độ xanh tại (850, 631) hoặc nút "Theo dõi" tại (375, 895)
         Bước 5: [QUAN TRỌNG THEO HƯỚNG DẪN NGƯỜI DÙNG]:
-                Bấm nút "X" đóng bảng Nhiệm vụ / Bảo điển ((1873, 32) hoặc (1548, 65)).
+                Bấm nút "X" đóng bảng Nhiệm vụ / Bảo điển ((1873, 32) và (1550, 71)).
                 Khi đóng bảng X xong, nhiệm vụ mới hiển thị ra HUD và nhân vật mới bắt đầu tự động di chuyển!
         """
         print(f"[ActionExecutor] 🎯 Bắt đầu chuỗi nhận & theo dõi nhiệm vụ '{quest_name}'...")
-        self.ctrl.tap(1856, 344, delay=0.6)
-        self.ctrl.tap(1730, 740, delay=1.0)
+        # 1. Kiểm tra menu tính năng đã mở chưa
+        quickmenu = (state or {}).get("raw_sources", {}).get("quickmenu", {})
+        if not quickmenu.get("grid_expanded", False):
+            self.ctrl.tap(1856, 344, delay=0.6)
+        # 2. Mở cửa sổ Nhiệm vụ
+        self.ctrl.tap(1695, 740, delay=1.0)
+        # 3. Chọn nhiệm vụ
         if "Ngũ" in quest_name or "Ngu" in quest_name:
             self.ctrl.tap(180, 270, delay=0.5)
         else:
             self.ctrl.tap(180, 210, delay=0.5)
+        # 4. Bấm liên kết tọa độ xanh hoặc Theo dõi
+        self.ctrl.tap(850, 631, delay=0.4)
+        self.ctrl.tap(1336, 631, delay=0.4)
         self.ctrl.tap(375, 895, delay=0.4)
         self.ctrl.tap(879, 944, delay=0.4)
-        self.ctrl.tap(435, 605, delay=0.4)
-        self.ctrl.tap(750, 590, delay=0.4)
+        # 5. Bấm X đóng bảng nhiệm vụ để hiển thị nhiệm vụ và kích hoạt di chuyển
         print("[ActionExecutor] ❌ Bấm nút X đóng bảng Nhiệm vụ để hiển thị nhiệm vụ và bắt đầu di chuyển...")
         self.ctrl.tap(1873, 32, delay=0.4)
-        self.ctrl.tap(1548, 65, delay=0.8)
+        self.ctrl.tap(1550, 71, delay=0.8)
 
-    def click_quest_tracker(self, quest_index: int = 1):
+    def click_quest_tracker(self, quest_index: int = 1, state: dict = None):
         """Wrapper gọi execute_quest_flow theo đúng hướng dẫn của người dùng."""
         q_name = "Bách Lý" if quest_index == 1 else "Ngũ Thất"
-        self.execute_quest_flow(q_name)
+        self.execute_quest_flow(q_name, state=state)
 
     def interact_with_npc_banner(self):
-        """Click vào banner thoại NPC nổi bên phải màn hình khi đứng cạnh NPC (ví dụ: [💬 Xích Tinh Tử])."""
+        """Click vào banner thoại NPC nổi bên phải màn hình khi đứng cạnh NPC (ví dụ: [💬 Vân Trung Tử])."""
         prompt_x = 1750
         prompt_y = 400
         print(f"[ActionExecutor] 💬 Bấm banner thoại NPC nổi tại ({prompt_x}, {prompt_y})...")
-        self.ctrl.tap(prompt_x, prompt_y, delay=1.0)
+        self.ctrl.tap(prompt_x, prompt_y, delay=1.2)
 
-    def advance_dialog(self, option_index: int = 1):
+    def advance_dialog(self, option_index: int = 1, npcdialog_data: dict = None):
         """Click chọn câu thoại hoặc bấm nút Tiếp tục trong hộp thoại NPC."""
-        confirm_x = 250 if option_index == 1 else 550
-        confirm_y = 770
+        # Nút lựa chọn thoại 1: (190, 780), Nút 2: (550, 780)
+        # Nếu chỉ có nút Kết thúc hoặc thông tin: bấm Kết thúc (150, 720) hoặc X đóng thoại (1828, 552)
+        confirm_x = 190 if option_index == 1 else 550
+        confirm_y = 780
         print(f"[ActionExecutor] 📜 Chọn phương án đối thoại {option_index} tại ({confirm_x}, {confirm_y})...")
-        self.ctrl.tap(confirm_x, confirm_y, delay=0.8)
+        self.ctrl.tap(confirm_x, confirm_y, delay=0.6)
+        # Hỗ trợ thêm nút [💬 Kết thúc] tại (150, 720) hoặc X (1828, 552) nếu là hộp thoại tin tức
+        self.ctrl.tap(150, 720, delay=0.4)
+        self.ctrl.tap(1828, 552, delay=0.6)
 
     def toggle_auto_combat(self):
         """Bật/tắt chế độ tự đánh của game để farm quái."""
@@ -250,7 +272,10 @@ class PlayerAgent:
         if action == "TRACK_QUEST":
             target_q = decision.get("target_quest", {})
             q_idx = target_q.get("task_id", 1) or 1
-            self.executor.click_quest_tracker(quest_index=q_idx)
+            self.executor.click_quest_tracker(quest_index=q_idx, state=state)
+
+        elif action == "TALK_TO_NPC":
+            self.executor.interact_with_npc_banner()
 
         elif action == "ADVANCE_NPC_DIALOG":
             self.executor.advance_dialog()

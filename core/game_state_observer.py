@@ -29,6 +29,9 @@ class GameStateObserver:
         "bottombar": "bottombar-render-status.json",
         "chat": "chat-render-status.json",
         "npcdialog": "npcdialog-render-status.json",
+        "npcprompt": "npcprompt-render-status.json",
+        "tasknote": "tasknote-render-status.json",
+        "quickmenu": "quickmenu-render-status.json",
         "team": "team-render-status.json",
     }
 
